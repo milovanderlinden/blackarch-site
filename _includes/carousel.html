@@ -8,13 +8,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
       <div class="item active">
-          <div class="fill" style="background-image:url('images/slider/ba-slider.png');"></div>
+            {% assign slide1 = 'images/slider/ba-slider.png' | relative_url %}
+          <div class="fill" style="background-image:url('{{ slide1 }}');"></div>
           <div class="carousel-caption">
               <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
           </div>
       </div>
       <div class="item">
-          <div class="fill" style="background-image:url('images/slider/ba-slider2.png');"></div>
+          {% assign slide2 = 'images/slider/ba-slider2.png' | relative_url %}
+          <div class="fill" style="background-image:url('{{ slide2 }}');"></div>
           <div class="carousel-caption">
               <h2>Over 1900 tools</h2>
           </div>

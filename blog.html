@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+description: News of BlackArch
 ---
 <!-- Page Content -->
     <div class="container result">
@@ -8,7 +9,7 @@ title: Blog
         <div class="row">
             <div class="col-lg-12">
 		       <div class="page-header page-header-title">
-		        <h1>Blog</h1> <h2>News of BlackArch</h2>
+		        <h1>{{ page.title }}</h1> <h2>{{ page.description }}</h2>
 	         	</div>
                 <ol class="breadcrumb">
                     <li>
@@ -17,9 +18,7 @@ title: Blog
                     <li>
                         <a href="community.html">Community</a>
                     </li>
-                    <li class="active">
-                        Blog
-                    </li>
+                    <li class="active">{{ page.title }}</li>
                 </ol>
             </div>
             <div class="col-md-8">
@@ -29,216 +28,16 @@ title: Blog
                     </div>
                     <ul class="list-group nblog">
                         <li class="list-group-item">
-                        <article id=p75 itemscope itemtype="http://schema.org/NewsArticle"><header>
-						    <time itemprop="datePublished">Tue, 24 Jan 2018 00:00:00 GMT</time>
-							<h4 itemprop="name">New mirror added in Netherlands! </h4></header>
+                        {% for post in site.posts %}
+                        <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+						    <time itemprop="datePublished">{{ post.date | date: "%a, %b %d %Y %H:%M:%S GMT" }}</time>
+							<h4 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h4></header>
 							<div itemprop="description">
-                                We would like to thank <a href="http://mirror.neostrada.nl/blackarch/" target="_blank">neostrada.nl </a> for becoming a BlackArch Linux mirror.
-                                <br />
-                                They are offering the following access: <a href="https://mirror.neostrada.nl/blackarch/" target="_blank">https</a> |
-                                <a href="http://mirror.neostrada.nl/blackarch/" target="_blank">http</a> | <a href="ftp://mirror.neostrada.nl/blackarch/" target="_blank">ftp</a> |
-                                <a href="rsync://mirror.neostrada.nl/blackarch/" target="_blank">rsync</a>
+                                {{ post.content }}
                             </div>
                         </article>
-
-                        <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Mon, 11 Dec 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">New ISOs released!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
-                            </p>
-                            <p>Here's the ChangeLog:</p>
-                                <ul>
-                                    <li>update blackarch-installer to version 0.6.2 (most important change)</li>
-                                    <li>included kernel 4.14.4</li>
-                                    <li>updated lot's of blackarch tools and packages</li>
-                                    <li>updated all blackarch tools and packages</li>
-                                    <li>updated all system packages</li>
-                                    <li>bugfix release! (see blackarch-installer)</li>
-                                </ul>
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div>
-                        </article>
-
-                        <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Wed, 24 Nov 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">New ISOs released!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
-                            </p>
-                            <p>Here's the ChangeLog:</p>
-                                <ul>
-                                    <li>added more than 50 new tools
-                                    <li>various clean-ups and tweaks</li>
-                                    <li>updated blackarch installer to version 0.6</li>
-                                    <li>included kernel 4.13.12</li>
-                                    <li>updated all blackarch tools and packages</li>
-                                    <li>updated all system packages</li>
-                                    <li>update all window manager menus (awesome, fluxbox, openbox)</li>
-                                </ul>
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div>
-                        </article>
-
-                        <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Wed, 18 Nov 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">The end of i686 support!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Following 9 months of deprecation period, support for the i686 architecture effectively ends today.
-                                By the end of November, i686 packages will be removed from our mirrors and later from the packages archive.
-                            </p>
-                            <p
-                                We are also removing the i686 ISOs. So better switch off to the x86_64 one. ;-)
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div>
-                        </article>
-
-                        <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Wed, 30 Aug 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">New ISOs released!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
-                            </p>
-                            <p>Here's the ChangeLog:</p>
-                                <ul>
-                                    <li>added more than 50 new tools</li>
-                                    <li>bugfix: strap.sh (removed 'http:' for pgp keyserver)</li>
-                                    <li>updated blackarch installer to version 0.5.2 (update: sha1 sum of strap.sh)</li>
-                                    <li>include kernel 4.12.8</li>
-                                    <li>updated a lot of blackarch tools</li>
-                                    <li>updated all system packages</li>
-                                    <li>update all window manager menus (awesome, fluxbox, openbox)</li>
-                                </ul>
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div>
-                        </article>
-
-                        <article id=p89 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Fri, 16 Jun 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">New BlackArch Linux OVA Image released!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Today we released a new version of the official BlackArch Linux OVA Image. Ready to use for VirtualBox, VMware and Qemu!
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div></article>
-
-                        <article id=p88 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Wed, 14 Jun 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">New ISOs released!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Today we released new BlackArch Linux ISOs (bugfix!). For details see the ChangeLog below.
-                            </p>
-                            <p>Here's the ChangeLog:</p>
-                                <ul>
-                                    <li>bugfix release: perl libraries rebuilt due to perl upgrade</li>
-                                    <li>include kernel 4.11.4</li>
-                                </ul>
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div>
-                        </article>
-
-                        <article id=p87 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Wed, 14 Jun 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">New ISOs released!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
-                            </p>
-                            <p>Here's the ChangeLog:</p>
-                                <ul>
-                                    <li>add more than 100 new tools</li>
-                                    <li>update blackarch installer to version 0.5.1 (bugfixes + features)</li>
-                                    <li>fix several tools (dependencies, installs)</li>
-                                    <li>include kernel 4.11.3</li>
-                                    <li>updated all blackarch tools</li>
-                                    <li>updated all system packages</li>
-                                    <li>update all window manager menus (awesome, fluxbox, openbox)</li>
-                                </ul>
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div>
-                        </article>
-
-                        <article id=p86 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Wed, 01 Mar 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">New ISOs released!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
-                            </p>
-                            <p>Here's the ChangeLog:</p>
-                                <ul>
-                                    <li>add more than 50 new tools</li>
-                                    <li>update blackarch installer to 0.3.3 (bugfixes)</li>
-                                    <li>fix several tools (dependencies, installs)</li>
-                                    <li>include kernel 4.9.11</li>
-                                    <li>updated all system packages</li>
-                                    <li>updated all blackarch tools</li>
-                                    <li>updated menu entries for windows managers (awesome, fluxbox, openbox)</li>
-                                </ul>
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                        </div>
-                        </article>
-
-                        <article id=p85 itemscope itemtype="http://schema.org/NewsArticle">
-                        <header>
-                            <time itemprop="datePublished">Wed, 22 Feb 2017 00:00:00 GMT</time>
-						    <h4 itemprop="name">Newest tools added!</h4>
-                        </header>
-                        <div itemprop="description">
-                            <p>
-                                Blackarch have now more than 1700 tools !
-                            </p>
-                            <p>
-                                In order to install all newest tools, please run: 'pacman -Syyu --needed --force blackarch`
-                            </p>
-                        </div>
-                        </article>
-
+                        {% endfor %}
+                        
                         <article id=p84 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished">Fri, 10 Feb 2017 00:00:00 GMT</time>
