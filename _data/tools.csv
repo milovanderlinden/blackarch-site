@@ -27,7 +27,6 @@ networking,aiengine,737.641954dd,"A packet inspection engine with capabilities o
 forensic,aimage,3.2.5,"A program to create aff-images.","http://www.afflib.org",1391262768
 forensic,air,2.0.0,"A GUI front-end to dd/dc3dd designed for easily creating forensic images.","http://air-imager.sourceforge.net/",1483189270
 wireless,aircrack-ng,1.2rc4,"Key cracker for the 802.11 WEP and WPA-PSK protocols","https://www.aircrack-ng.org",1490642002
-,aircrack-ng-beta,1.2,"A key cracker for the 802.11 WEP and WPA-PSK protocols.","http://www.aircrack-ng.org/",1398771038
 wireless,airflood,0.1,"A modification of aireplay that allows for a DoS of the AP. This program fills the table of clients of the AP with random MACs doing impossible new connections.","http://packetstormsecurity.com/files/51127/airflood.1.tar.gz.html",1471893171
 wireless,airgeddon,1066.cc9e1d2,"Multi-use bash script for Linux systems to audit wireless networks.","https://github.com/v1s1t0r1sh3r3/airgeddon",1519326692
 misc,airgraph-ng,3029,"Graphing tool for the aircrack suite.","http://www.aircrack-ng.org",1520010389
@@ -37,7 +36,6 @@ fuzzer,ajpfuzzer,0.6,"A command-line fuzzer for the Apache JServ Protocol (ajp13
 webapp,albatar,24.142f892,"A SQLi exploitation framework in Python.","https://github.com/lanjelot/albatar",1483189302
 scanner,allthevhosts,1.0,"A vhost discovery tool that scrapes various web applications.","http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/",1483189309
 recon,altdns,58.319404d,"Generates permutations, alterations and mutations of subdomains and then resolves them.","https://github.com/infosec-au/altdns",1499167289
-,amap,5.4,"Next-generation tool for assisting network penetration testing.","http://freeworld.thc.org/releases.php",1401141201
 windows,analyzepesig,0.0.0.5,"Analyze digital signature of PE file.","https://blog.didierstevens.com/my-software/#AnalyzePESig",1488915350
 mobile,androbugs,1.7fd3a2c,"An efficient Android vulnerability scanner that helps developers or hackers find potential security vulnerabilities in Android applications.","https://github.com/AndroBugs/AndroBugs_Framework",1491745695
 binary,androguard,1429.abed877,"Reverse engineering, Malware and goodware analysis of Android applications and more.","https://github.com/androguard/androguard",1519861544
@@ -45,8 +43,6 @@ mobile,androick,5.35048d7,"A python tool to help in forensics analysis on androi
 reversing,android-apktool,2.3.0,"A tool for reengineering Android apk files.","http://forum.xda-developers.com/showthread.php?t=1755243",1511041155
 mobile,android-ndk,r16,"Android C/C++ developer kit.","http://developer.android.com/sdk/ndk/index.html",1511041342
 mobile,android-sdk,26.1.1,"Google Android SDK","https://developer.android.com/studio/releases/sdk-tools.html",1511043148
-,android-sdk-build-tools,r26.0.1,"Build-Tools for Google Android SDK (aapt, aidl, dexdump, dx, llvm-rs-cc)","http://developer.android.com/sdk/index.html",1501920700
-,android-sdk-platform-tools,r26.0.2,"Platform-Tools for Google Android SDK (adb and fastboot)","http://developer.android.com/sdk/index.html",1511043287
 mobile,android-udev-rules,344.5aa8536,"Android udev rules.","https://github.com/bbqlinux/android-udev-rules",1519861560
 mobile,androidpincrack,2.ddaf307,"Bruteforce the Android Passcode given the hash and salt.","https://github.com/PentesterES/AndroidPINCrack",1483189433
 mobile,androidsniffer,0.1,"A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.","http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html",1484422178
@@ -56,7 +52,6 @@ exploitation,angrop,141.ce5d98b,"A rop gadget finder and chain builder.","https:
 social,anontwi,1.1b,"A free software python client designed to navigate anonymously on social networks. It supports Identi.ca and Twitter.com.","http://anontwi.sourceforge.net/",1446849882
 webapp,anti-xss,165.6534a4d,"A XSS vulnerability scanner.","https://github.com/lewangbtcc/anti-XSS",1486629781
 windows,antiransom,3.02,"A tool capable of detect and stop attacks of Ransomware using honeypots.","http://www.security-projects.com/?Anti_Ransom___Download",1496231904
-,apache-tika,1.16,"Toolkit for detecting and extracting metadata and structured text content.","https://tika.apache.org/",1502184468
 scanner,apache-users,2.1,"This perl script will enumerate the usernames on a unix system that use the apache module UserDir.","https://labs.portcullis.co.uk/downloads/",1483189580
 networking,apacket,181.4aae292,"Sniffer syn and backscatter packets.","https://github.com/Acey9/apacket",1520157575
 wireless,aphopper,0.3,"A program that automatically hops between access points of different wireless networks.","http://aphopper.sourceforge.net/",1496436774
@@ -93,7 +88,6 @@ scanner,athena-ssl-scanner,0.6.2,"A SSL cipher scanner that checks all cipher co
 scanner,atscan,1830.e2dfd48,"Server, Site and Dork Scanner.","https://github.com/AlisamTechnology/ATSCAN-V3.1",1514375531
 windows,atstaketools,0.1,"This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.","http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html",1483189813
 crypto,auto-xor-decryptor,7.2eb176d,"Automatic XOR decryptor tool.","http://www.blog.mrg-effitas.com/publishing-of-mrg-effitas-automatic-xor-decryptor-tool/",1483189927
-,automake.11,1.11.6,"A GNU tool for automatically creating Makefiles","http://www.gnu.org/software/automake",1483189823
 automation,automato,25.5c32f2b,"Should help with automating some of the user-focused enumeration tasks during an internal penetration test.","https://github.com/skahwah/automato",1517516942
 automation,autonessus,24.7933022,"This script communicates with the Nessus API in an attempt to help with automating scans.","https://github.com/redteamsecurity/AutoNessus",1492807474
 forensic,autopsy,2.24,"A GUI for The Sleuth Kit.","http://www.sleuthkit.org/autopsy",1483189830
@@ -101,7 +95,6 @@ automation,autopwn,177.2f3f605,"Specify targets and run sets of tools against th
 recon,autosint,234.e1f4937,"Tool to automate common osint tasks.","https://github.com/bharshbarger/AutOSINT",1511043386
 exploitation,autosploit,29.c25865d,"Automate the exploitation of remote hosts.","https://github.com/NullArray/AutoSploit",1517613812
 automation,autovpn,16.72dd7f6,"Easily connect to a VPN in a country of your choice.","https://github.com/adtac/autovpn",1491746829
-,avr-libc-manpages,2.0.0,"Man pages for the standard C library for Atmel AVR 8-bit RISC microcontrollers.","http://www.nongnu.org/avr-libc/",1483189933
 automation,awsbucketdump,74.73365f9,"A tool to quickly enumerate AWS S3 buckets to look for loot.","https://github.com/jordanpotti/AWSBucketDump",1515932099
 backdoor,azazel,14.e6a12a2,"A userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit.","https://github.com/chokepoint/azazel",1492465373
 backdoor,backcookie,51.6dabc38,"Small backdoor using cookie.","https://github.com/mrjopino/backcookie",1483189948
@@ -111,7 +104,6 @@ backdoor,backdoorppt,86.b044ccf,"Transform your payload.exe into one fake word d
 fuzzer,backfuzz,36.8e54ed6,"A network protocol fuzzing toolkit.","https://github.com/localh0t/backfuzz",1483189974
 mobile,backhack,34.b987c5a,"Tool to perform Android app analysis by backing up and extracting apps, allowing you to analyze and modify file system contents for apps.","https://github.com/l0gan/backHack",1494065877
 windows,backorifice,1.0,"A remote administration system which allows a user to control a computer across a tcpip connection using a simple console or GUI application.","http://www.cultdeadcow.com/tools/bo.html",1486203579
-,backports-drivers-frag+ack,1,"mac80211.compat08082009.wl_frag+ack_v1.patch for compat-drivers-patched","https://backports.wiki.kernel.org/index.php/Main_Page",1483189988
 malware,balbuzard,67.d6349ef1bc55,"A package of malware analysis tools in python to extract patterns of interest from suspicious files (IP addresses, domain names, known file headers, interesting strings, etc).","https://bitbucket.org/decalage/balbuzard/",1423852408
 malware,bamf-framework,35.30d2b4b,"A modular framework designed to be a platform to launch attacks against botnets.","https://github.com/bwall/BAMF",1483190008
 mobile,bandicoot,0.5.3,"A toolbox to analyze mobile phone metadata.","https://github.com/yvesalexandre/bandicoot",1483190017
@@ -152,33 +144,12 @@ disassembler,binwalk,2.1.1,"A tool for searching a given binary image for embedd
 binary,binwally,4.0aabd8b,"Binary and Directory tree comparison tool using the Fuzzy Hashing concept (ssdeep).","https://github.com/bmaia/binwally",1483190432
 cracker,bios_memimage,1.2,"A tool to dump RAM contents to disk (aka cold boot attack).","http://citp.princeton.edu/memory/code/",1391265689
 scanner,birp,65.b2e108a,"A tool that will assist in the security assessment of mainframe applications served over TN3270.","https://github.com/sensepost/birp",1516886318
-,bisect,1.3,"Code coverage tool for OCaml.","http://bisect.x9c.fr/",1398899343
 exploitation,bitdump,34.6a5cbd8,"A tool to extract database data from a blind SQL injection vulnerability.","https://github.com/nbshelton/bitdump",1483190453
 sniffer,bittwist,2.0,"A simple yet powerful libpcap-based Ethernet packet generator. It is designed to complement tcpdump, which by itself has done a great job at capturing network traffic.","http://bittwist.sourceforge.net/",1409145400
 cracker,bkhive,1.1.1,"Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive.","http://sourceforge.net/projects/ophcrack",1399414599
-,blackarch-config-awesome,21.d424b89,"BlackArch menu, theme and config for awesome window manager.","https://github.com/BlackArch/blackarch-config-awesome",1511452838
-,blackarch-config-bash,1.73194a8,"BlackArch config for the bash shell.","https://github.com/BlackArch/blackarch-config-bash",1483190469
-,blackarch-config-fluxbox,19.db2e8d3,"BlackArch menu, theme and config for fluxbox window manager.","https://github.com/BlackArch/blackarch-config-fluxbox",1511452862
-,blackarch-config-gtk,1.786308c,"BlackArch config for gtk.","https://github.com/BlackArch/blackarch-config-gtk",1483190486
-,blackarch-config-lxdm,5.068bab5,"BlackArch config for lxdm X11 login manager.","https://github.com/BlackArch/blackarch-config-lxdm",1484160445
-,blackarch-config-openbox,18.4b9c757,"BlackArch menu, theme and config for openbox window manager.","https://github.com/BlackArch/blackarch-config-openbox",1511452882
-,blackarch-config-spectrwm,1.0f7c54b,"BlackArch menu, theme and config for spectrwm window manager.","https://github.com/BlackArch/blackarch-config-spectrwm",1483190523
-,blackarch-config-vim,1.58f8f60,"BlackArch config for the VIM editor.","https://github.com/BlackArch/blackarch-config-vim",1483190532
-,blackarch-config-wmii,1.8c8d638,"BlackArch menu, theme and config for wmii window manager.","https://github.com/BlackArch/blackarch-config-wmii",1483190541
-,blackarch-config-x11,1.f195684,"BlackArch config for the X11 user settings.","https://github.com/BlackArch/blackarch-config-x11",1483190547
-,blackarch-devtools,1.1,"Tools for BlackArch Linux package maintainers",,1486743038
-,blackarch-dwm,6.0,"Dynamic window manager for X with BlackArch colors.","http://dwm.suckless.org",1391265803
-,blackarch-installer,0.6.2,"The official BlackArch Linux installer.","https://github.com/BlackArch/blackarch-installer",1512999646
-,blackarch-keyring,20140118,"BlackArch Linux PGP keyring","https://github.com/BlackArch/blackarch-keyring",1390149390
-,blackarch-menus,0.2,"BlackArch specific XDG-compliant menu","http://www.blackarch.org/",1483190643
-,blackarch-mirrorlist,20150529,"BlackArch Project mirrorlist for use by pacman",,1483190648
-,blackarch-wallpaper,1.0,"BlackArch Linux wallpaper.","https://github.com/BlackArch/blackarch-artwork",1484161928
 scanner,blackbox-scanner,168.43e2b2a,"Dork scanner & bruteforcing & hash cracker tool with blackbox penetration testing framework.","https://github.com/darkeyepy/blackbox",1483190656
 cracker,blackhash,0.2,"Creates a filter from system hashes","http://16s.us/blackhash/",1390483495
-,blackman,0.5.9,"Emerge for BlackArch Linux - Download and compile packages as emerge does.","https://github.com/BlackArch/blackman",1520070266
-,blackmate,49.6e5f2d3,"BlackArch specific Xfce4 WM.","https://github.com/Anyon3/blackmate",1497652093
 dos,blacknurse,9.d2a2b23,"A low bandwidth ICMP attack that is capable of doing denial of service to well known firewalls.","https://github.com/jedisct1/blacknurse",1479492905
-,bladerf,0.9.0,"Driver for bladeRF, allowing general purpose software defined radio (SDR).","https://github.com/Nuand/bladeRF",1401142479
 scanner,bleah,30.1fa394f,"A BLE scanner for 'smart' devices hacking.","https://github.com/evilsocket/bleah",1518388482
 crypto,bletchley,0.0.1,"A collection of practical application cryptanalysis tools.","https://code.google.com/p/bletchley/",1503512369
 exploitation,blind-sql-bitshifting,54.5bbc183,"A blind SQL injection module that uses bitshfting to calculate characters.","https://github.com/libeclipse/blind-sql-bitshifting",1512324955
@@ -234,12 +205,9 @@ fuzzer,bunny,0.93,"A closed loop, high-performance, general purpose protocol-bli
 fuzzer,burpsuite,1.7.32,"An integrated platform for attacking web applications (free edition).","http://portswigger.net/burp/",1517766137
 networking,buttinsky,138.1a2a1b2,"Provide an open source framework for automated botnet monitoring.","https://github.com/buttinsky/buttinsky",1503615204
 binary,bvi,1.4.0,"A display-oriented editor for binary files operate like 'vi' editor.","http://bvi.sourceforge.net/",1466001143
-,byacc-noconflict,20150711,"Non-conflicting version of byacc not providing bison/yacc.","http://invisible-island.net/byacc/",1446894410
 binary,bytecode-viewer,226.d6603da,"A Java 8/Android APK Reverse Engineering Suite.","https://github.com/Konloch/bytecode-viewer",1515498859
 windows,cachedump,1.1,"A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).","https://packetstormsecurity.com/files/36781/cachedump.1.zip.html",1486201627
 networking,cadaver,0.23.3,"Command-line WebDAV client for Unix","http://www.webdav.org/cadaver",1488212612
-,camlidl,1.05,"A stub code generator and COM binding for Objective Caml (OCaml).","http://caml.inria.fr/pub/old_caml_site/camlidl/",1398898489
-,camomile,0.8.5,"Comprehensive Unicode library for OCaml.","https://github.com/yoriyuki/Camomile",1398896787
 scanner,camscan,1.0057215,"A tool which will analyze the CAM table of Cisco switches to look for anamolies.","https://github.com/securestate/camscan",1483190964
 forensic,canari,3.1.3,"A transform framework for maltego","http://www.canariproject.com/",1511047719
 scanner,cangibrina,120.3dfe416,"Dashboard Finder.","https://github.com/fnk0c/cangibrina",1503614661
@@ -319,21 +287,14 @@ webapp,comission,32.0ed0ba1,"WhiteBox CMS analysis.","https://github.com/Intrins
 webapp,commix,1008.bb1b852,"Automated All-in-One OS Command Injection and Exploitation Tool.","https://github.com/stasinopoulos/commix",1517249856
 fingerprint,complemento,0.7.6,"A collection of tools for pentester: LetDown is a powerful tcp flooder ReverseRaider is a domain scanner that use wordlist scanning or reverse resolution scanning Httsquash is an http server scanner, banner grabber and data retriever","http://complemento.sourceforge.net",1395491336
 scanner,configpush,0.8.5,"This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.","http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html",1484422258
-,conn,1.0.36,"Small C library usefull to easy build ipv4/ipv6 network daemons/clients.","http://kernel.embedromix.ro/us/",1492956340
 honeypot,conpot,0.5.1,"ICS honeypot with the goal to collect intelligence about the motives and methods of adversaries targeting industrial control systems url='http://conpot.org'",,1483196312
 fuzzer,conscan,1.2,"A blackbox vulnerability scanner for the Concre5 CMS.","http://nullsecurity.net/tools/scanner.html",1483196322
 fuzzer,cookie-cadger,1.08,"An auditing tool for Wi-Fi or wired Ethernet connections.","https://cookiecadger.com/",1483196336
-,cookiejar,0.0.1,"Cookiecutter templates discovery and management.","https://github.com/fcurella/cookiejar",1483196357
 tunnel,corkscrew,2.0,"A tool for tunneling SSH through HTTP proxies","http://www.agroman.net/corkscrew/",1404582834
 scanner,corstest,5.b203683,"A simple CORS misconfigurations checker.","https://github.com/RUB-NDS/CORStest",1506937580
-,cower,17,"A simple AUR agent with a pretentious name.","http://github.com/falconindy/cower",1508169193
-,cowpatty,4.6,"Wireless WPA/WPA2 PSK handshake cracking utility","http://www.willhackforsushi.com/?page_id=50",1488574028
 scanner,cpfinder,0.1,"This is a simple script that looks for administrative web interfaces.","http://packetstormsecurity.com/files/118851/Control-Panel-Finder-Script.html",1483196363
 code-audit,cppcheck,1.82,"A tool for static C/C++ code analysis","http://cppcheck.sourceforge.net/",1516296739
-,cppman,0.3.1,"manual page formatter that generates C++ man pages from cplusplus.com","https://github.com/aitjcize/cppman",1396784500
 code-audit,cpptest,1.1.2,"A portable and powerful, yet simple, unit testing framework for handling automated tests in C++.","http://cpptest.sourceforge.net/",1395051511
-,cpyrit-cuda,0.4.0,"Pyrit support for Nvidia-CUDA.","http://code.google.com/p/pyrit/",1397816702
-,cpyrit-opencl,0.4.0,"Pyrit support for Nvidia-CUDA.","http://code.google.com/p/pyrit/",1401403733
 social,cr3dov3r,23.c11b278,"Search for public leaks for email addresses + check creds against 16 websites.","https://github.com/D4Vinci/Cr3dOv3r",1518563015
 cracker,crackhor,2.ae7d83f,"A Password cracking utility.","https://github.com/CoalfireLabs/crackHOR",1398506754
 cracker,crackle,100.ff47a48,"Crack and decrypt BLE encryption","https://github.com/mikeryan/crackle/",1503087175
@@ -420,7 +381,6 @@ webapp,dirsearch,254.8e54746,"HTTP(S) directory/file brute forcer.","https://git
 forensic,disitool,0.3,"Tool to work with Windows executables digital signatures.","https://blog.didierstevens.com/my-software/#disitool",1483196775
 cracker,dislocker,0.6.1,"A tool to exploit the hash length extension attack in various hashing algorithms. With FUSE capabilities built in.","http://www.hsc.fr/ressources/outils/dislocker/",1480462549
 binary,dissector,1,"This code dissects the internal data structures in ELF files. It supports x86 and x86_64 archs and runs under Linux.","http://packetstormsecurity.com/files/125972/Coloured-ELF-File-Dissector.html",1484422279
-,distorm,3.3.0,"The ultimate disassembler (for AMD64, X86)","http://code.google.com/p/distorm/",1386432903
 fuzzer,dizzy,0.8.3,"A Python based fuzzing framework with many features.","http://www.c0decafe.de/",1483196784
 scanner,dmitry,1.3a,"Deepmagic Information Gathering Tool. Gathers information about hosts. It is able to gather possible subdomains, email addresses, and uptime information and run tcp port scans, whois lookups, and more.","http://www.mor-pah.net/",1388155956
 scanner,dnmap,0.6,"The distributed nmap framework","http://sourceforge.net/projects/dnmap/",1498113242
@@ -458,7 +418,6 @@ scanner,dorkbot,12.9939482,"Command-line tool to scan Google search results for 
 webapp,dorknet,40.5b8bf2f,"Selenium powered Python script to automate searching for vulnerable web apps.","https://github.com/NullArray/DorkNet",1519326985
 exploitation,dotdotpwn,3.0.2,"The Transversal Directory Fuzzer","http://dotdotpwn.blogspot.com",1493021556
 cracker,dpeparser,beta002,"Default password enumeration project","http://www.toolswatch.org/dpe/",1483196927
-,dpkt-svn,82,"Fast, simple packet creation / parsing module for python, with definitions for the basic TCP/IP protocols.","http://code.google.com/p/dpkt/",1431837981
 scanner,dpscan,0.1,"Drupal Vulnerabilty Scanner.","https://github.com/insaneisnotfree/Blue-Sky-Information-Security",1483196935
 exploitation,dr-checker,134.050e078,"A Soundy Vulnerability Detection Tool for Linux Kernel Drivers.","https://github.com/ucsb-seclab/dr_checker",1520023398
 backdoor,dr0p1t-framework,42.a4c185e,"A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks.","https://github.com/D4Vinci/Dr0p1t-Framework",1507535951
@@ -539,7 +498,6 @@ forensic,exiv2,0.26,"Exif, Iptc and XMP metadata manipulation library and tools"
 binary,expimp-lookup,4.79a96c7,"Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.","https://github.com/tr3w/ExpImp-Lookup",1483197370
 exploitation,exploit-db,1.6,"The Exploit Database (EDB) – an ultimate archive of exploits and vulnerable software - A collection of hacks","http://www.exploit-db.com",1483197374
 exploitation,exploitpack,109.758e1a7,"Exploit Pack - Project.","https://github.com/juansacco/exploitpack",1518978490
-,express,4.15.2,"High performance, high class web development for node.js.","http://expressjs.com/",1492012367
 misc,exrex,121.de883b0,"Irregular methods on regular expressions.","https://github.com/asciimoo/exrex",1504951314
 misc,extracthosts,14.ec8b89c,"Extracts hosts (IP/Hostnames) from files.","https://github.com/bwall/ExtractHosts",1483197433
 forensic,extundelete,0.2.4,"Utility for recovering deleted files from ext2, ext3 or ext4 partitions by parsing the journal","http://extundelete.sourceforge.net",1449328755
@@ -556,7 +514,6 @@ malware,fakenet-ng,264.3f096a1,"Next Generation Dynamic Network Analysis Tool.",
 spoof,fakenetbios,7.b83701e,"A family of tools designed to simulate Windows hosts (NetBIOS) on a LAN.","https://github.com/mubix/FakeNetBIOS",1409146342
 cracker,fang,22.4f94552,"A multi service threaded MD5 cracker.","https://github.com/evilsocket/fang",1483197506
 scanner,faraday,3995.0734fa9d,"A new concept (IPE) Integrated Penetration-Test Environment a multiuser Penetration test IDE. Designed for distribution, indexation and analyze of the generated data during the process of a security audit.","http://www.faradaysec.com/",1511004465
-,fbcmd,2.0,"A Command Line Interface (CLI) for Facebook","http://fbcmd.dtompkins.com/",1424021173
 webapp,fbht,70.d75ae93,"A Facebook Hacking Tool","https://github.com/chinoogawa/fbht-linux",1483197524
 recon,fbid,16.1b35eb9,"Show info about the author by facebook photo url.","https://github.com/guelfoweb/fbid",1491583157
 cracker,fcrackzip,1.0,"Zip file password cracker","http://oldhome.schmorp.de/marc/fcrackzip.html",1380468073
@@ -564,7 +521,6 @@ crypto,featherduster,169.81ec1c2,"An automated, modular cryptanalysis tool.","ht
 cracker,fern-wifi-cracker,222,"WEP, WPA wifi cracker for wireless penetration testing","http://code.google.com/p/fern-wifi-cracker/",1427208066
 decompiler,fernflower,379.af2d8b4,"An analytical decompiler for Java.","https://github.com/fesh0r/fernflower",1512817397
 scanner,fernmelder,6.c6d4ebe,"Asynchronous mass DNS scanner.","https://github.com/stealth/fernmelder",1397400050
-,ferret,0.7,"Free Entity Relationship and SQL Tables autogeneration Tool. Exports to MySQL, Postgres, XML, SQL95","http://savannah.gnu.org/projects/ferret/",1399495450
 decompiler,ffdec,10.0.0,"Open source Flash SWF decompiler and editor.","https://www.free-decompiler.com/flash/",1508361598
 scanner,fgscanner,11.893372c,"An advanced, opensource URL scanner.","http://www.fantaghost.com/fgscanner",1483197556
 webapp,fhttp,1.3,"This is a framework for HTTP related attacks. It is written in Perl with a GTK interface, has a proxy for debugging and manipulation, proxy chaining, evasion rules, and more.","http://packetstormsecurity.com/files/104315/FHTTP-Attack-Tool.3.html",1484422296
@@ -619,7 +575,6 @@ fuzzer,ftester,1.0,"A tool designed for testing firewall filtering policies and 
 fuzzer,ftp-fuzz,1337,"The master of all master fuzzing scripts specifically targeted towards FTP server sofware.","http://nullsecurity.net/tools/fuzzer.html",1483197822
 cracker,ftp-scanner,0.2.5,"Multithreaded ftp scanner/brute forcer. Tested on Linux, OpenBSD and Solaris.","http://wayreth.eu.org/old_page/",1396433576
 scanner,ftp-spider,1.0,"FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous access, detect directories with write permissions, find user specified data within repository.","http://packetstormsecurity.com/files/35120/ftp-spider.pl.html",1409067763
-,ftplib,4.0,"A set of routines that implement the FTP protocol.","http://nbpfaus.net/~pfau/ftplib/",1458559754
 fingerprint,ftpmap,52.cbeabbe,"Scans remote FTP servers to identify what software and what versions they are running.","http://wcoserver.googlecode.com/files/",1445125192
 scanner,ftpscout,12.cf1dff1,"Scans ftps for anonymous access.","https://github.com/RubenRocha/ftpscout",1483197836
 fuzzer,fuddly,465.ed17a0b,"Fuzzing and Data Manipulation Framework (for GNU/Linux).","https://github.com/k0retux/fuddly",1491515846
@@ -632,15 +587,12 @@ fuzzer,fuzzdiff,1.0,"A simple tool designed to help out with crash analysis duri
 windows,fuzztalk,1.0.0.0,"An XML driven fuzz testing framework that emphasizes easy extensibility and reusability.","https://code.google.com/p/fuzztalk",1400711820
 wireless,g72x++,1,"Decoder for the g72x++ codec.","http://www.ps-auxw.de/",1391267428
 forensic,galleta,20040505_1,"Examine the contents of the IE's cookie files for forensic purposes","http://www.jonesdykstra.com/",1388155824
-,garminusb2nmea,0.12a,"Garmin USB to NMEA protocol converter","http://www.sourceforge.net/projects/garmin-gps",1396783888
 recon,gasmask,46.37f368c,"All in one Information gathering tool - OSINT.","https://github.com/twelvesec/gasmask",1518387956
 recon,gatecrasher,2.3ad5225,"Network auditing and analysis tool developed in Python.","https://github.com/michaeltelford/gatecrasher",1488051192
 malware,gcat,28.6cb165a,"A fully featured backdoor that uses Gmail as a C&C server.","https://github.com/byt3bl33d3r/gcat",1492902176
 debugger,gdb,8.1,"The GNU Debugger","http://www.gnu.org/software/gdb/",1517373732
-,gdb-common,8.1,"The GNU Debugger","http://www.gnu.org/software/gdb/",1517373737
 debugger,gdbgui,320.9ffaf77,"Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.","https://github.com/cs01/gdbgui",1520075790
 debugger,gef,1264.699e0e5,"Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.","https://github.com/hugsy/gef",1520075821
-,gengetopt,2.22.6,"A tool to write command line option parsing code for C programs.","http://www.gnu.org/software/gengetopt/gengetopt.html",1386977154
 misc,genlist,0.1,"Generates lists of IP addresses.",,1484422322
 recon,geoedge,0.2,"This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).",,1483197906
 networking,geoip,1.6.11,"Non-DNS IP-to-country resolver C library & utils","http://www.maxmind.com/app/c",1505590258
@@ -649,7 +601,6 @@ wireless,gerix-wifi-cracker,1.1c3cd73,"A graphical user interface for aircrack-n
 database,getsids,0.0.1,"Getsids tries to enumerate Oracle Sids by sending the services command to the Oracle TNS listener. Like doing ‘lsnrctl service’.","http://www.cqure.net/wp/getsids/",1388155839
 exploitation,getsploit,22.0b8a9e9,"Command line utility for searching and downloading exploits.","https://github.com/vulnersCom/getsploit",1517155171
 scanner,gggooglescan,0.4,"A Google scraper which performs automated searches and returns results of search queries in the form of URLs or hostnames.","http://www.morningstarsecurity.com/research/gggooglescan",1483197923
-,ghc,8.2.1,"The Glasgow Haskell Compiler","http://www.haskell.org/ghc/",1502734325
 bluetooth,ghettotooth,1.0,"Ghettodriving for bluetooth","http://www.oldskoolphreak.com/tfiles/ghettotooth.txt",1483197929
 scanner,ghost-phisher,1.62,"GUI suite for phishing and penetration attacks","http://code.google.com/p/ghost-phisher",1395492098
 webapp,ghost-py,2.0.0,"Webkit based webclient (relies on PyQT).","http://jeanphix.github.com/Ghost.py/",1511095381
@@ -662,7 +613,6 @@ scanner,gitrob,1.1.2,"Scan Github For Sensitive Files.","http://michenriksen.com
 webapp,gittools,28.91f4137,"A repository with 3 tools for pwn'ing websites with .git repositories available'.","https://github.com/internetwache/GitTools",1501245092
 scanner,gloom,95.607162b,"Linux Penetration Testing Framework.","https://github.com/joshDelta/Gloom-Framework",1509265224
 automation,glue,242.36b899e,"A framework for running a series of tools.","https://github.com/OWASP/glue",1509005786
-,gmock,1.7.0,"A library for writing and using C++ mock classes.","http://code.google.com/p/googlemock/",1457693714
 wireless,gnuradio,3.7.11,"General purpose DSP and SDR toolkit. With drivers for usrp and fcd.","http://gnuradio.org",1514768656
 crypto,gnutls2,2.12.23,"A library which provides a secure layer over a reliable transport layer (Version 2)","http://gnutls.org/",1403384993
 backdoor,gobd,81.e64b5a5,"A Golang covert backdoor.","https://github.com/razc411/GoBD",1450009709
@@ -687,7 +637,6 @@ recon,grabing,11.9c1aa6c,"Counts all the hostnames for an IP adress","https://gi
 windows,grabitall,1.1,"Performs traffic redirection by sending spoofed ARP replies.","http://ntsecurity.nu/toolbox/grabitall/",1469720453
 scanner,greenbone-security-assistant,7.0.2,"Greenbone Security Assistant (gsa) - OpenVAS web frontend","http://www.openvas.org/",1508534586
 scanner,grepforrfi,0.1,"Simple script for parsing web logs for RFIs and Webshells v1.2","http://www.irongeek.com/downloads/grepforrfi.txt",1483198072
-,grig,0.8.0,"Rig control (cat) program.","http://groundstation.sourceforge.net/grig/",1419674063
 forensic,grokevt,0.5.0,"A collection of scripts built for reading Windows® NT/2K/XP/2K eventlog files.","http://code.google.com/p/grokevt/",1395012823
 fuzzer,grr,17.791ed5a,"High-throughput fuzzer and emulator of DECREE binaries.","https://github.com/trailofbits/grr",1478278028
 windows,gsd,1.1,"Gives you the Discretionary Access Control List of any Windows NT service you specify as a command line option.","http://ntsecurity.nu/toolbox/gsd/",1469720602
@@ -697,8 +646,6 @@ forensic,guymager,0.8.4,"A forensic imager for media acquisition.","http://guyma
 networking,gwcheck,0.1,"A simple program that checks if a host in an ethernet network is a gateway to Internet.","http://packetstormsecurity.com/files/62047/gwcheck.c.html",1403131734
 recon,gwtenum,7.f27a5aa,"Enumeration of GWT-RCP method calls.","http://www.gdssecurity.com/l/t/d.php?k=GwtEnum",1483198094
 scanner,habu,77.4a4d15e,"Python Network Hacking Toolkit.","https://github.com/portantier/habu",1517616831
-,hachoir-core,1.3.3,"A library written in Python which allows to see and edit a binary files field per field.","http://bitbucket.org/haypo/hachoir/wiki/Home",1483198102
-,hachoir-parser,1.3.4,"Most common file format parsers written using hachoir-core.","http://bitbucket.org/haypo/hachoir/wiki/hachoir-parser",1483198110
 automation,hackersh,0.2.0,"A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.","http://www.hackersh.org/",1483198119
 exploitation,hackredis,1.67eeb6c,"A simple tool to scan and exploit redis servers.","https://github.com/Ridter/hackredis",1483198127
 radio,hackrf,2017.02.1,"Driver for HackRF, allowing general purpose software defined radio (SDR).","https://github.com/mossmann/hackrf",1487371218
@@ -706,7 +653,6 @@ networking,haka,0.2.2,"A collection of tool that allows capturing TCP/IP packets
 scanner,hakku,384.bbb434d,"Simple framework that has been made for penetration testing tools.","https://github.com/4shadoww/hakkuframework",1492001750
 scanner,halberd,0.2.4,"Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.","http://halberd.superadditive.com/",1402187676
 recon,halcyon,0.1,"A repository crawler that runs checksums for static files found within a given git repository.","http://www.blackhatlibrary.net/Halcyon",1388155774
-,hamlib,3.1,"Ham radio equipment control libraries.","http://hamlib.org/",1496511496
 exploitation,hamster,2.0.0,"Tool for HTTP session sidejacking.","http://hamster.erratasec.com/",1388155789
 windows,handle,0.0,"An small application designed to analyze your system searching for global objects related to running proccess and display information for every found object, like tokens, semaphores, ports, files,..","http://www.tarasco.org/security/handle/index.html",1483198135
 backdoor,harness,19.ed2a6aa,"Interactive remote PowerShell Payload.","https://github.com/Rich5/Harness",1489325658
@@ -716,16 +662,11 @@ crypto,hash-extender,136.d27581e,"A hash length extension attack tool.","https:/
 cracker,hashcat,4.1.0,"Multithreaded advanced password recovery utility","https://hashcat.net/hashcat",1519598423
 misc,hashcat-utils,1.8,"Set of small utilities that are useful in advanced password cracking","https://github.com/hashcat/hashcat-utils",1495470401
 crypto,hashdb,1082.a41f702,"A block hash toolkit.","https://github.com/NPS-DEEP/hashdb/",1507815733
-,hashdeep,4.4,"cross-platform tools to message digests for any number of files","https://github.com/jessek/hashdeep",1518119772
 cracker,hasher,48.40173c5,"A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally.","https://github.com/ChrisTruncer/Hasher",1483198144
 crypto,hashfind,8.e9a9a14,"A tool to search files for matching password hash types and other interesting data.","https://github.com/rurapenthe/hashfind",1483198152
 crypto,hashid,397.7e8473a,"Software to identify the different types of hashes used to encrypt data.","https://github.com/psypanda/hashID",1483198160
 crypto,hashpump,49.314268e,"A tool to exploit the hash length extension attack in various hashing algorithms.","https://github.com/bwall/HashPump",1475492302
 cracker,hashtag,0.41,"A python script written to parse and identify password hashes.","https://github.com/SmeegeSec/HashTag",1483198166
-,haskell-iconv,0.4.1.3,"Provides an interface to the POSIX iconv library functions for string encoding conversion.","http://hackage.haskell.org/package/iconv",1446991072
-,haskell-line2pdf,0.0.7,"Simple command-line utility to convert text into PDF","http://hackage.haskell.org/package/line2pdf",1386431668
-,haskell-openafp,1.3.2,"IBM AFP document format parser and generator","http://hackage.haskell.org/package/OpenAFP",1386431977
-,haskell-openafp-utils,1.3.1.2,"Assorted utilities to work with AFP data streams","http://hackage.haskell.org/package/OpenAFP-Utils",1386433051
 recon,hatcloud,25.6700f99,"Bypass CloudFlare with Ruby.","https://github.com/HatBashBR/HatCloud",1506702027
 automation,hate-crack,36.d1b1417,"A tool for automating cracking methodologies through Hashcat.","https://github.com/trustedsec/hate_crack",1518972058
 binary,haystack,1823.c178b5a,"A Python framework for finding C structures from process memory - heap analysis - Memory structures forensics.","https://github.com/trolldbois/python-haystack",1511098117
@@ -854,7 +795,6 @@ voip,isip,2.fad1f10,"Interactive sip toolkit for packet manipulations, sniffing,
 voip,isme,0.12,"Scans a VOIP environment, adapts to enterprise VOIP, and exploits the possibilities of being connected directly to an IP Phone VLAN.","https://packetstormsecurity.com/files/123534/IP-Phone-Scanning-Made-Easy.12.html",1484422392
 recon,isr-form,1.0,"Simple html parsing tool that extracts all form related information and generates reports of the data. Allows for quick analyzing of data.","http://www.infobyte.com.ar/",1484422400
 sniffer,issniff,294.79c6c2a,"Internet Session Sniffer.","https://github.com/juphoff/issniff",1487428864
-,itpp,4.3.1,"C++ library of mathematical, signal processing and communication routines.","http://itpp.sourceforge.net/",1399118975
 recon,ivre,1618.e17126a,"Network recon framework.","https://ivre.rocks/",1519945171
 scanner,jaadas,0.1,"Joint Advanced Defect assEsment for android applications.","https://github.com/flankerhqd/JAADAS/",1487530453
 reversing,jad,1.5.8e,"Java decompiler","https://varaneckas.com/jad",1506370097
@@ -873,9 +813,6 @@ networking,jnetmap,0.5.3,"A network monitor of sorts","http://www.rakudave.ch/jn
 cracker,john,1.8.0.jumbo1,"John the Ripper password cracker","http://www.openwall.com/john",1513850771
 cracker,johnny,20120424,"GUI for John the Ripper.","http://openwall.info/wiki/john/johnny",1401170287
 webapp,jomplug,0.1,"This php script fingerprints a given Joomla system and then uses Packet Storm's archive to check for bugs related to the installed components.","http://packetstormsecurity.com/files/121390/Janissaries-Joomla-Fingerprint-Tool.html",1483198796
-,jondo,00.19.001,"Redirects internet traffic trough a mix of proxy servers to hide the origin of the requests.","https://anonymous-proxy-servers.net/",1390485752
-,jondobrowser,0.12,"Firefox tweaked to work with jondo (anonymous browsing) (english version)","https://anonymous-proxy-servers.net/en/jondobrowser.html",1390486230
-,jondoconsole,00.00.163,"Redirects internet traffic trough a mix of proxy servers to hide the origin of the requests. CLI version.","https://anonymous-proxy-servers.net/",1390486338
 webapp,jooforce,11.43c21ad,"A Joomla password brute force tester.","https://github.com/rastating/jooforce",1483199202
 webapp,joomlascan,1.2,"Joomla scanner scans for known vulnerable remote file inclusion paths and files.","http://packetstormsecurity.com/files/62126/joomlascan.2.py.txt.html",1483199209
 webapp,joomlavs,239.8d68001,"A black box, Ruby powered, Joomla vulnerability scanner.","https://github.com/rastating/joomlavs",1509006007
@@ -940,32 +877,9 @@ scanner,lfisuite,77.5b2a215,"Totally Automatic LFI Exploiter (+ Reverse Shell) a
 forensic,lfle,24.f28592c,"Recover event log entries from an image by heurisitically looking for record structures.","https://github.com/williballenthin/LfLe",1483201168
 recon,lft,3.79,"A layer four traceroute implementing numerous other features.","http://pwhois.org/lft/",1491823341
 recon,lhf,40.51568ee,"A modular recon tool for pentesting.","https://github.com/blindfuzzy/LHF",1503087625
-,libbde,232.7621829,"A library to access the BitLocker Drive Encryption (BDE) format.","https://github.com/libyal/libbde",1516544070
-,libbfio,264.3dcca61,"A library to provide basic file input/output abstraction.","https://github.com/libyal/libbfio",1516187101
-,libbtbb,2017.03.R2,"A library to decode Bluetooth baseband packets, as produced by the Ubertooth and GR-Bluetooth projects.","https://github.com/greatscottgadgets/libbtbb/releases",1496518601
-,libcli,1.9.7,"A shared library for including a Cisco-like command-line interface into other software.","https://github.com/dparrish/libcli",1391268708
-,libdaq,2.0.6,"Data Acquisition library for packet I/O.","http://www.snort.org/",1516746843
 disassembler,libdisasm,0.23,"A disassembler library.","http://bastard.sourceforge.net/libdisasm.html",1400928744
-,libdnet-ipv6,1.12,"A simplified, portable interface to several low-level networking routines","http://code.google.com/p/libdnet/",1386432945
-,libee,0.4.1,"Event expression library inspired by CEE.","http://www.libee.org/",1516796181
-,libemu,571.ab48695,"A small library written in c offering basic x86 emulation and shellcode detection.","http://libemu.carnivore.it/",1405209702
-,libestr,0.1.10,"Essentials for string handling (and a bit more).","http://libestr.adiscon.com/",1516796126
-,libfastjson,0.99.8,"A performance-focused json library for C.","https://github.com/rsyslog/libfastjson",1516796455
-,libfixbuf,1.8.0,"IPFIX Message Format Implementation.","http://aircert.sourceforge.net/fixbuf",1511101306
-,libforensic1394,0.2,"An open source library for performing live memory forensics over the IEEE 1394 (FireWire) interface.","https://freddie.witherden.org/tools/libforensic1394/",1398636939
-,liblognorm,2.0.4,"Log normalization library for rsyslog.","http://www.liblognorm.com/",1516796523
-,libnfc,1.7.0_rc7,"The first free NFC SDK and Programmers API","http://www.libnfc.org/documentation/introduction",1386432914
-,libowfat,0.30,"GPL reimplementation of libdjb.","http://www.fefe.de/libowfat/",1447015934
-,libpcap.4,1.4.0,"A system-independent interface for user-level packet capture","http://www.tcpdump.org/",1393769822
-,libpff,103.45978e5,"A library to access the Personal Folder File (PFF) and the Offline Folder File (OFF) format.","https://github.com/libyal/libpff",1518042190
-,libpfm4,4.8.0,"Library to encode performance events for use by perf tool.","http://perfmon2.sourceforge.net/",1496518701
-,libpjf,204.a6fb2f5,"A C library of data structures with tools (based on libasn).","https://github.com/pforemski/libpjf",1477736163
 misc,libpst,0.6.71,"Outlook .pst file converter","http://www.five-ten-sg.com/libpst/",1514675776
-,liburcu,0.10.0,"A userspace RCU (read-copy-update) library.","http://lttng.org/urcu/",1511101376
-,libvidcap,0.2.1,"A cross-platform library for capturing video from webcams and other video capture devices.","http://libvidcap.sourceforge.net",1391268874
-,libvshadow,121.54aee16,"A library to access the Volume Shadow Snapshot (VSS) format.","https://github.com/libyal/libvshadow",1517517460
 webapp,liffy,65.8011cdd,"A Local File Inclusion Exploitation tool.","https://github.com/rotlogix/liffy",1439827402
-,lightblue,0.4,"A cross-platform Bluetooth API for Python which provides simple access to Bluetooth operations","http://lightblue.sourceforge.net/",1401581695
 webapp,lightbulb,65.ab49c32,"Python framework for auditing web applications firewalls.","https://github.com/lightbulb-framework/lightbulb-framework",1510504815
 forensic,limeaide,178.d332e10,"Remotely dump RAM of a Linux client and create a volatility profile for later analysis on your local host.","https://github.com/kd8bny/LiMEaide",1520157635
 scanner,linenum,32.c5a1316,"Scripted Local Linux Enumeration & Privilege Escalation Checks","https://github.com/rebootuser/LinEnum",1516661891
@@ -979,13 +893,10 @@ debugger,lldb,5.0.1,"Next generation, high-performance debugger","http://lldb.ll
 binary,loadlibrary,35.45296de,"Porting Windows Dynamic Link Libraries to Linux.","https://github.com/taviso/loadlibrary",1512638430
 scanner,locasploit,117.fa48151,"Local enumeration and exploitation framework.","https://github.com/lightfaith/locasploit",1503087652
 cracker,lodowep,1.2.1,"Lodowep is a tool for analyzing password strength of accounts on a Lotus Domino webserver system.","http://www.cqure.net/wp/lodowep/",1483201843
-,log4cxx,0.10.0,"A C++ port of Log4j.","http://logging.apache.org/log4cxx",1457690139
 keylogger,logkeys,0.1.1a,"Simple keylogger supporting also USB keyboards.","http://logkeys.googlecode.com/",1393892614
 networking,loic,2.9.9.99,"An open source network stress tool for Windows.","https://github.com/NewEraCracker/LOIC",1508487800
-,loki,0.3.0_r501,"Python based framework implementing many packet generation and attack modules for Layer 2 and 3 protocols.","http://c0decafe.de/loki.html",1447016547
 recon,loot,51.656fb85,"Sensitive information extraction tool.","https://github.com/GuerrillaWarfare/Loot",1439827586
 wireless,lorcon,2.0.0.20091101,"Generic library for injecting 802.11 frames","http://802.11ninja.net/",1443980102
-,lorcon-old,1.0825ec0,"Create what libradiate could have been: A generic library for injecting 802.11 frames, capable of injection via multiple driver frameworks, without forcing modification of the application code, old API version.","http://802.11ninja.net/lorcon/",1484338019
 defensive,lorg,96.3960fa7,"Apache Logfile Security Analyzer.","https://github.com/jensvoid/lorg",1491682240
 scanner,lotophagi,0.1,"a relatively compact Perl script designed to scan remote hosts for default (or common) Lotus NSF and BOX databases.","http://packetstormsecurity.com/files/55250/lotophagi.rar.html",1483201849
 spoof,lsrtunnel,0.2,"Spoofs connections using source routed packets.","http://www.synacklabs.net/projects/lsrtunnel/",1432587304
@@ -1031,7 +942,6 @@ defensive,mat,0.6.1,"Metadata Anonymisation Toolkit composed of a GUI applicatio
 tunnel,matahari,0.1.30,"A reverse HTTP shell to execute commands on remote machines behind firewalls.","http://matahari.sourceforge.net/",1483202832
 stego,matroschka,52.0345a5e,"Python steganography tool to hide images or text in images.","https://github.com/fgrimme/Matroschka",1483202840
 dos,mausezahn,0.40,"A free fast traffic generator written in C which allows you to send nearly every possible and impossible packet.","http://www.perihel.at/sec/mz/",1422574315
-,mbelib,41.27b3f1b,"Voice codecs for P25, ProVoice, Half Rate.","https://github.com/szechyjs/mbelib",1512325277
 windows,mbenum,1.5.0,"Queries the master browser for whatever information it has registered.","http://www.cqure.net/wp/mbenum/",1483202846
 forensic,mboxgrep,0.7.9,"A small, non-interactive utility that scans mail folders for messages matching regular expressions. It does matching against basic and extended POSIX regular expressions, and reads and writes a variety of mailbox formats.","http://mboxgrep.sourceforge.net",1422574117
 cracker,mdcrack,1.2,"MD4/MD5/NTLM1 hash cracker","http://c3rb3r.openwall.net/mdcrack/",1452687917
@@ -1080,7 +990,6 @@ scanner,modscan,0.1,"A new tool designed to map a SCADA MODBUS TCP based network
 networking,moloch,0.11.3,"An open source large scale IPv4 full PCAP capturing, indexing and database system.","https://github.com/aol/moloch",1458724025
 scanner,mongoaudit,216.28d1e03,"A powerful MongoDB auditing and pentesting tool .","https://github.com/stampery/mongoaudit",1493821549
 recon,monocle,1.0,"A local network host discovery tool. In passive mode, it will listen for ARP request and reply packets. In active mode, it will send ARP requests to the specific IP range. The results are a list of IP and MAC addresses present on the local network.","http://packetstormsecurity.com/files/99823/Monocle-Host-Discovery-Tool.0.html",1484422443
-,morbid,0.8.7.3,"A Twisted-based publish/subscribe messaging server that uses the STOMP protocol.","http://pypi.python.org/pypi/morbid/",1483203092
 automation,morpheus,45.24ad5a5,"Automated Ettercap TCP/IP Hijacking Tool.","https://github.com/r00txp10it/morpheus",1517077185
 cracker,morxbook,1.0,"A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS.","http://www.morxploit.com/",1423227539
 cracker,morxbrute,1.01,"A customizable HTTP dictionary-based password cracking tool written in Perl","http://www.morxploit.com/morxbrute/",1393889720
@@ -1123,19 +1032,14 @@ spoof,nbnspoof,1.0,"NBNSpoof - NetBIOS Name Service Spoofer","http://www.mcgrews
 windows,nbtenum,3.3,"A utility for Windows that can be used to enumerate NetBIOS information from one host or a range of hosts.","http://reedarvin.thearvins.com/",1484422464
 networking,nbtool,2.bf90c76,"Some tools for NetBIOS and DNS investigation, attacks, and communication.","http://wiki.skullsecurity.org/Nbtool",1401220928
 scanner,nbtscan,1.5.1,"NBTscan is a program for scanning IP networks for NetBIOS name information.","http://www.inetcat.net/software/nbtscan.html",1404219574
-,ncp,1.2.4,"A fast file copy tool for LANs","http://www.fefe.de/ncp/",1386432898
 networking,ncpfs,2.2.6,"Allows you to mount volumes of NetWare servers under Linux.","http://www.novell.com/",1422708089
 cracker,ncrack,0.5,"A high-speed network authentication cracking tool","https://nmap.org/ncrack/",1495186862
-,ncurses5-compat-libs,6.0,"System V Release 4.0 curses emulation library, ABI 5","http://invisible-island.net/ncurses/ncurses.html",1459365610
-,ndpi,1.8,"Open and Extensible GPLv3 Deep Packet Inspection Library.","http://www.ntop.org/products/ndpi/",1468854809
 recon,necromant,3.acbc448,"Python Script that search unused Virtual Hosts in Web Servers.","https://github.com/PentesterES/Necromant",1483204843
 mobile,needle,573.3776adf,"The iOS Security Testing Framework.","https://github.com/mwrlabs/needle",1514376054
 recon,neglected,8.68d02b3,"Facebook CDN Photo Resolver.","https://github.com/GuerrillaWarfare/neglected",1439828544
 fingerprint,neighbor-cache-fingerprinter,83.f1e596f,"An ARP based Operating System version scanner.","https://github.com/PherricOxide/Neighbor-Cache-Fingerprinter",1427236216
 networking,nemesis,1.4,"command-line network packet crafting and injection utility","http://nemesis.sourceforge.net/",1404219708
-,neo4j-community,3.1.1,"A fully transactional graph database implemented in Java","http://neo4j.org/",1489317026
 sniffer,net-creds,58.30b16c0,"Sniffs sensitive data from interface or pcap.","https://github.com/DanMcInerney/net-creds",1427236523
-,netactview,0.6.4,"A graphical network connections viewer similar in functionality to netstat","http://netactview.sourceforge.net/index.html",1428320095
 wireless,netattack,24.230b856,"Python script to scan and attack wireless networks.","https://github.com/chrizator/netattack2",1507034632
 scanner,netbios-share-scanner,1.0,"This tool could be used to check windows workstations and servers if they have accessible shared resources.","http://www.secpoint.com/netbios-share-scanner.html",1483204884
 windows,netbus,1.6,"NetBus remote adminsitration tool","https://packetstormsecurity.com/files/10320/nb16_p04.zip.html",1486294104
@@ -1170,8 +1074,6 @@ windows,nishang,0.7.6,"Using PowerShell for Penetration Testing.","https://code.
 dos,nkiller2,2.0,"A TCP exhaustion/stressing tool.","http://sock-raw.org/projects.html",1391269848
 scanner,nmap,7.60,"Utility for network discovery and security auditing","http://nmap.org/",1501648982
 scanner,nmbscan,1.2.6,"Tool to scan the shares of a SMB/NetBIOS network, using the NMB/SMB/NetBIOS protocols.","http://nmbscan.gbarbier.org/",1483204945
-,node-ar-drone,275.53e6622,"A node.js client for controlling Parrot AR Drone 2.0 quad-copters.","https://github.com/felixge/node-ar-drone",1511107357
-,nodejs-electron-packager,8.5.2,"Customize and package your Electron app with OS-specific bundles (.app, .exe etc) via JS or CL.","http://npm.im/electron-packager",1489316776
 recon,nohidy,67.22c1283,"The system admins best friend, multi platform auditing tool.","https://github.com/flipchan/Nohidy",1518042223
 crypto,nomorexor,0.1,"Tool to help guess a files 256 byte XOR key by using frequency analysis","https://github.com/hiddenillusion/NoMoreXOR",1393889746
 malware,noriben,126.f26f280,"Portable, Simple, Malware Analysis Sandbox.","https://github.com/Rurik/Noriben",1519862351
@@ -1193,7 +1095,6 @@ recon,nullinux,79.1350814,"Tool that can be used to enumerate OS information, do
 scanner,o-saft,2222.7a52ad8,"A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.","https://www.owasp.org/index.php/O-Saft",1519862381
 fuzzer,oat,1.3.1,"A toolkit that could be used to audit security within Oracle database servers.","http://www.cqure.net/wp/test/",1390487567
 cracker,obevilion,408.021c9f2,"Another archive cracker created in python | cracking [zip/7z/rar].","https://github.com/BL4CKvGHOST/Ob3vil1on",1515957550
-,obexftp,0.24,"A tool for transfer files to/from any OBEX enabled device.","http://dev.zuckschwerdt.org/openobex/wiki/ObexFtp",1516748798
 bluetooth,obexstress,0.1,"Script for testing remote OBEX service for some potential vulnerabilities.","http://bluetooth-pentest.narod.ru/",1483205189
 proxy,obfsproxy,0.2.13,"A pluggable transport proxy written in Python","https://pypi.python.org/pypi/obfsproxy",1425353110
 binary,objdump2shellcode,28.c2d6120,"A tool I have found incredibly useful whenever creating custom shellcode.","https://github.com/wetw0rk/objdump2shellcode",1506937722
@@ -1211,7 +1112,6 @@ recon,onioff,80.91bdffc,"An onion url inspector for inspecting deep web links.",
 scanner,onionscan,130.da42865,"Scan Onion Services for Security Issues.","github.com/s-rah/onionscan",1488051448
 misc,onionshare,1412.8299aad,"Securely and anonymously share a file of any size.","https://github.com/micahflee/onionshare/",1519679957
 webapp,opendoor,381.f1e8df2,"OWASP WEB Directory Scanner.","https://github.com/stanislav-web/OpenDoor",1507330671
-,openobex,1.7.2,"Implementation of the OBject EXchange (OBEX) protocol.","http://dev.zuckschwerdt.org/openobex/",1516748611
 crypto,openstego,0.7.1,"A tool implemented in Java for generic steganography, with support for password-based encryption of the data.","http://www.openstego.info/",1493656844
 exploitation,opensvp,65.df54ed8,"A security tool implementing 'attacks' to be able to the resistance of firewall to protocol level attack.","https://github.com/regit/opensvp",1487671503
 scanner,openvas-cli,1.4.5,"The OpenVAS Command-Line Interface","http://www.openvas.org/",1508970551
@@ -1221,12 +1121,10 @@ scanner,openvas-scanner,5.1.1,"The OpenVAS scanning Daemon","http://www.openvas.
 fingerprint,operative,105.5af1120,"Framework based on fingerprint action, this tool is used for get information on a website or a enterprise target with multiple modules (Viadeo search,Linkedin search, Reverse email whois, Reverse ip whois, SQL file forensics ...).","https://github.com/graniet/operative-framework",1514113236
 cracker,ophcrack,3.7.0,"Windows password cracker based on rainbow tables","http://ophcrack.sourceforge.net",1518521410
 windows,orakelcrackert,1.00,"This tool can crack passwords which are encrypted using Oracle's latest SHA1 based password protection algorithm.","http://freeworld.thc.org/thc-orakelcrackert11g/",1400687726
-,orbited,0.7.10,"A browser(javascript)->tcp bridge; Comet is used to emulate TCP connections in the browser; Allows you to connect a web browser directly to an IRC or XMPP server, for instance.","http://www.orbited.org",1498113389
 malware,origami,2.1.0,"Aims at providing a scripting tool to generate and analyze malicious PDF files.","http://code.google.com/p/origami-pdf",1515179277
 fuzzer,oscanner,1.0.6,"An Oracle assessment framework developed in Java.","http://www.cqure.net/wp/oscanner/",1390488018
 recon,osint-spy,12.1fe81d9,"Performs OSINT scan on email/domain/ip_address/organization.","https://github.com/SharadKumar97/OSINT-SPY",1508413277
 recon,osinterator,3.8447f58,"Open Source Toolkit for Open Source Intelligence Gathering.","https://github.com/guitarmanj/OSINTerator",1446556225
-,osm-gps-map,1.1.0,"GTK+ 3 library for showing OSM tiles","http://nzjrs.github.com/osm-gps-map/",1456744698
 recon,osrframework,718.f897a3d,"A project focused on providing API and tools to perform more accurate online researches.","https://github.com/i3visio/osrframework",1518044316
 sniffer,ostinato,0.8,"An open-source, cross-platform packet/traffic generator and analyzer with a friendly GUI. It aims to be 'Wireshark in Reverse' and thus become complementary to Wireshark.","http://code.google.com/p/ostinato/",1470473766
 exploitation,osueta,71.3c04bfe,"A simple Python script to exploit the OpenSSH User Enumeration Timing Attack.","https://github.com/c0r3dump3d/osueta",1500709590
@@ -1239,7 +1137,6 @@ exploitation,owasp-zsc,313.e9cda47,"Shellcode/Obfuscate Code Generator.","https:
 webapp,owtf,1017.0bbeea1,"The Offensive (Web) Testing Framework.","https://www.owasp.org/index.php/OWASP_OWTF",1421510698
 fingerprint,p0f,3.09b,"Purely passive TCP/IP traffic fingerprinting tool","http://lcamtuf.coredump.cx/p0f3/",1461343408
 cracker,pack,0.0.4,"Password Analysis and Cracking Kit","http://thesprawl.org/projects/pack/",1483207695
-,package-query,1.8,"Query ALPM and AUR.","http://gitweb.archlinux.fr/package-query.git/",1457077949
 binary,packer-io,1.2.1,"tool for creating identical machine images for multiple platforms from a single source configuration","https://github.com/hashicorp/packer",1519478080
 binary,packerid,1.4,"Script which uses a PEiD database to identify which packer (if any) is being used by a binary.","http://handlers.sans.org/jclausing/",1398946796
 networking,packet-o-matic,351,"A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.","http://www.packet-o-matic.org/",1391270023
@@ -1256,9 +1153,6 @@ automation,panoptic,185.df35a6c,"A tool that automates the process of search and
 webapp,pappy-proxy,77.e1bb049,"An intercepting proxy for web application testing.","https://github.com/roglew/pappy-proxy",1520157664
 webapp,parameth,51.da7b83b,"This tool can be used to brute discover GET and POST parameters.","https://github.com/mak-/parameth",1517077238
 scanner,paranoic,1.7,"A simple vulnerability scanner written in Perl.","http://packetstormsecurity.com/files/128065/Paranoic-Scan.7.html",1484422481
-,paraxor-dwm,6.0,"Dynamic window manager for X (paraxor's fork).","http://dwm.suckless.org/",1401171045
-,paraxor-slock,1.1,"A simple screen locker for X (paraxor's fork)","http://tools.suckless.org/slock",1396714387
-,paraxor-st,0.4.1,"A simple virtual terminal emulator for X (paraxor's fork)","http://st.suckless.org",1441694362
 webapp,paros,3.2.13,"Java-based HTTP/HTTPS proxy for assessing web app vulnerabilities. Supports editing/viewing HTTP messages on-the-fly, spiders, client certificates, proxy-chaining, intelligent scanning for XSS and SQLi, etc.","http://www.parosproxy.org",1483207781
 recon,parsero,81.e5b585a,"A robots.txt audit tool.","https://github.com/behindthefirewalls/Parsero",1483207793
 forensic,pasco,20040505_1,"Examines the contents of Internet Explorer's cache files for forensic purposes","http://www.jonesdykstra.com/",1388155533
@@ -1289,7 +1183,6 @@ fuzzer,peach-fuzz,55.404e8ee,"Simple vulnerability scanning framework.","https:/
 debugger,peda,1.1,"Python Exploit Development Assistance for GDB","https://github.com/longld/peda",1464990619
 forensic,peepdf,0.3,"A Python tool to explore PDF files in order to find out if the file can be harmful or not","http://eternal-todo.com/tools/peepdf-pdf-analysis-tool",1483208539
 webapp,peepingtom,56.bc6f4d8,"A tool to take screenshots of websites. Much like eyewitness.","https://bitbucket.org/LaNMaSteR53/peepingtom",1483208550
-,pefile-py3k,10.4fba161,"Fork of pefile for python 3.","https://github.com/simonzack/pefile-py3k",1483208559
 malware,peframe,95.b8f4674,"Tool to perform static analysis on (portable executable) malware.","https://github.com/guelfoweb/peframe",1517517567
 cracker,pemcrack,11.a0fecd7,"Cracks SSL PEM files that hold encrypted private keys. Brute forces or dictionary cracks.","https://github.com/robertdavidgraham/pemcrack",1450986635
 cracker,pemcracker,9.a741c93,"Tool to crack encrypted PEM files.","https://github.com/bwall/pemcracker.git",1448025360
@@ -1298,134 +1191,17 @@ fuzzer,pentbox,1.8,"A security suite that packs security and stability testing o
 scanner,pentestly,1798.93d1b39,"Python and Powershell internal penetration testing framework.","https://github.com/praetorian-inc/pentestly",1510005046
 automation,pentmenu,189.9c1100d,"A bash script for recon and DOS attacks.","https://github.com/GinjaChris/pentmenu",1512641916
 windows,periscope,3.2,"A PE file inspection tool.","http://ntsecurity.nu/toolbox/periscope/",1469743949
-,perl-algorithm-generatesequence,0.02,"A sequence generator.","http://www.cpan.org/authors/id/R/RC/RCLAMP/",1504507618
-,perl-algorithm-permute,0.16,"Perl module for handy and fast permutations with object oriented interface.","http://search.cpan.org/dist/Algorithm-Permute/",1504372366
-,perl-bytes-random-secure,0.29,"Perl extension to generate cryptographically-secure random bytes.","https://metacpan.org/release/Bytes-Random-Secure",1504507634
-,perl-cache-lru,0.04,"A simple, fast implementation of LRU cache in pure perl.","http://search.cpan.org/~kazuho/Cache-LRU.04/lib/Cache/LRU.pm",1506783129
-,perl-cisco-copyconfig,1.4,"IOS running-config manipulation","http://search.cpan.org/dist/Cisco-CopyConfig",1504507648
-,perl-class-accessor-lite,0.08,"A minimalistic variant of Class::Accessor.","https://metacpan.org/pod/Class::Accessor::Lite",1506783142
-,perl-class-errorhandler,0.04,"Base class for error handling.","http://search.cpan.org/dist/Class-ErrorHandler",1504507660
-,perl-class-gomor,1.03,"Another class and object builder","http://search.cpan.org/dist/Class-Gomor",1504507684
-,perl-class-loader,2.03,"Loads modules and creates objects on demand.","http://search.cpan.org/~VIPUL/Class-Loader.03/",1504507704
-,perl-color-output,1.05,"Module to give color to the output.","http://search.cpan.org/~animator/Color-Output.05/Output.pm",1504507714
-,perl-convert-ascii-armour,1.4,"Converts binary octets into ASCII armoured messages","http://search.cpan.org/~VIPUL/Convert-ASCII-Armour.4/",1504507725
-,perl-convert-pem,0.08,"Read/write encrypted ASN.1 PEM files.","http://search.cpan.org/dist/Convert-PEM",1506783158
-,perl-cpan-meta,2.150010,"The distribution metadata for a CPAN dist.","http://search.cpan.org/dist/CPAN-Meta",1483208638
-,perl-cpan-meta-check,0.014,"Verify requirements in a CPAN::Meta object.","http://search.cpan.org/dist/CPAN-Meta-Check",1497436702
-,perl-crypt-des_ede3,0.01,"Perl module for triple-DES EDE encryption/decryption","http://search.cpan.org/~btrott/Crypt-DES_EDE3",1504507740
-,perl-crypt-dh,0.07,"Perl/CPAN Module Crypt::DH: Diffie-Hellman key exchange system.","http://search.cpan.org/~mithaldu/Crypt-DH.07/lib/Crypt/DH.pm",1506783170
-,perl-crypt-dsa,1.17,"DSA Signatures and Key Generation.","http://search.cpan.org/dist/Crypt-DSA",1506783182
-,perl-crypt-idea,1.10,"Perl interface to IDEA block cipher.","http://search.cpan.org/~DPARIS/Crypt-IDEA.10/",1504507771
-,perl-crypt-openssl-x509,1.807,"Perl extension to OpenSSL's X509 API.","https://metacpan.org/pod/Crypt::OpenSSL::X509",1481451795
-,perl-crypt-primes,0.50,"Provable Prime Number Generator suitable for Cryptographic Applications.","http://search.cpan.org/~VIPUL/Crypt-Primes.50/",1504507781
-,perl-crypt-random,1.25,"Cryptographically Secure, True Random Number Generator","http://search.cpan.org/~VIPUL/Crypt-Random.25/",1504507792
-,perl-crypt-random-seed,0.03,"Simple method to get strong randomness.","https://metacpan.org/release/Crypt-Random-Seed",1504507803
-,perl-crypt-random-tesha2,0.01,"Random numbers using timer/schedule entropy.","https://metacpan.org/release/Crypt-Random-TESHA2",1504507813
-,perl-crypt-rsa,1.99,"RSA public-key cryptosystem.","http://search.cpan.org/dist/Crypt-RSA",1506783196
-,perl-cryptx,0.054,"Cryptographically secure random number generator.","http://search.cpan.org/~mik/CryptX.051/lib/Crypt/PRNG.pm",1511135106
-,perl-data-buffer,0.04,"Read/write buffer class.","http://search.cpan.org/dist/Data-Buffer",1504507827
-,perl-data-validate-ip,0.27,"Lightweight IPv4 and IPv6 validation module.","http://search.cpan.org/dist/Data-Validate-IP",1504507838
-,perl-date-parse,2.30,"Parse date strings into time values.","http://search.cpan.org/~gbarr/TimeDate.30/",1497436641
-,perl-devel-overloadinfo,0.004,"Introspect overloaded operators.","https://metacpan.org/release/Devel-OverloadInfo",1504507851
-,perl-digest-crc,0.22.2,"Generic interface to CRC algorithms.","http://search.cpan.org/dist/Digest-CRC/",1506783693
-,perl-digest-md2,2.04,"Perl interface to the MD2 Algorithm.","http://search.cpan.org/~GAAS/Digest-MD2.03/",1504507879
-,perl-digest-md4,1.9,"Perl interface to the MD4 Algorithm.","http://search.cpan.org/dist/Digest-MD4",1504507901
-,perl-digest-perl-md5,1.9,"Perl implementation of Ron Rivests MD5 Algorithm.","http://search.cpan.org/dist/Digest-Perl-MD5",1497435786
-,perl-eval-closure,0.14,"Safely and cleanly create closures via string eval.","http://search.cpan.org/dist/Eval-Closure/",1497435879
-,perl-expect,1.35,"This module is a successor of Comm.pl and a descendent of Chat.pl. It more closely ressembles the Tcl Expect language than its predecessors.","http://search.cpan.org/dist/Expect",1506783836
-,perl-exporter-lite,0.08,"Lightweight exporting of variables.","http://search.cpan.org/~mschwern/Exporter-Lite.08",1497436027
-,perl-extutils-config,0.008,"A wrapper for perl's configuration.","http://search.cpan.org/dist/ExtUtils-Config/",1497436163
-,perl-extutils-helpers,0.026,"Various portability utilities for module builders.","http://search.cpan.org/dist/ExtUtils-Helpers/",1497436242
-,perl-extutils-installpaths,0.011,"Build.PL install path logic made easy.","http://search.cpan.org/dist/ExtUtils-InstallPaths/",1497436371
-,perl-furl,3.13,"Lightning-fast URL fetcher.","http://search.cpan.org/~syohex/Furl.09/lib/Furl.pm",1511135126
-,perl-geography-countries,2009041301,"2-letter, 3-letter, and numerical codes for countries.","http://search.cpan.org/~ABIGAIL/Geography-Countries",1497436559
-,perl-getopt-long,2.50,"Extended processing of command line options.","http://search.cpan.org/~jv/Getopt-Long.42/lib/Getopt/Long.pm",1497436650
-,perl-html-linkextractor,0.13,"Extract links from an HTML document","http://search.cpan.org/dist/HTML-LinkExtractor/",1504507913
-,perl-html-tagparser,0.20,"Yet another HTML document parser with DOM-like methods.","http://search.cpan.org/dist/HTML-TagParser/",1504507923
-,perl-http-dav,0.48,"A client module for the WebDAV protocol.","http://search.cpan.org/dist/HTTP-DAV",1504507937
-,perl-http-parser-xs,0.17,"A fast, primitive HTTP request parser.","http://search.cpan.org/dist/HTTP-Parser-XS",1506783247
-,perl-http-request-common,6.13,"Construct common HTTP::Request objects","http://search.cpan.org/~gaas/HTTP-Message.06/lib/HTTP/Request/Common.pm",1511135140
-,perl-io-captureoutput,1.1104,"capture STDOUT and STDERR from Perl code, subprocesses or XS","http://search.cpan.org/dist/IO-CaptureOutput",1497435889
-,perl-io-socket,1.36_01,"Object interface to socket communications","http://search.cpan.org/~gbarr/IO.25/lib/IO/Socket.pm",1504507968
-,perl-io-socket-ip,0.39,"Family-neutral IP socket supporting both IPv4 and IPv6.","http://search.cpan.org/dist/IO-Socket-IP",1497436039
-,perl-io-socket-portstate,0.03,"Perl extension for checking the open or closed status of a port..","http://search.cpan.org/~dmuey/IO-Socket-PortState.03/PortState.pm",1504507977
-,perl-io-socket-socks,0.74,"Provides a way to create socks client or server both 4 and 5 version.","http://search.cpan.org/~oleg/IO-Socket-Socks.62",1497436251
-,perl-io-socket-socks-wrapper,0.17,"Add SOCKS support for any perl object / package / program.","http://search.cpan.org/~oleg/IO-Socket-Socks-Wrapper.15/lib/IO/Socket/Socks/Wrapper.pm",1497436380
-,perl-ip-country,2.28,"Fast lookup of country codes from IP addresses.","http://search.cpan.org/~NWETTERS/IP-Country",1497436466
-,perl-libwhisker2,2.5,"A full-featured Perl library used for HTTP-related functions, including vulnerability scanning and exploitation","http://sourceforge.net/projects/whisker/",1386432890
-,perl-lwp-protocol-socks,1.7,"Adds support for the socks protocol and proxy facility.","http://search.cpan.org/~scr/LWP-Protocol-socks.7/",1497436662
-,perl-lwp-useragent-proxyany,1.02,"A LWP UserAgent supports both HTTP_PROXY and IE proxy","http://search.cpan.org/~qjzhou/LWP-UserAgent-ProxyAny.02/ProxyAny.pm",1504507989
-,perl-math-bigint-gmp,1.6004,"Big integer calculations using the GNU Multiple Precision Arithmetic Library.","http://search.cpan.org/~pjacklam/Math-BigInt-GMP.6004/",1504508013
-,perl-math-gmp,2.15,"High speed arbitrary size integer math.","http://search.cpan.org/~turnstep/Math-GMP.15/",1511135151
-,perl-math-pari,2.01080900,"Perl interface to PARI.","http://search.cpan.org/~ilyaz/Math-Pari.01080605/Pari.pm",1504508236
-,perl-md5,2.03,"Perl interface to the MD5 Message-Digest Algorithm.","http://search.cpan.org/~gaas/MD5.03/MD5.pm",1497435804
-,perl-modern-perl,1.20150127,"Enable all of the features of Modern Perl with one command.","https://metacpan.org/release/Modern-Perl",1424084914
-,perl-module-build-tiny,0.039,"A tiny replacement for Module::Build.","http://search.cpan.org/dist/Module-Build-Tiny",1497435968
-,perl-module-install,1.18,"Module::Install - Standalone, extensible Perl module installer","http://search.cpan.org/dist/Module-Install",1506782751
-,perl-module-scandeps,1.24,"Scan file prerequisites","http://search.cpan.org/dist/Module-ScanDeps",1506782603
-,perl-moose,2.2007,"A postmodern object system for Perl 5.","https://metacpan.org/release/Moose",1511135179
-,perl-net-cidr,0.18,"Manipulate IPv4/IPv6 netblocks in CIDR notation.","http://search.cpan.org/dist/Net-CIDR",1504508302
-,perl-net-dhcp,0.7_007,"Object methods to create a DHCP packet.","http://search.cpan.org/~djzort/Net-DHCP.684/lib/Net/DHCP.pm",1504508365
-,perl-net-dns-lite,0.12,"A pure-perl DNS resolver with support for timeout.","http://www.cpan.org/authors/id/K/KA/KAZUHO/",1506783267
-,perl-net-frame,1.17,"The base framework for frame crafting.","http://search.cpan.org/dist/Net-Frame",1504508379
-,perl-net-frame-device,1.12,"Get network device information and gateway.","http://search.cpan.org/~gomor/Net-Frame-Device/lib/Net/Frame/Device.pm",1504508407
-,perl-net-frame-dump,1.14,"Base-class for a tcpdump like implementation.","http://search.cpan.org/~gomor/Net-Frame-Dump.13/lib/Net/Frame/Dump.pm",1504508416
-,perl-net-frame-layer-icmp6,1.09,"Internet Control Message Protocol v6 layer object.","http://search.cpan.org/~gomor/Net-Frame-Layer-ICMPv6/lib/Net/Frame/Layer/ICMPv6.pm",1504508426
-,perl-net-frame-layer-ipv6,1.08,"Internet Protocol v6 layer object.","http://search.cpan.org/~gomor/Net-Frame-Layer-IPv6.05/lib/Net/Frame/Layer/IPv6.pm",1504508436
-,perl-net-frame-layer-sinfp3,1.01,"Frame crafting made easy.","http://search.cpan.org/CPAN/authors/id/G/GO/GOMOR/",1504508448
-,perl-net-frame-simple,1.09,"Frame crafting made easy.","http://search.cpan.org/~gomor/Net-Frame-Simple/lib/Net/Frame/Simple.pm",1511135190
-,perl-net-libdnet,0.98,"Binding for Dug Song's libdnet.","http://search.cpan.org/~gomor/Net-Libdnet/",1504373330
-,perl-net-libdnet6,0.27,"Adds IPv6 support to Net::Libdnet.","http://search.cpan.org/~gomor/Net-Libdnet6/lib/Net/Libdnet6.pm",1504508469
-,perl-net-netmask,1.9022,"Parse, manipulate and lookup IP network blocks.","http://search.cpan.org/~muir/Net-Netmask.9022/",1497435978
-,perl-net-nslookup,2.04,"Provide nslookup(1)-like capabilties.","http://search.cpan.org/~darren/Net-Nslookup/lib/Net/Nslookup.pm",1504508479
-,perl-net-packet,3.28,"A unified framework to send a receive packets.","https://metacpan.org/release/Net-Packet",1504508493
-,perl-net-pcap,0.18,"Perl/CPAN Module Net::Pcap.","https://metacpan.org/release/Net-Pcap",1504373500
-,perl-net-pcaputils,0.01,"Perl/CPAN Module Net::PcapUtils","http://search.cpan.org/dist/Net-PcapUtils/",1497436502
-,perl-net-rawip,0.25,"Perl extension to manipulate raw IP packets with interface to B<libpcap>.","http://search.cpan.org/dist/Net-RawIP",1504372986
-,perl-net-socks,0.03,"TCP/IP access through firewalls using SOCKS","http://search.cpan.org/~CLINTDW/SOCKS",1497436682
-,perl-net-ssh-perl,2.14,"Perl client interface to SSH.","http://search.cpan.org/dist/Net-SSH-Perl",1504374095
-,perl-net-ssl-expiredate,1.20,"Obtain expiration date of certificate.","http://search.cpan.org/~hirose/Net-SSL-ExpireDate.12/lib/Net/SSL/ExpireDate.pm",1496611329
-,perl-net-subnet,1.03,"Fast IP-in-subnet matcher for IPv4 and IPv6, CIDR or mask.","http://search.cpan.org/~juerd/Net-Subnet.03/lib/Net/Subnet.pm",1504508504
-,perl-net-tftp,0.1901,"TFTP Client class.","http://search.cpan.org/~gbarr/Net-TFTP.19/TFTP.pm",1504508514
-,perl-net-whois-ip,1.19,"Perl extension for looking up the whois information for ip addresses.","http://search.cpan.org/dist/Net-Whois-IP",1497435841
-,perl-net-write,1.10,"A portable interface to open and send raw data to network.","http://search.cpan.org/~gomor/Net-Write.10/lib/Net/Write.pm",1504508525
-,perl-netpacket,1.6.0,"Assemble/disassemble network packets at the protocol level.","http://search.cpan.org/dist/NetPacket/",1497436194
-,perl-number-range,0.12,"Perl extension defining ranges of numbers and testing if a number is found in the range.","http://search.cpan.org/dist/Number-Range",1504508536
-,perl-parallel-forkmanager,1.19,"A simple parallel processing fork manager.","http://search.cpan.org/~yanick/Parallel-ForkManager.19",1504508547
-,perl-scalar-list-utils,1.38,"Common Scalar and List utility subroutines","https://metacpan.org/release/Scalar-List-Utils",1401926205
-,perl-sort-versions,1.62,"A perl module for sorting of revision-like numbers.","http://search.cpan.org/~edavis/Sort-Versions/",1497436337
-,perl-string-random,0.28,"Perl module to generate random strings based on a pattern.","http://search.cpan.org/~steve/String-Random.28/Random.pm",1424079751
-,perl-sub-name,0.21,"(Re)name a sub.","http://search.cpan.org/dist/Sub-Name",1497436523
-,perl-task-weaken,1.04,"Ensure that a platform has weaken support","http://search.cpan.org/dist/Task-Weaken",1506783278
-,perl-term-ansicolor,4.06,"Color screen output using ANSI escape sequences.","http://search.cpan.org/~rra/Term-ANSIColor.05/lib/Term/ANSIColor.pm",1497436691
-,perl-term-menu,0.10,"Perl extension for asking questions and printing menus at the terminal.","http://search.cpan.org/~dazjorz/Term-Menu.09/lib/Term/Menu.pm",1504508560
-,perl-test-checkdeps,0.010,"Check for presence of dependencies.","http://search.cpan.org/dist/Test-CheckDeps",1504508573
-,perl-test-without-module,0.18,"Test::Without::Module - Test fallback behaviour in absence of modules","http://search.cpan.org/dist/Test-Without-Module/",1483209057
-,perl-text-csv,1.33,"Comma-separated values manipulator (using XS or PurePerl).","http://search.cpan.org/dist/Text-CSV",1483209065
-,perl-tftp,1.0b3,"TFTP - TFTP Client class for perl","http://search.cpan.org/~gsm/TFTP/TFTP.pm",1504508583
-,perl-tie-encryptedhash,1.24,"Hashes (and objects based on hashes) with encrypting fields.","http://search.cpan.org/~VIPUL/Tie-EncryptedHash.24/",1504508596
-,perl-time-duration-parse,0.13,"Parse string that represents time duration.","http://search.cpan.org/dist/Time-Duration-Parse",1497435852
-,perl-time-interval,1.233,"Converts time intervals of days, hours, minutes, and seconds.","http://search.cpan.org/~ahicox/Time-Interval.233/Interval.pod",1504508608
-,perl-uniq,0.01,"Perl extension for managing list of values.","http://search.cpan.org/~syamal/Uniq.01/Uniq.pm",1504508619
-,perl-universal-require,0.18,"require() modules from a variable.","http://search.cpan.org/~neilb/UNIVERSAL-require/lib/UNIVERSAL/require.pm",1497436121
-,perl-uri-escape,1.72,"Percent-encode and percent-decode unsafe characters.","http://search.cpan.org/~ether/URI.71/lib/URI/Escape.pm",1511135199
-,perl-uri-fetch,0.13,"Smart URI fetching/caching.","http://search.cpan.org/dist/URI-Fetch",1504508631
-,perl-url-encode,0.03,"Encoding and decoding of application/x-www-form-urlencoded encoding.","https://metacpan.org/release/URL-Encode",1483209111
-,perl-xml-dom,1.46,"Implements Level 1 of W3's DOM","http://search.cpan.org/dist/XML-DOM",1497436533
-,perl-yaml-libyaml,0.63,"YAML module wrapping libyaml.","http://search.cpan.org/dist/YAML-LibYAML",1469958094
 forensic,pev,0.70,"Command line based tool for PE32/PE32+ file analysis.","http://pev.sourceforge.net/",1426857140
 windows,pextractor,0.18b,"A forensics tool that can extract all files from an executable file created by a joiner or similar.","http://packetstormsecurity.com/files/62977/PExtractor_v0.18b_binary_and_src.rar.html",1483209124
 code-audit,pfff,0.29,"Tools and APIs for code analysis, visualization and transformation","https://github.com/facebook/pfff",1500056993
 malware,pftriage,68.ecfbb33,"Python tool and library to help analyze files during malware triage and analysis.","https://github.com/idiom/pftriage",1517077255
 database,pgdbf,113.4e84775,"Convert XBase / FoxPro databases to PostgreSQL","https://github.com/kstrauser/pgdbf",1516577076
-,phantomjs,2.1.1,"Headless WebKit with JavaScript API.","http://www.phantomjs.org/",1516749716
 social,phemail,27.7ae21f2,"A python open source phishing email tool that automates the process of sending phishing emails as part of a social engineering test.","https://github.com/Dionach/PhEmail",1483209132
 backdoor,phishery,14.5743953,"An SSL Enabled Basic Auth Credential Harvester with a Word Document Template URL Injector.","https://github.com/ryhanson/phishery",1503147496
 social,phishingkithunter,17.1db0258,"Find phishing kits which use your brand/organization's files and image'.","https://github.com/t4d/PhishingKitHunter",1520157684
 cracker,phoss,0.1.13,"Sniffer designed to find HTTP, FTP, LDAP, Telnet, IMAP4, VNC and POP3 logins.","http://www.phenoelit.org/fr/tools.html",1422573648
 webapp,php-findsock-shell,2.b8a984f,"A Findsock Shell implementation in PHP + C.","https://github.com/pentestmonkey/php-findsock-shell",1486220451
 cracker,php-mt-seed,3.2,"PHP mt_rand() seed cracker","http://www.openwall.com/php_mt_seed/",1388155503
-,php-pear,1.10.1,"PHP Extension and Application Repository.","http://pear.php.net/",1483209140
 cracker,php-rfi-payload-decoder,30.bd42caa,"Decode and analyze RFI payloads developed in PHP.","https://github.com/bwall/PHP-RFI-Payload-Decoder",1483209147
 windows,php-vulnerability-hunter,1.4.0.20,"An whitebox fuzz testing tool capable of detected several classes of vulnerabilities in PHP web applications.","https://phpvulnhunter.codeplex.com/",1400712317
 webapp,phpsploit,754.7e08453,"Stealth post-exploitation framework.","https://github.com/nil0x42/phpsploit",1505239701
@@ -1455,7 +1231,6 @@ stego,pngcheck,2.3.0,"Verifies the integrity of PNG, JNG and MNG files by checki
 scanner,pnscan,1.11,"A parallel network scanner that can be used to survey TCP network services.","http://www.lysator.liu.se/~pen/pnscan/",1393937092
 exploitation,pocsuite,2.0.6,"An open-sourced remote vulnerability testing framework developed by the Knownsec Security Team.","https://github.com/knownsec/Pocsuite",1507325718
 scanner,poison,1.5.41,"A fast, asynchronous syn and udp scanner.","http://nologin.org/main.pl?action=codeList&",1441639553
-,polenum,0.2,"A python script to extract the password policy information from a windows machine.","http://labs.portcullis.co.uk/application/polenum/",1483209232
 exploitation,pompem,138.da342a1,"A python exploit tool finder.","https://github.com/rfunix/Pompem",1497785156
 crypto,poracle,65.a5cfad7,"A tool for demonstrating padding oracle attacks.","https://github.com/iagox86/poracle",1483993890
 automation,portia,38.36b974a,"Automate a number of techniques commonly performed on internal network penetration tests after a low privileged account has been compromised.","https://github.com/SpiderLabs/portia",1509265939
@@ -1516,448 +1291,26 @@ misc,pyinstaller,3.3,"A program that converts (packages) Python programs into st
 fuzzer,pyjfuzz,140.c8e5fff,"Python JSON Fuzzer.","https://github.com/mseclab/PyJFuzz",1504015490
 exploitation,pykek,12.651b9ba,"Kerberos Exploitation Kit.","https://github.com/bidord/pykek",1494964830
 networking,pyminifakedns,0.1,"Minimal DNS server written in Python; it always replies with a 127.0.0.1 A-record.","http://code.activestate.com/recipes/491264/",1483209566
-,pymssql,2.1.2,"A fast MS SQL Server client library for Python directly using C API instead of ODBC. It is Python DB-API 2.0 compliant. Works on Linux, *BSD, Solaris, Mac OS X and Windows.","https://pypi.python.org/pypi/pymssql/",1458866213
-,pyqt3,3.18.1,"A set of Python bindings for the Qt3 toolkit.","http://www.riverbankcomputing.com/software/pyqt/intro",1419425349
 backdoor,pyrasite,2.0,"Code injection and introspection of running Python processes.","http://pyrasite.com/",1483209577
 cracker,pyrit,0.5.0,"The famous WPA precomputed cracker","https://github.com/JPaulMora/Pyrit",1489692946
 scanner,pyssltest,9.d7703f0,"A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.","https://github.com/moheshmohan/pyssltest",1483209582
 sniffer,pytacle,alpha2,"Automates the task of sniffing GSM frames","http://packetstormsecurity.com/files/124299/pytacle-alpha2.tar.gz",1483209598
 scanner,pytbull,2.0,"A python based flexible IDS/IPS testing framework shipped with more than 300 tests.","http://pytbull.sourceforge.net/",1483209611
 scanner,pythem,428.76a4441,"python2 penetration testing framework.","https://github.com/m4n3dw0lf/PytheM",1519680403
-,python-aniso8601,1.3.0,"A library for parsing ISO 8601 strings.","https://pypi.python.org/pypi/aniso8601/",1511135452
-,python-archinfo,7.7.9.14,"UNKNOWN","http://pypi.python.org/pypi/archinfo",1511135461
-,python-arpreq,0.3.3,"Query the Kernel ARP cache for the MAC address corresponding to IP address.","https://pypi.python.org/pypi/arpreq/",1508333800
-,python-async,0.6.2,"Async aims to make writing asyncronous processing easier.","http://pypi.python.org/pypi/async",1484684023
-,python-asyncio,3.4.3,"Reference implementation of PEP 3156.","https://pypi.python.org/pypi/asyncio/",1483211408
-,python-bintrees,2.0.7,"Package provides Binary-, RedBlack- and AVL-Trees in Python and Cython.","http://pypi.python.org/pypi/bintrees",1496613347
-,python-bitarray,0.8.1,"Efficient arrays of booleans for Python.","https://github.com/ilanschnell/bitarray",1491307954
-,python-blessed,1.14.2,"A thin, practical wrapper around terminal styling, screen positioning, and keyboard input.","https://pypi.python.org/pypi/blessed/",1491377868
-,python-booby-ng,0.8.4,"Data modeling and validation Python library.","https://pypi.python.org/pypi/booby-ng/",1520077037
 reversing,python-capstone,3.0.4,"A lightweight multi-platform, multi-architecture disassembly framework","http://www.capstone-engine.org/index.html",1499752345
-,python-checksumdir,1.1.4,"Compute a single hash of the file contents of a directory.","https://pypi.python.org/pypi/checksumdir/",1504714810
-,python-click-plugins,1.0.3,"An extension module for click to enable registering CLI commands via setuptools entry-points.","https://pypi.python.org/pypi/click-plugins/",1518629484
-,python-coloredlogs,7.3,"Colored stream handler for the logging module.","https://github.com/xolox/python-coloredlogs",1511135472
-,python-colorlog,3.1.0,"Log formatting with colors.","http://pypi.python.org/pypi/colorlog/",1519589679
-,python-delegator,0.0.3,"Python implementation of Ruby’s delegate.rb.","https://pypi.python.org/pypi/delegator/",1507062479
-,python-delegator.py,0.0.13,"Subprocesses for Humans 2.0.","https://pypi.python.org/pypi/delegator.py/",1507062829
-,python-demjson,2.2.4,"Encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 4627.","http://deron.meranda.us/python/demjson/",1483211431
-,python-dukpy,0.1.0,"Simple JavaScript interpreter for Python.","https://pypi.python.org/pypi/dukpy/",1495662090
-,python-elasticsearch,6.0.0,"Python client for Elasticsearch.","https://pypi.python.org/pypi/elasticsearch/",1511135492
-,python-enum-compat,0.0.2,"enum/enum34 compatibility package.","https://pypi.python.org/pypi/enum-compat/",1495964401
-,python-fake-useragent,0.1.0,"Up to date simple useragent faker with real world database.","https://pypi.python.org/pypi/fake-useragent",1470055424
-,python-filemagic,1.6,"A Python API for libmagic, the library behind the Unix file command.","https://pypi.python.org/pypi/filemagic/",1483211444
-,python-flask-restful,0.3.6,"Simple framework for creating REST APIs.","https://pypi.python.org/pypi/flask-restful/",1496613358
-,python-gitdb,0.6.4,"IO of git-style object databases.","http://pypi.python.org/pypi/gitdb",1484684093
-,python-gitpython,2.1.7,"A python library used to interact with Git repositories.","http://gitorious.org/git-python",1511135506
-,python-humanfriendly,4.4.1,"Human friendly output for text interfaces using Python.","https://humanfriendly.readthedocs.org",1511135517
-,python-inflect,0.2.5,"Correctly generate plurals, singular nouns, ordinals, indefinite articles; convert numbers to words.","https://pypi.python.org/pypi/inflect/",1491294136
-,python-inquirer,2.2.0,"Collection of common interactive command line user interfaces, based on Inquirer.js.","https://pypi.python.org/pypi/inquirer/",1511135527
-,python-ipaddress,1.0.18,"IPv4/IPv6 manipulation library.","http://pypi.python.org/pypi/ipaddress/",1496613385
-,python-ipcalc,1.99.0,"IP subnet calculator for Python.","https://github.com/tehmaze/ipcalc/issues",1483211467
-,python-ipgetter,0.6,"Utility to fetch your external IP address.","https://github.com/phoemur/ipgetter",1507382989
-,python-ipwhois,1.0.0,"Retrieve and parse whois data for IPv4 and IPv6 addresses.","https://pypi.python.org/pypi/ipwhois/",1511135538
 reversing,python-jsbeautifier,1.7.5,"JavaScript unobfuscator and beautifier","https://github.com/beautify-web/js-beautify",1512712571
-,python-jsmin,2.2.2,"JavaScript minifier.","https://pypi.python.org/pypi/jsmin",1496613408
-,python-json2html,1.2.1,"JSON to HTML Table Representation.","https://pypi.python.org/pypi/json2html/",1511135548
-,python-jwcrypto,0.4.2,"Implementation of JOSE Web standards.","https://pypi.python.org/pypi/jwcrypto/",1520077460
-,python-keystone-engine,0.9.1,"Keystone assembler engine.","https://pypi.python.org/pypi/keystone-engine/",1520154482
-,python-mido,1.2.8,"MIDI Objects for Python.","http://pypi.python.org/pypi/mido",1511135558
-,python-oauth2,1.9.0,"library for OAuth.","https://pypi.python.org/pypi/oauth2/",1484161397
-,python-ordereddict,1.1,"A drop-in substitute for Python 2.7's collections.OrderedDict that works in Python 2.4.6.","http://pypi.python.org/pypi/ordereddict/",1483211494
-,python-pdfminer3k,1.3.1,"PDF parser and analyzer.","https://pypi.python.org/pypi/pdfminer3k/",1483211501
-,python-pefile,2017.11.5,"This is a Python library for PE file support and investigation.","http://code.google.com/p/pefile/",1511135570
-,python-pick,0.6.3,"Create curses based interactive selection list in the terminal.","https://pypi.python.org/pypi/pick/",1504710302
-,python-pika,0.11.0,"Pika Python AMQP Client Library.","http://pypi.python.org/pypi/pika",1511135580
-,python-poormanslogging,1.1,"A simple and straightforward library to log stuff into console.","https://pypi.python.org/pypi/poormanslogging/",1511135590
-,python-ptrace,0.9.3,"Python binding of ptrace library to trace processes and syscalls.","http://bitbucket.org/haypo/python-ptrace",1511135601
-,python-pyfiglet,0.7.5,"Pure-python FIGlet implementation.","https://pypi.python.org/pypi/pyfiglet/",1487026859
-,python-pygdbmi,0.7.4.4,"Parse gdb machine interface output with Python.","https://pypi.python.org/pypi/pygdbmi/",1511135611
-,python-pylstar,0.1.2,"Implementation of the LSTAR Grammatical Inference Algorithm.","https://pypi.python.org/pypi/pylstar/",1508332022
-,python-pyof,0.1.0,"Openfoam PostProcessing Python Tools.","https://pypi.python.org/pypi/pyof/",1506769047
-,python-pyportify,0.4.1,"App to transfer your spotify playlists to Google Play Music.","https://pypi.python.org/pypi/pyportify/",1518971721
-,python-pypugjs,4.2.2,"PugJS syntax template adapter for Django, Jinja2, Mako and Tornado templates - copy of PyJade with the name changed.","https://pypi.python.org/pypi/pypugjs/",1495964316
-,python-pysigset,0.3.2,"Signal blocking under Linux & OS X.","https://pypi.python.org/pypi/pysigset/",1491376875
-,python-pystrich,0.8,"A Python module to generate 1D and 2D barcodes (Code 39, Code 128, DataMatrix, QRCode and EAN13). Forked from huBarcode.","https://pypi.python.org/pypi/pystrich/",1483211527
-,python-pytanque,0.2.0,"The petanque static python bindings.","https://pypi.python.org/pypi/pytanque/",1475265349
 networking,python-python-cymruwhois,30.022e16d,"Python client for the whois.cymru.com service","https://github.com/JustinAzoff/python-cymruwhois",1500737050
-,python-python-dxf,7.1.1,"Package for accessing a Docker v2 registry.","https://pypi.python.org/pypi/python-dxf/",1520077905
-,python-python-evtx,0.5.1,"Pure Python parser for recent Windows event log files (.evtx).","https://pypi.python.org/pypi/evtx/",1483211535
-,python-python-libnmap,0.7.0,"Python NMAP library enabling you to start async nmap tasks, parse and compare/diff scan results.","https://pypi.python.org/pypi/libnmap/",1487425311
-,python-python-nmap,0.6.1,"This is a python class to use nmap and access scan results from python3.","https://pypi.python.org/pypi/python-nmap/",1500708841
-,python-python-openflow,2017.2b1,"Library to parse and generate OpenFlow messages.","https://pypi.python.org/pypi/python-openflow/",1511135632
-,python-pytun,2.2.1,"A Python module which let you create TUN/TAP device very easily.",,1458874480
-,python-pyyaml,3.12,"YAML parser and emitter for Python.","http://pyyaml.org/wiki/PyYAML/",1481452847
-,python-r2pipe,0.9.1,"Pipe interface for radare2.","https://pypi.python.org/pypi/r2pipe/",1498932090
-,python-rarfile,3.0,"RAR archive reader for Python.","https://pypi.python.org/pypi/rarfile/",1487445663
-,python-readchar,0.7,"Utilities to read single characters and key-strokes.","https://pypi.python.org/pypi/readchar/",1483211541
-,python-relatime,1.1.0,"Python parser for a simple relative time syntax.","https://pypi.python.org/pypi/relatime/",1483211547
-,python-requests-cache,0.4.13,"Persistent cache for requests library.","https://pypi.python.org/pypi/requests-cache",1507062589
-,python-requests-unixsocket,0.1.5,"Use requests to talk HTTP via a UNIX domain socket.","https://pypi.python.org/pypi/requests-unixsocket/",1491377020
-,python-retdec-python,0.5.2,"A Python library and tools providing easy access to the retdec.com decompilation service through their public REST API.","https://pypi.python.org/pypi/retdec-python/",1511135644
-,python-ropper,1.9.10,"Show information about binary files and find gadgets to build rop chains for different architectures","https://github.com/sashs/Ropper",1466174574
-,python-screenutils,0.0.1.6.2,"lib for gnu-screen: creates/close/list/log sessions, injects commands...","https://pypi.python.org/pypi/screenutils/",1496613549
-,python-scruffy,0.3.7,"A framework for taking care of a bunch of boilerplate in Python apps.","https://github.com/snare/scruffy",1491396791
-,python-simple-requests,1.1.1,"Asynchronous requests in Python without thinking about it.","https://pypi.python.org/pypi/simple-requests",1483211577
-,python-socksipy-branch,1.01,"A Python SOCKS module.","http://pypi.python.org/pypi/SocksiPy-branch/",1483211582
-,python-ssdeep,3.1.1,"Python wrapper for ssdeep fuzzy hashing library.","https://pypi.python.org/pypi/ssdeep",1452616241
-,python-stopit,1.1.1,"Timeout control decorator and context managers, raise any exception in another thread.","https://pypi.python.org/pypi/stopit/",1483211588
-,python-tabulate,0.8.1,"Pretty-print tabular data.","https://pypi.python.org/pypi/tabulate/",1511135653
-,python-tld,0.7.9,"Extract the top level domain (TLD) from the URL given.","https://pypi.python.org/pypi/tld/",1516574258
-,python-tlslite-ng,0.8.0,"Pure python implementation of SSL and TLS.","https://pypi.python.org/pypi/tlslite-ng/",1507381572
-,python-tqdm,4.19.4,"Fast, Extensible Progress Meter.","https://pypi.python.org/pypi/tqdm/",1511135663
-,python-tzlocal,1.4,"tzinfo object for the local timezone.","https://pypi.python.org/pypi/tzlocal/",1496613571
-,python-unicorn,1.0.1,"Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU","http://www.unicorn-engine.org",1495471447
 misc,python-utidylib,0.2,"Python bindings for Tidy HTML parser/cleaner.","http://utidylib.berlios.de",1393889933
-,python-virustotal-api,1.1.7,"Virus Total Public/Private/Intel API.","https://github.com/blacktop/virustotal-api/",1496613582
-,python-whois,0.7,"Python module/library for retrieving WHOIS information of domains.","https://pypi.python.org/pypi/whois/",1492001253
-,python-win_inet_pton,1.0.1,"Native inet_pton and inet_ntop implementation for Python on Windows (with ctypes).","https://pypi.python.org/pypi/win_inet_pton/",1502635900
-,python-wtforms,2.1,"A flexible forms validation and rendering library for python web development.","https://pypi.python.org/pypi/WTForms/",1483211610
-,python-www-authenticate,0.9.2,"Parser for WWW-Authenticate headers.","https://pypi.python.org/pypi/www-authenticate/",1520077802
-,python-xpath-expressions,0.2.2,"Treat XPath expressions as Python objects.","https://pypi.python.org/pypi/xpath-expressions/",1507383363
-,python-yara,3.7.0,"Tool aimed at helping malware researchers to identify and classify malware samples","https://github.com/VirusTotal/yara-python",1510616755
-,python-yaswfp,0.9.3,"Yet Another SWF Parser.","https://pypi.python.org/pypi/yaswfp/",1516573834
-,python2-ajpy,0.0.2,"AJP package crafting library.","https://pypi.python.org/pypi/ajpy/",1511135670
-,python2-alembic,0.9.6,"A database migration tool for SQLAlchemy.","https://bitbucket.org/zzzeek/alembic",1511135683
-,python2-alexa-top-sites,5.98d6109,"Python library to fetch the top 1..N (where N < 1 million) sites from alexa.","https://github.com/philarkwright/Alexa-Top-Sites",1506765453
-,python2-ana,0.03,"UNKNOWN.","http://pypi.python.org/pypi/ana",1496611582
-,python2-apache-log-parser,1.6.2,"Parse lines from an apache log file.","https://pypi.python.org/pypi/apache-log-parser/",1487966285
-,python2-archinfo,7.7.9.14,"UNKNOWN","http://pypi.python.org/pypi/archinfo",1511135696
-,python2-argcomplete,1.9.3,"Bash tab completion for argparse.","https://pypi.python.org/pypi/argcomplete/",1511135708
-,python2-ascii_graph,1.4.3,"A simple python lib to print data as ascii histograms.","https://pypi.python.org/pypi/ascii_graph/",1511135719
-,python2-async,0.6.2,"Async aims to make writing asyncronous processing easier.","http://pypi.python.org/pypi/async",1483209669
-,python2-atom,0.4.0,"Memory efficient Python objects.","https://pypi.python.org/pypi/atom/",1511135748
-,python2-awake,1.0,"Command and library to wake on lan a remote host.","https://pypi.python.org/pypi/awake/",1453974334
-,python2-backport_collections,0.1,"Backport of Python 2.7's collections module.","https://pypi.python.org/pypi/backport_collections/",1487418542
-,python2-bacpypes,0.16.4,"Testing multiple versions of python.","https://pypi.python.org/pypi/bacpypes/",1511135762
-,python2-beautifulsoup3,3.2.1,"HTML/XML parser for quick-turnaround applications like screen-scraping.","https://pypi.python.org/pypi/BeautifulSoup/",1500368104
-,python2-bencode,1.0,"The BitTorrent bencode module as light-weight, standalone package.","https://pypi.python.org/pypi/bencode/",1483209687
-,python2-binaryornot,0.4.4,"Ultra-lightweight pure Python package to check if a file is binary or text.","https://github.com/audreyr/binaryornot",1511135775
-,python2-binplist,0.1.4,"A binary plist parser.","https://pypi.python.org/pypi/binplist/",1483209701
-,python2-bintrees,2.0.7,"Package provides Binary-, RedBlack- and AVL-Trees in Python and Cython.","http://pypi.python.org/pypi/bintrees",1496611637
-,python2-bitarray,0.8.1,"Efficient arrays of booleans for Python.","https://github.com/ilanschnell/bitarray",1418589426
-,python2-bitstring,3.1.5,"Simple construction, analysis and modification of binary data.","https://pypi.python.org/pypi/bitstring/",1483209716
-,python2-boto3,1.4.7,"The AWS SDK for Python.","https://pypi.python.org/pypi/boto3/",1511135787
-,python2-botocore,1.7.47,"Low-level, data-driven core of boto 3.","https://pypi.python.org/pypi/botocore/",1511135808
-,python2-bs4,0.0.1,"Dummy package for Beautiful Soup.","https://pypi.python.org/pypi/bs4/",1493407196
-,python2-bson,0.5.0,"BSON codec for Python.","https://pypi.python.org/pypi/bson/",1511135831
-,python2-cachetools,2.0.1,"Extensible memoizing collections and decorators.","https://pypi.python.org/pypi/cachetools/",1511135842
 reversing,python2-capstone,3.0.4,"A lightweight multi-platform, multi-architecture disassembly framework","http://www.capstone-engine.org/index.html",1499752345
-,python2-cement,2.10.2,"CLI Application Framework for Python.","https://pypi.python.org/pypi/cement/",1483209723
-,python2-cerberus,1.1,"Lightweight, extensible schema and data validation tool for Python dictionaries.","https://pypi.python.org/pypi/Cerberus/",1496611650
-,python2-cfscrape,103.22400ee,"A small Python module to bypass Cloudflare's anti-bot page, using Requests.","https://github.com/Anorov/cloudflare-scrape",1518042760
-,python2-cherrypy,12.0.0,"Object-Oriented HTTP framework.","https://pypi.python.org/pypi/cherrypy/",1511135856
-,python2-clamd,1.0.2,"A python interface to Clamd (an anti-virus engine).","https://pypi.python.org/pypi/clamd",1483209746
-,python2-claripy,7.7.9.21,"An abstraction layer for constraint solvers.","http://pypi.python.org/pypi/claripy",1511135874
-,python2-cle,6.7.4.12,"Loads Everything (at least, may binary formats!) and provides a Pythonic interface to clelyze what they are and what they would look like in memory.","http://pypi.python.org/pypi/cle",1496611681
-,python2-clearbit,0.1.5,"Clearbit python bindings.","https://pypi.python.org/pypi/clearbit/",1484686827
-,python2-click-plugins,1.0.3,"An extension module for click to enable registering CLI commands via setuptools entry-points.","https://pypi.python.org/pypi/click-plugins/",1491245735
-,python2-cluster,1.1.2,"Allows grouping a list of arbitrary objects into related groups (clusters).","http://python-cluster.sourceforge.net/",1483209770
-,python2-coding,0.3,"An answer to the question of python enums.","https://pypi.python.org/pypi/coding/",1472115814
-,python2-colored,1.3.5,"Very simple Python library for color and formatting in terminal.","http://pypi.python.org/pypi/colored/",1496611693
-,python2-coloredlogs,7.3,"Colored stream handler for the logging module.","https://github.com/xolox/python-coloredlogs",1511135887
-,python2-colorizer,0.1.7,"Console colorizer, which acts like grep but paint each match in it's own color.","http://github.com/svetlyak40wt/colorizer/",1483209798
-,python2-colorlog,3.1.0,"Log formatting with colors.","http://pypi.python.org/pypi/colorlog/",1519589694
-,python2-config,0.3.9,"A hierarchical, easy-to-use, powerful configuration module for Python.","https://pypi.python.org/pypi/config/",1483209805
-,python2-cookiecutter,1.6.0,"A command-line utility that creates projects from cookiecutters (project templates).","https://github.com/audreyr/cookiecutter",1511135911
-,python2-cooldict,1.02,"Some useful dict-like structures.","http://pypi.python.org/pypi/cooldict",1483209819
-,python2-couchdbkit,0.6.5,"A framework to allow python applications to use CouchDB.","http://couchdbkit.org/",1419427480
-,python2-crc16,0.1.1,"Library for calculating CRC16.","http://code.google.com/p/pycrc16",1418576169
-,python2-crcmod,1.7,"Cyclic Redundancy Check (CRC) implementation in Python.","https://pypi.python.org/pypi/crcmod/",1455454852
-,python2-crochet,1.9.0,"Use Twisted anywhere! - An MIT-licensed library that makes it easier to use Twisted from regular blocking code.","https://pypi.python.org/pypi/crochet",1511135926
-,python2-crysp,0.8,"Crypto Stuff in Python.","https://pypi.python.org/pypi/crysp/",1483209835
-,python2-ctags,0.1,"Python ctag bindings","https://github.com/paraxor/python-ctags",1427156807
-,python2-cx_oracle,6.0.3,"Python interface to Oracle.","https://pypi.python.org/pypi/cx_Oracle/",1511135943
-,python2-cybox,2.1.0.13,"A Python library for parsing and generating CybOX 2.1.0 content.","http://cybox.mitre.org/",1483209920
-,python2-dataset,1.0.3,"Toolkit for Python-based data processing.","https://pypi.python.org/pypi/dataset/",1511135956
-,python2-delegator,0.0.3,"Python implementation of Ruby’s delegate.rb.","https://pypi.python.org/pypi/delegator/",1507062236
-,python2-demjson,2.2.4,"Encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 4627.","http://deron.meranda.us/python/demjson/",1458867254
-,python2-dfdatetime,20171109,"Digital Forensics Date and Time.","https://pypi.python.org/pypi/dfdatetime/",1511135967
-,python2-dfvfs,20171022,"Python module that provides read-only access to file-system objects from various storage media types and file formats.","https://pypi.python.org/pypi/dfvfs/",1511135982
-,python2-dfwinreg,20170706,"Digital Forensics Windows Registry.","https://pypi.python.org/pypi/dfwinreg/",1511135995
-,python2-dict2xml,1.5,"Super Simple utility to convert a python dictionary into an xml string.","https://github.com/delfick/python-dict2xml",1496611803
-,python2-dicttoxml,1.7.4,"Converts a Python dictionary or other native data type into a valid XML string.","https://pypi.python.org/pypi/dicttoxml/",1483210100
-,python2-dis3,0.1.1,"Python 2.7 backport of the 'dis' module from Python 3.5+.","https://pypi.python.org/pypi/dis3/",1509444517
-,python2-dnsknife,0.11,"DNS tools.","https://pypi.python.org/pypi/dnsknife/",1504444981
-,python2-docx,0.2.4,"The docx module creates, reads and writes Microsoft Office Word 2007 docx files.","https://pypi.python.org/pypi/docx/",1483210108
-,python2-docx2txt,0.6,"A pure python-based utility to extract text from docx files.","https://pypi.python.org/pypi/docx2txt/",1483210114
-,python2-dpkt,1.9.1,"Fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols.","https://pypi.python.org/pypi/dpkt/",1493765157
-,python2-easyprocess,0.2.3,"Easy to use python subprocess interface.","https://pypi.python.org/pypi/easyprocess/",1483210129
-,python2-editor,1.0.3,"Programmatically open an editor, capture the result.","https://github.com/fmoo/python-editor",1496611816
-,python2-efilter,1.5,"A general-purpose destructuring and search language implemented in Python.","https://pypi.python.org/pypi/efilter/",1483210144
-,python2-elasticsearch,6.0.0,"Python client for Elasticsearch.","https://pypi.python.org/pypi/elasticsearch/",1511136006
-,python2-elfesteem,0.1,"Elf file manipulation library.","https://pypi.python.org/pypi/ElfEsteem/",1491745533
-,python2-elixir,0.7.1,"A declarative layer on top of SQLAlchemy. It is a fairly thin wrapper, which provides the ability to define model objects following the Active Record design pattern.","http://elixir.ematia.de/",1483210152
-,python2-emailprotectionslib,0.8.3,"Python library to interact with SPF and DMARC.","https://pypi.python.org/pypi/emailprotectionslib/",1496611847
-,python2-enaml,0.10.1,"Declarative DSL for building rich user interfaces in Python.","https://pypi.python.org/pypi/enaml/",1511136035
-,python2-enum,0.4.6,"Robust enumerated type support in Python.","http://pypi.python.org/pypi/enum/",1483210166
-,python2-esmre,0.3.1,"Modules used to accelerate execution of a large collection of regular expressions using the Aho-Corasick algorithms","https://pypi.python.org/pypi/esmre",1393937178
-,python2-exifread,2.1.2,"Read Exif metadata from tiff and jpeg files.","https://pypi.python.org/pypi/ExifRead/",1486213963
-,python2-exscript,1757.ed6cc4e,"A Python module making Telnet and SSH easy.","https://github.com/knipknap/exscript",1519945393
-,python2-facepy,1.0.9,"Makes it really easy to interact with Facebook's Graph API.","https://github.com/jgorset/facepy",1496611859
-,python2-fado,1.3.4.1,"Formal Languages manipulation module.","https://pypi.python.org/pypi/fado/",1511136052
-,python2-fake-useragent,0.1.8,"Up to date simple useragent faker with real world database.","https://pypi.python.org/pypi/fake-useragent",1511136064
-,python2-flask-cors,3.0.3,"A Flask extension adding a decorator for CORS support.","https://pypi.python.org/pypi/Flask-Cors/",1511136078
-,python2-flask-mail,0.9.1,"A Flask extension for sending email messages.","https://pypi.python.org/pypi/Flask-Mail",1449439980
-,python2-flask-pymongo,0.5.1,"PyMongo support for Flask applications.","https://pypi.python.org/pypi/Flask-PyMongo/",1496611884
-,python2-flask-restless,1.0.0b1,"A Flask extension for easy ReSTful API generation.","https://pypi.python.org/pypi/Flask-Restless/",1483210221
-,python2-flask-sqlalchemy,2.3.2,"Adds SQLAlchemy support to your Flask application.","https://pythonhosted.org/Flask-SQLAlchemy/",1511136093
-,python2-flask-whooshalchemy,0.7,"Whoosh extension to Flask/SQLAlchemy.","https://pypi.python.org/pypi/Flask-WhooshAlchemy-Redux/",1449441670
-,python2-flask-whooshalchemy-redux,0.7.1,"Whoosh extension to Flask/SQLAlchemy.","https://pypi.python.org/pypi/Flask-WhooshAlchemy-Redux/",1483210237
-,python2-flask-wtf,0.14.2,"Simple integration of Flask and WTForms.","https://pythonhosted.org/Flask-WTF/",1496611910
-,python2-flipflop,1.0,"A python FastCGI wrapper for WSGI applications.","https://github.com/Kozea/flipflop",1483210251
-,python2-frida,10.6.21,"Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android.","https://pypi.python.org/pypi/frida/",1511136110
-,python2-fullcontact.py,0.0.6,"Simple Python interface for FullContact, using Requests.","https://pypi.python.org/pypi/fullcontact.py/",1508413149
-,python2-fuzzywuzzy,333.e0f2b0d,"Fuzzy string matching like a boss.","https://github.com/seatgeek/fuzzywuzzy",1514113653
-,python2-gdshortener,0.0.2,"A module that provides access to .gd URL Shortener.","https://pypi.python.org/pypi/gdshortener",1483210266
-,python2-geoip2,2.6.0,"Python bindings for the GeoIP2 IP-to-country resolver library.","https://pypi.python.org/pypi/geoip2",1511136148
-,python2-gevent-websocket,0.10.1,"Websocket handler for the gevent pywsgi server, a Python network library.","http://pypi.python.org/pypi/gevent-websocket",1511136163
-,python2-gitdb,0.6.4,"IO of git-style object databases.","http://pypi.python.org/pypi/gitdb",1433371400
-,python2-gitpython,2.1.7,"A python library used to interact with Git repositories.","http://gitorious.org/git-python",1511136179
-,python2-gmpy,1.17,"GMP or MPIR interface to Python.","https://pypi.python.org/pypi/gmpy/",1471815814
-,python2-google,1.9.3,"Python bindings to the Google search engine.","https://pypi.python.org/pypi/google/",1483210292
-,python2-gramfuzz,1.2.0,"A python-based grammar fuzzer.","https://pypi.python.org/pypi/gramfuzz/",1501577234
-,python2-grandalf,0.5555,"Graph and drawing algorithms framework.","https://pypi.python.org/pypi/grandalf/",1483210299
-,python2-guess-language,0.2,"Attempts to determine the natural language of a selection of Unicode (utf) text.","https://pypi.python.org/pypi/guess-language",1483210306
-,python2-hgapi,1.7.4,"A pure-Python API to Mercurial, that uses the command-line interface instead of the internal Mercurial API.","https://bitbucket.org/haard/hgapi/",1511136193
-,python2-httmock,1.2.6,"A mocking library for requests.","https://pypi.python.org/pypi/httmock/1.2.6",1496612049
-,python2-httpreplay,0.2.1,"Properly interpret, decrypt, and replay pcap files.","https://pypi.python.org/pypi/HTTPReplay/",1511136205
-,python2-humanfriendly,4.4.1,"Human friendly output for text interfaces using Python.","https://humanfriendly.readthedocs.org",1511136216
-,python2-i18n,0.2,"Simplify the development of internationalized applications.","https://pypi.python.org/pypi/i18n/",1495883480
-,python2-iampoliciesgonewild,1.0.6.2,"AWS IAM Policy Expander Minimizer.","https://pypi.python.org/pypi/iampoliciesgonewild/",1502635209
-,python2-idalink,0.11,"An interface to the insides of IDA.","http://pypi.python.org/pypi/idalink",1483210341
-,python2-iniparse,0.4,"Accessing and Modifying INI files.","https://pypi.python.org/pypi/iniparse/",1515328733
-,python2-intervaltree,2.1.0,"Editable interval tree data structure for Python 2 and 3.","https://pypi.python.org/pypi/intervaltree/",1497189488
-,python2-ipcalc,1.99.0,"IP subnet calculator for Python.","https://github.com/tehmaze/ipcalc/issues",1483210348
-,python2-iptools,0.6.1,"Collection of utilities for dealing with IP addresses.","http://python-iptools.readthedocs.org/",1484140330
-,python2-ipwhois,1.0.0,"Retrieve and parse whois data for IPv4 and IPv6 addresses.","https://pypi.python.org/pypi/ipwhois/",1511136228
-,python2-ipy,0.83,"Class and tools for handling of IPv4 and IPv6 addresses and networks.","https://pypi.python.org/pypi/IPy/",1515328554
-,python2-isc_dhcp_leases,0.9.0,"Small python module for reading /var/lib/dhcp/dhcpd.leases from isc-dhcp-server.","https://pypi.python.org/pypi/isc_dhcp_leases/",1511136244
-,python2-ishell,0.1.4,"Build Interactive Shells with Python.","https://pypi.python.org/pypi/ishell/",1483210368
-,python2-j2cli,0.3.1,"Command-line interface to Jinja2 for templating in shell scripts.","https://github.com/kolypto/j2cli",1483210376
-,python2-js2py,0.50,"JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python.","https://pypi.python.org/pypi/Js2Py/",1511136259
 reversing,python2-jsbeautifier,1.7.5,"JavaScript unobfuscator and beautifier","https://github.com/beautify-web/js-beautify",1512712572
-,python2-json2html,1.2.1,"JSON to HTML Table Representation.","https://pypi.python.org/pypi/json2html/",1511136275
-,python2-keystone-engine,0.9.1,"Keystone assembler engine.","https://pypi.python.org/pypi/keystone-engine/",1481493622
-,python2-kiwisolver,1.0.1,"A fast implementation of the Cassowary constraint solver.","https://pypi.python.org/pypi/kiwisolver/",1511136307
-,python2-libarchive,0.4.4,"Python adapter for universal, libarchive-based archive access.","https://pypi.python.org/pypi/libarchive/",1511136318
-,python2-libnum,45.8339bd2,"Working with numbers (primes, modular, etc.).","https://github.com/hellman/libnum",1490891732
-,python2-libregf-python,20170130,"Python bindings module for libregf.","https://pypi.python.org/pypi/libregf-python/",1496612231
-,python2-libsigscan-python,20170124,"Python bindings module for libsigscan.","https://pypi.python.org/pypi/libsigscan-python/",1496612338
-,python2-libsmdev-python,20171112,"Python bindings module for libsmdev.","https://pypi.python.org/pypi/libsmdev-python/",1511136366
-,python2-libtaxii,1.1.110,"TAXII Library.","http://taxii.mitre.org/",1483210406
-,python2-logutils,0.3.5,"Logging utilities.","https://pypi.python.org/pypi/logutils/",1511136377
-,python2-macholib,1.8,"Mach-O header analysis and editing.","https://pypi.python.org/pypi/macholib/",1495564288
-,python2-maxminddb,1.2.1,"Python module for reading MaxMind DB files.","https://pypi.python.org/pypi/maxminddb",1469988684
-,python2-mechanicalsoup,0.9.0.post4,".","https://pypi.python.org/pypi/MechanicalSoup/",1515951775
-,python2-mixbox,1.0.2,"Utility library for cybox, maec, and stix packages.","https://pypi.python.org/pypi/mixbox/",1496612475
-,python2-mockito,0.7.0,"A Test Spy Framework based on Java library of the same name.","https://code.google.com/p/mockito-python/",1483210451
-,python2-modbus-tk,27.3ad1f07,"Implementation of modbus protocol in Python.","https://github.com/glastopf/modbus-tk",1502625413
-,python2-mulpyplexer,0.08,"A module that multiplexes interactions with lists of python objects.","http://pypi.python.org/pypi/mulpyplexer",1511136387
-,python2-multipartposthandler,0.1.0,"A handler for urllib2 to enable multipart form uploading.","https://pypi.python.org/pypi/MultipartPostHandler/0.1.0",1483210474
-,python2-nassl,0.17.0,"Experimental OpenSSL wrapper for Python 2.7 and SSLyze.","http://pypi.python.org/pypi/nassl",1506939625
-,python2-netfilterqueue,0.8.1,"A Python bindings for libnetfilter_queue.","https://github.com/fqrouter/python-netfilterqueue",1496612504
-,python2-nfcpy,0.13.4,"A Python module to read/write NFC tags or communicate with another NFC device.","https://github.com/nfcpy/nfcpy/",1511136572
-,python2-nfqueue,0.4,"Python bindings for libnetfilter_queue by Pierre Chifflier","https://www.wzdftpd.net/redmine/projects/nfqueue-bindings/wiki/",1484570289
-,python2-normality,0.5.3,"Micro-library to normalize text strings.","https://pypi.python.org/pypi/normality/",1511136398
-,python2-ntlm,1.1.0,"Python clients running on any operating system to provide NTLM authentication to a supporting server.","http://code.google.com/p/python-ntlm",1483210515
-,python2-ntlm-auth,1.0.2,"Creates NTLM authentication structures.","https://pypi.python.org/pypi/ntlm-auth/",1487370949
-,python2-ntplib,0.3.3,"Python NTP library.","https://pypi.python.org/pypi/ntplib/0.3.2",1483210521
-,python2-oauth2,1.9.0,"Library for OAuth version 1.9.","https://pypi.python.org/pypi/oauth2/",1511214388
-,python2-olefileio-pl,0.42.1,"A Python module to parse and read Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office).","https://pypi.python.org/pypi/OleFileIO_PL/0.30",1483210528
-,python2-opinel,3.3.0,"Code shared between Scout2 and AWS-recipes.","https://pypi.python.org/pypi/opinel/",1511136410
-,python2-osmgpsmap,0.7.3,"Python bindings for osm-gps-map","http://nzjrs.github.com/osm-gps-map/",1386432818
-,python2-otxv2,1.2,"AlienVault OTX API.","https://pypi.python.org/pypi/OTXv2/",1496612527
-,python2-pager,3.3,"Terminal/console pager module for Python.","http://pypi.python.org/pypi/pager",1483210534
-,python2-parsley,1.3,"Parsing and pattern matching made easy.","https://pypi.python.org/pypi/parsley/",1483210542
-,python2-pbkdf2_ctypes,0.99.4,"A pbkdf2 implementation for python using ctypes.","https://pypi.python.org/pypi/pbkdf2-ctypes/",1483210549
-,python2-pcapfile,0.12.0,"Pure Python package for reading and parsing libpcap savefiles.","https://pypi.python.org/pypi/pypcapfile/",1483210556
-,python2-pdb,0.1,"Password DB for shared password management.","https://pypi.python.org/pypi/pdb/",1483210563
-,python2-pdfkit,0.6.1,"Wkhtmltopdf python wrapper to convert html to pdf using the webkit rendering engine and qt.","https://pypi.python.org/pypi/pdfkit/",1491990939
-,python2-pdfminer,20140328,"A tool for extracting information from PDF documents.","https://github.com/euske/pdfminer/",1483210571
-,python2-pefile,2017.11.5,"This is a Python library for PE file support and investigation.","http://code.google.com/p/pefile/",1511136423
-,python2-phply,0.3.1,"PHP parser written in Python using PLY.","https://github.com/ramen/phply",1483210581
-,python2-pluginbase,0.5,"A support library for building plugins sytems in Python.","http://pypi.python.org/pypi/pluginbase",1483210587
-,python2-plumbum,1.6.3,"Shell combinators library.","http://pypi.python.org/pypi/plumbum",1496612541
-,python2-poppler-qt4,0.24.0,"A Python 2 binding to poppler-qt.","https://github.com/wbsoft/python-poppler-qt4",1484486208
-,python2-ptp,0.4.1,"Ranks the discoveries listed in security tool reports.","http://owtf.github.io/ptp",1496612557
-,python2-ptrace,0.9.3,"A Python binding of ptrace library.","https://pypi.python.org/pypi/python-ptrace",1511136434
-,python2-publicsuffix,1.1.0,"Get a public suffix for a domain name using the Public Suffix List.","https://pypi.python.org/pypi/publicsuffix",1483210616
-,python2-pubsub,4.0.0rc8,"Python Publish-Subscribe Package.","https://pypi.python.org/pypi/PyPubSub",1483210624
-,python2-pushbullet.py,0.11.0,"A simple python client for pushbullet.com.","https://pypi.python.org/pypi/pushbullet.py/",1506765769
-,python2-py-bcrypt,0.4,"An implementation of the OpenBSD Blowfish password hashing algorithm","https://code.google.com/p/py-bcrypt/",1500562784
-,python2-py-radix,0.10.0,"Radix tree implementation.","http://pypi.python.org/pypi/py-radix",1511136447
-,python2-py-zabbix,1.1.3,"Python module to work with zabbix.","https://pypi.python.org/pypi/py-zabbix/",1487966520
-,python2-py2neo,4.0.0b2,"Python client library and toolkit for Neo4j.","https://pypi.python.org/pypi/py2neo/",1496612598
-,python2-py3270,0.3.4,"A Python interface to x3270, an IBM 3270 terminal emulator.","https://pypi.python.org/pypi/py3270/0.2.0",1511136458
-,python2-pyblake2,1.0.0,"BLAKE2 hash function extension module.","https://pypi.python.org/pypi/pyblake2/",1511136471
-,python2-pybloom,1.1,"A Probabilistic data structure.","https://pypi.python.org/pypi/pybloom/",1483210639
-,python2-pybloomfiltermmap,0.3.15,"A Bloom filter (bloomfilter) for Python built on mmap.","http://github.com/axiak/pybloomfiltermmap/",1470002787
-,python2-pyclamd,0.4.0,"A python interface to Clamd (Clamav daemon).","https://pypi.python.org/pypi/pyClamd/",1511136483
-,python2-pydeep,0.2,"This is the Python interface to ssdeep.","http://pypi.python.org/pypi/python-pydeep/",1393937246
-,python2-pydes,2.0.1,"Pure python implementation of DES and TRIPLE DES encryption algorithm.","http://twhiteman.netfirms.com/des.html",1483210647
-,python2-pydispatcher,2.0.5,"Provides loosely-coupled message passing between Python objects (signal senders and receivers).","https://pypi.python.org/pypi/PyDispatcher/",1484140037
-,python2-pydivert,2.1.0,"Python binding to windivert driver.","https://pypi.python.org/pypi/pydivert/",1511136494
-,python2-pydnet,1.0,"Distribution Network Evaluation Tool.","https://pypi.python.org/pypi/PyDNET/",1496612610
-,python2-pydotplus,2.0.2,"Python interface to Graphviz's Dot language.","https://pypi.python.org/pypi/pydotplus/",1483210662
-,python2-pyexecjs,1.5.0,"Run JavaScript code from Python.","https://pypi.python.org/pypi/PyExecJS",1511136506
-,python2-pyexif,0.2.1,"Python module to read/write EXIF image data.","https://pypi.python.org/pypi/pyexiftool/",1483210676
-,python2-pyexiftool,0.2.0,"Python library to communicate with an instance of Phil Harvey's excellent ExifTool command-line application.","https://github.com/smarnach/pyexiftool",1483210683
-,python2-pyfiglet,0.7.5,"Pure-python FIGlet implementation.","https://pypi.python.org/pypi/pyfiglet/",1483210695
-,python2-pyftpdlib,1.5.3,"Very fast asynchronous FTP server library.","https://pypi.python.org/pypi/pyftpdlib/",1511136518
-,python2-pyghmi,1.0.28,"Python General Hardware Management Initiative (IPMI and others).","https://pypi.python.org/pypi/pyghmi/",1511136531
-,python2-pygoogle,0.6,"This module lets you search the Google search engine programmatically.","https://pypi.python.org/pypi/pygoogle/",1483210715
-,python2-pygoogle-simple,0.2.3,"Search in google by AJAX Google API.","https://pypi.python.org/pypi/pygoogle-simple/",1483210721
-,python2-pygraphviz,1.3.1,"PyGraphviz is a Python interface to the Graphviz graph layout and visualization package.","https://networkx.lanl.gov/pygraphviz",1458420088
-,python2-pygtail,0.7.0,"Reads log file lines that have not been read.","http://pypi.python.org/pypi/pygtail",1483210728
-,python2-pylibemu,0.5.8,"A Libemu Cython wrapper.","https://github.com/buffer/pylibemu",1481452365
-,python2-pyliblzma,0.5.3,"Python 2 bindings for liblzma.","https://pypi.python.org/pypi/pyliblzma",1409438773
-,python2-pylibpcap,0.6.4,"Python module for the libpcap packet capture library, based on the original python libpcap module by Aaron Rhodes.","http://pylibpcap.sourceforge.net/",1393937280
-,python2-pylnk,0.2,"Windows LNK File Parser and Creator.","https://pypi.python.org/pypi/pylnk/",1483210735
-,python2-pylzma,0.4.9,"Python bindings for the LZMA library","https://pypi.python.org/pypi/pylzma/",1511136547
-,python2-pyminifier,2.1,"Python code minifier, obfuscator, and compressor.","https://pypi.python.org/pypi/pyminifier",1518181900
-,python2-pymisp,2.4.82,"Python API for MISP.","https://pypi.python.org/pypi/pymisp",1511136559
-,python2-pymysql,0.7.11,"Pure Python MySQL Driver.","https://pypi.python.org/pypi/PyMySQL/",1501409220
-,python2-pynids,0.6.1,"A Python wrapper for libnids.","http://jon.oberheide.org/pynids/",1447115743
-,python2-pyof,0.1.0,"Openfoam PostProcessing Python Tools.","https://pypi.python.org/pypi/pyof/",1506768862
-,python2-pypcap,193.8d1959b,"Python extension module for libpcap.","http://code.google.com/p/pypcap/",1506249804
-,python2-pypdf2,1.26.0,"PDF toolkit.","http://mstamy2.github.com/PyPDF2",1483210749
-,python2-pypdns,1.3,"Python API for PDNS.","https://pypi.python.org/pypi/pypdns",1483210757
-,python2-pype32,0.1,"Yet another Python library to read and write PE/PE+ files.","https://pypi.python.org/pypi/pype32",1483210764
-,python2-pyprind,2.11.1,"Python Progress Indicator Utility.","http://pypi.python.org/pypi/PyPrind/",1496612653
-,python2-pypssl,2.1,"Python API for PSSL.","https://pypi.python.org/pypi/pypssl",1483210778
-,python2-pyric,0.1.6.3,"Python Radio Interface Controller Linux wireless library for the Python Wireless Developer and Pentester.","https://pypi.python.org/pypi/PyRIC/",1483210785
-,python2-pyroute2,0.4.21,"Python Netlink library.","https://pypi.python.org/pypi/pyroute2/",1506766440
-,python2-pyrtlsdr,20130309,"A Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)","https://github.com/roger-/pyrtlsdr",1409602598
-,python2-pysendfile,2.0.1,"A Python interface to sendfile.","https://github.com/giampaolo/pysendfile",1423418345
-,python2-pysha3,1.0.2,"SHA (Keccak) for Python 2.7 - 3.5.","https://pypi.python.org/pypi/pysha3/",1495268522
-,python2-pyshark,0.3.6.2,"Python wrapper for tshark, allowing python packet parsing using wireshark dissectors.","https://github.com/KimiNewt/pyshark",1487379682
-,python2-pysmb,1.1.22,"An experimental SMB/CIFS library written in Python to support file sharing between Windows and Linux machines.","https://miketeo.net/wp/index.php/projects/pysmb",1511136614
-,python2-pysnmp,4.4.2,"SNMP library for Python.","http://sourceforge.net/projects/pysnmp/",1511136628
-,python2-pysqlite-legacy,1.0.1,"Python DB-API 2.0 interface for the legacy SQLite 2.","https://initd.org/tracker/pysqlite",1502284152
-,python2-pystache,1063.17a5dfd,"The mustache template engine written in Python.","https://github.com/defunkt/pystache",1483210817
-,python2-pysvn,1.7.10,"Python2 SVN Extension.","http://pysvn.tigris.org/",1433435779
-,python2-pyswf,1.5.4,"A Python library for reading and writing SWF files..","https://pypi.python.org/pypi/pyswf/",1483210846
-,python2-python-docx,0.8.6,"Create and update Microsoft Word .docx files.","https://pypi.python.org/pypi/python-docx/",1483210862
-,python2-python-emailahoy,0.0.6,"Python email utility that verifies existence of an email address.","https://pypi.python.org/pypi/python-emailahoy/",1487422770
-,python2-python-evt,0.1,"Pure Python parser for classic Windows event log files (.evt).","https://pypi.python.org/pypi/evt/",1483210870
-,python2-python-evtx,0.5.1,"Pure Python parser for recent Windows event log files (.evtx).","https://pypi.python.org/pypi/evtx/",1483210878
-,python2-python-geoip,1.2,"Provides GeoIP functionality for Python.","https://pypi.python.org/pypi/python-geoip/",1504446015
-,python2-python-geoip-geolite2,2015.03.03,"Provides access to the geolite2 database.","https://pypi.python.org/pypi/python-geoip-geolite2/",1504445460
-,python2-python-libnmap,0.7.0,"Python NMAP library enabling you to start async nmap tasks, parse and compare/diff scan results.","https://pypi.python.org/pypi/libnmap/",1483210885
-,python2-python-nmap,0.6.1,"This is a python class to use nmap and access scan results from python3.","https://pypi.python.org/pypi/python-nmap/",1501089882
-,python2-python-ntlm3,1.0.2,"Python 3 compatible NTLM library.","https://pypi.python.org/pypi/python-ntlm3/",1487369844
-,python2-python-owasp-zap-v2,0.0.9,"OWASP ZAP API client.","https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project",1483210892
-,python2-python-symmetric-jsonrpc,0.1,"A more beautiful JSON-RPC implemenntation in python.","https://github.com/niligulmohar/python-symmetric-jsonrpc",1483986212
-,python2-python-wappalyzer,0.2.2,"Python implementation of the Wappalyzer web application detection utility.","https://pypi.python.org/pypi/python-Wappalyzer/",1484686151
-,python2-python-whois,0.6.5,"Whois querying and parsing of domain registration information.","https://pypi.python.org/pypi/python-whois/",1496612705
-,python2-pythonwhois,2.4.3,"Module for retrieving and parsing the WHOIS data for a domain. Supports most domains. No dependencies.","https://pypi.python.org/pypi/pythonwhois/",1483210900
-,python2-pytorctl,2013.10.16.4.gc8fcb25,"A Python Tor controller with extensions to support path building and various constraints on node and path selection, as well as statistics gathering.","http://fscked.org/projects/torctl",1483210916
-,python2-pytsk3,20171109,"Python bindings for the sleuthkit.","https://pypi.python.org/pypi/pytsk3/",1511136720
-,python2-pyttsx,1.1,"Cross platform text-to-speech.","https://pypi.python.org/pypi/pyttsx/",1483210924
-,python2-pyvex,7.7.9.14,"A Python interface to libVEX and VEX IR.","http://pypi.python.org/pypi/pyvey",1511136770
-,python2-pyvirtualdisplay,0.2.1,"Python wrapper for Xvfb, Xephyr and Xvnc.","https://github.com/ponty/pyvirtualdisplay",1483210931
-,python2-pywebview,1.8,"A cross-platform lightweight native wrapper around a web view component.","http://pypi.python.org/pypi/pywebview",1511136783
-,python2-pywerview,0.2.0,"A Python port of PowerSploit's PowerView'.","https://pypi.python.org/pypi/pywerview/",1502636640
-,python2-pywhois,0.1,"A whois program with truncated output","https://pypi.python.org/pypi/pywhois",1483210945
-,python2-pyx,0.14.1,"Python library for the creation of PostScript and PDF files.","https://pypi.python.org/pypi/PyX/",1483210990
-,python2-pyxml,0.8.4,"A fast and simple micro-framework for small web applications.","http://www.python.org/community/sigs/current/xml-sig/",1393937336
-,python2-qtconsole,4.2.1,"Jupyter Qt console.","https://pypi.python.org/pypi/qtconsole/",1483210997
-,python2-rarfile,3.0,"RAR archive reader for Python.","https://pypi.python.org/pypi/rarfile/",1487445436
-,python2-rdpy,1.3.2,"Remote Desktop Protocol in Python.","https://pypi.python.org/pypi/rdpy/",1472114769
-,python2-re2,0.2.22,"Python wrapper for Google's RE2 using Cython.","https://pypi.python.org/pypi/re2/0.2.20",1433436542
-,python2-readchar,0.7,"Utilities to read single characters and key-strokes.","https://pypi.python.org/pypi/readchar/",1483211005
-,python2-recommonmark,0.4.0,"A markdown parser for docutils.","https://pypi.python.org/pypi/recommonmark/",1489101468
-,python2-requesocks,0.10.8,"Python HTTP for Humans, with socks proxy support.","https://pypi.python.org/pypi/requesocks/",1491730750
-,python2-requests-cache,0.4.13,"Persistent cache for requests library.","https://pypi.python.org/pypi/requests-cache",1496613079
-,python2-restkit,4.2.2,"An HTTP resource kit for Python. It allows you to easily access to HTTP resource and build objects around it.","http://benoitc.github.com/restkit/index.html",1483211037
-,python2-roguehostapd,1.1.6,"Hostapd wrapper for hostapd.","https://pypi.python.org/pypi/roguehostapd/",1511136795
-,python2-rpi-gpio,0.6.2,"A module to control Raspberry Pi GPIO channels.","https://pypi.python.org/pypi/RPi.GPIO/",1463478008
-,python2-rpio,0.10.1,"A GPIO toolbox for the Raspberry Pi.","https://github.com/metachris/RPIO",1463477332
-,python2-rpyc,3.4.0,"Remote Python Call (RPyC), a transparent and symmetric RPC library.","http://rpyc.readthedocs.org",1496613097
-,python2-schema,0.6.6,"Simple data validation library.","https://pypi.python.org/pypi/schema/",1496613108
-,python2-scp,0.10.2,"SCP module for paramiko.","http://pypi.python.org/pypi/scp",1483211057
-,python2-screenutils,0.0.1.6.2,"lib for gnu-screen: creates/close/list/log sessions, injects commands...","https://pypi.python.org/pypi/screenutils/",1496613120
-,python2-scrypt,0.8.0,"Bindings for the scrypt key derivation function library.","https://pypi.python.org/pypi/scrypt/",1481452665
-,python2-sfalearn,0.0.9,".","https://pypi.python.org/pypi/sfalearn/",1511136807
-,python2-sha3,0.2.1,"SHA implementation for Python.","https://pypi.python.org/pypi/sha3/",1477674037
-,python2-simple-requests,1.1.1,"Asynchronous requests in Python without thinking about it.","https://pypi.python.org/pypi/simple-requests",1483211080
-,python2-simplekml,84.20263cca38e3,"KML generation with as little effort as possible.","https://code.google.com/p/simplekml/",1441694577
-,python2-simuvex,7.7.9.8,"A symbolic execution engine for the VEX IR.","http://pypi.python.org/pypi/simuvex",1511136822
-,python2-singlefile,0.0.1a0,"Import from web. Share your snippets and import them from web.","https://pypi.python.org/pypi/singlefile/",1492811071
-,python2-skpy,0.8.1,"An unofficial Python library for interacting with the Skype HTTP API.","https://pypi.python.org/pypi/SkPy/",1511136833
-,python2-skype4py,1.0.35,"Skype API wrapper for Python.","https://pypi.python.org/pypi/Skype4Py/",1487422487
-,python2-slowaes,0.1a1,"Implementation of AES in Python.","https://pypi.python.org/pypi/slowaes/",1515328746
-,python2-smartencoding,0.3,"Python smart encoding (smart_unicode and other functions).","https://pypi.python.org/pypi/smartencoding/",1486817804
-,python2-smspdu,1.0,"SMS PDU encoding and decoding, including GSM character set.","https://pypi.python.org/pypi/smspdu/1.0",1483211098
-,python2-socks,1.5.0,"Routes sockets of any TCP service through a SOCKS4, SOCKS5 or HTTP proxy","http://socksipy.sourceforge.net/",1398617446
-,python2-socksipy-branch,1.01,"A Python SOCKS module.","http://pypi.python.org/pypi/SocksiPy-branch/",1483211105
-,python2-speechrecognition,3.5.0,"Library for performing speech recognition, with support for several engines and APIs, online and offline.","https://pypi.python.org/pypi/SpeechRecognition/",1483211114
-,python2-splinter,0.7.7,"Browser abstraction for web acceptance testing.","https://pypi.python.org/pypi/splinter/",1511136845
-,python2-sqlalchemy-utils,0.32.21,"Various utility functions for SQLAlchemy.","https://pypi.python.org/pypi/SQLAlchemy-Utils/",1511136857
-,python2-ssdeep,3.2,"Python wrapper for the ssdeep library.","https://pypi.python.org/pypi/ssdeep/",1481452715
-,python2-steganography,0.1.1,"Digital image steganography of encrypted text.","https://pypi.python.org/pypi/steganography/",1508412886
-,python2-stem,1849.c320541,"A controller library for Tor.","https://stem.torproject.org/",1416789306
-,python2-stix,1.2.0.2,"An API for parsing and generating STIX content.","http://stix.mitre.org/",1483211144
-,python2-stopit,1.1.1,"Library to raise asynchronous exceptions in other thread, control the timeout of blocks or callables.","https://github.com/glenfant/stopit",1483211155
-,python2-symath,0.1.25,"Symbolic mathematics for Python.","http://github.com/bniemczyk/symbolic",1483211160
-,python2-symautomata,0.0.11,".","https://pypi.python.org/pypi/symautomata/",1511136870
-,python2-tabulate,0.8.1,"Pretty-print tabular data.","https://pypi.python.org/pypi/tabulate/",1511136881
-,python2-telepot,12.4,"Python framework for Telegram Bot API.","https://pypi.python.org/pypi/telepot/",1511136892
-,python2-telnetsrv,0.4,"Telnet server handler library.","https://github.com/ianepperson/telnetsrvlib",1483211183
-,python2-terminaltables,3.1.0,"Generate simple tables in terminals from a nested list of strings.","https://pypi.python.org/pypi/terminaltables",1483211190
-,python2-threatcrowd,0.4,"Library for working with the threatcrowd api.","https://pypi.python.org/pypi/threatcrowd/",1487970212
-,python2-tinydb,3.7.0,"Lightweight document oriented database optimized for your happiness.","https://github.com/msiemens/tinydb",1511136904
-,python2-tld,0.7.9,"Extract the top level domain (TLD) from the URL given.","https://pypi.python.org/pypi/tld/",1496613192
-,python2-tldextract,2.1.0,"Accurately separates the gTLD or ccTLD (generic or country code top-level domain) from the registered domain and subdomains of a URL.","https://github.com/john-kurkowski/tldextract",1498295228
-,python2-tls-parser,1.1.0,"Small library to parse TLS records.","https://pypi.python.org/pypi/tls-parser/",1506939074
-,python2-tlslite-ng,0.5.1,"Pure python implementation of SSL and TLS.","https://pypi.python.org/pypi/tlslite-ng/",1455277754
-,python2-tqdm,4.19.4,"Fast, Extensible Progress Meter.","https://pypi.python.org/pypi/tqdm/",1511136918
-,python2-tracer,0.3.2,"Centralized sys.settrace management.","https://pypi.python.org/pypi/tracer/",1483211224
-,python2-trollius,2.1,"Port of the Tulip project (asyncio module, PEP 3156).","https://bitbucket.org/enovance/trollius",1496613231
-,python2-tweepy,20100216,"Twitter api library for python. (forked but 100% compatible).","http://github.com/m00n/tweepy",1401171315
-,python2-txsocksx,1.15.0.2,"Twisted client endpoints for SOCKS{4,4a,5}.","https://pypi.python.org/pypi/txsocksx/",1483211233
-,python2-ua-parser,0.7.3,"Python port of Browserscope's user agent parser.","https://github.com/tobie/ua-parser",1496613245
-,python2-unicorn,1.0.1,"Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU","http://www.unicorn-engine.org",1495471456
-,python2-unirest,1.1.7,"Simplified, lightweight HTTP client library.","https://pypi.python.org/pypi/unirest/",1483211249
-,python2-unqlite,0.6.0,"Fast Python bindings for the UnQLite embedded NoSQL database.","https://pypi.python.org/pypi/unqlite/",1490893791
-,python2-user-agents,1.1.0,"A library to identify devices (phones, tablets) and their capabilities by parsing (browser/HTTP) user agent strings.","https://github.com/selwin/python-user-agents",1496613259
-,python2-utils,0.9.0,"Python Distribution Utilities.","https://pypi.python.org/pypi/utils/",1484161468
-,python2-validate_email,1.3,"Verify if an email address is valid and really exists.","https://pypi.python.org/pypi/validate_email/",1490893436
-,python2-validators,0.12.0,"Python Data Validation for Humans.","https://pypi.python.org/pypi/validators/",1496613272
-,python2-validictory,1.1.1,"General purpose Python data validator that allows validation of arbitrary Python data structures.","https://readthedocs.org/projects/validictory/",1496613284
-,python2-virustotal-api,1.1.7,"Virus Total Public/Private/Intel API.","https://github.com/blacktop/virustotal-api/",1496613309
-,python2-vulndb,0.0.19,"Provides access to the vulndb information.","https://pypi.python.org/pypi/vulndb",1483211294
-,python2-wakeonlan,0.2.2,"A small python module for wake on lan.","https://pypi.python.org/pypi/wakeonlan/",1483211301
-,python2-wget,3.2,"Pure python download utility.","http://bitbucket.org/techtonik/python-wget/",1483211309
-,python2-whichcraft,0.4.1,"This package provides cross-platform cross-python shutil.which functionality.","https://pypi.python.org/pypi/whichcraft/",1506710676
-,python2-whois,0.7,"Python module/library for retrieving WHOIS information of domains.","https://pypi.python.org/pypi/whois/",1484683518
-,python2-win_inet_pton,1.0.1,"Native inet_pton and inet_ntop implementation for Python on Windows (with ctypes).","https://pypi.python.org/pypi/win_inet_pton/",1495660532
-,python2-wsgiref,0.1.2,"WSGI (PEP 333) Reference Library.","http://cheeseshop.python.org/pypi/wsgiref",1483211314
-,python2-wtforms,2.1,"A flexible forms validation and rendering library for python web development.","http://wtforms.simplecodes.com/",1483211322
-,python2-xdot,0.8,"Interactive viewer for Graphviz dot files.","https://github.com/jrfonseca/xdot.py",1496128623
-,python2-xgoogle,20.3db20fb,"Python library to Google services (google search, google sets, google translate, sponsored links).","https://github.com/pkrumins/xgoogle",1483211348
-,python2-xhtml2pdf,0.1b1,"PDF generator using HTML and CSS.","https://pypi.python.org/pypi/xhtml2pdf/",1483211358
-,python2-xlsx2csv,0.7.3,"xlsx to csv converter.","https://pypi.python.org/pypi/xlsx2csv/",1496613321
-,python2-xmltodict,0.9.0,"Python module that makes working with XML feel like you are working with JSON.","https://github.com/martinblech/xmltodict",1412261496
-,python2-xtermcolor,1.3,"Python module for colorizing output with xterm 256 color support.","https://pypi.python.org/pypi/xtermcolor/",1483211371
-,python2-yapsy,1.11.223,"Yet another plugin system.","http://yapsy.sourceforge.net/",1483211378
 malware,python2-yara,3.7.0,"Tool aimed at helping malware researchers to identify and classify malware samples","https://github.com/VirusTotal/yara-python",1510616755
-,python2-yaraprocessor,1.1.0,"Scan data streams with Yara using various algorithms.","https://pypi.python.org/pypi/yaraprocessor/",1483211386
-,python2-zlib_wrapper,0.1.3,"Wrapper around zlib with custom header crc32.","https://pypi.python.org/pypi/zlib_wrapper/",1495563641
-,python3-demjson,2.2.4,"Encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 4627.","http://deron.meranda.us/python/demjson/",1464689189
 automation,python3-shodan,1.7.7,"Python library for Shodan (https://developer.shodan.io).","http://github.com/achillean/shodan-python",1518629979
-,pythonect,0.6.0,"A general-purpose dataflow programming language written in Python.","http://www.pythonect.org/",1483211436
 mobile,qark,136.1dd2fea,"Tool to look for several security related Android application vulnerabilities.","https://github.com/linkedin/qark",1510505878
-,qscintilla-qt3,1.7.1,"A port to Qt3 of Neil Hodgson's Scintilla C++ editor class.","http://www.riverbankcomputing.co.uk/software/qscintilla/intro/",1419424220
-,qt3,3.3.8b,"A cross-platform application and UI framework.","http://www.trolltech.com/products/qt/index.html",1419423472
 recon,quickrecon,0.3.2,"A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.","http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html",1491309532
 defensive,quicksand-lite,28.857210e,"Command line tool for scanning streams within office documents plus xor db attack.","https://github.com/tylabs/quicksand_lite",1518979373
-,r2-bindings,1.3.0,"Language bindings of the radare2 api for valabind and friends.","http://radare.org",1491836655
-,radamsa,0.5,"General purpose mutation based fuzzer","https://github.com/aoh/radamsa",1479146671
 reversing,radare2,2.3.0,"Open-source tools to disasm, debug, analyze and manipulate binary files","https://radare.org",1518091660
 decompiler,radare2-cutter,1.2,"Qt and C++ GUI for radare2 reverse engineering framework.","https://github.com/radareorg/cutter",1518105793
 disassembler,radare2-keystone,405.9214455,"Keystone assembler plugins for radare2.","https://github.com/radare/radare2-extras/tree/master/unicorn",1512080636
-,radare2-yara,0.9.8,"Yara plugin for radare2","http://radare.org",1427819887
 windows,radiography,2,"A forensic tool which grabs as much information as possible from a Windows system.","http://www.security-projects.com/?RadioGraPhy",1441610956
 cracker,rainbowcrack,1.6,"Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.","http://project-rainbowcrack.com/",1441611033
 scanner,ranger-scanner,149.3aae5dd,"A tool to support security professionals to access and interact with remote Microsoft Windows based systems.","https://github.com/funkandwagnalls/ranger",1500721035
@@ -1970,7 +1323,6 @@ spoof,rbndr,9.a189ffd,"Simple DNS Rebinding Service.","https://github.com/taviso
 cracker,rcracki-mt,0.7.0,"A tool to perform rainbow table attacks on password hashes. It is intended for indexed/perfected rainbow tables, mainly generated by the distributed project www.freerainbowtables.com","http://rcracki.sourceforge.net/",1441611297
 cracker,rdesktop-brute,1.5.0,"It connects to windows terminal servers - Bruteforce patch included.","http://www.rdesktop.org/",1441611385
 wireless,reaver,1.6.4,"Brute force attack against Wifi Protected Setup","https://github.com/t6x/reaver-wps-fork-t6x",1516335567
-,reaver-wps-fork-t6x,1.6.3,"Brute force attack against Wifi Protected Setup mod with Pixie Dust Attack.","https://github.com/t6x/reaver-wps-fork-t6x",1511174239
 exploitation,rebind,0.3.4,"DNS Rebinding Tool","http://code.google.com/p/rebind/",1441611527
 recon,recon-ng,4.9.3,"A full-featured Web Reconnaissance framework written in Python.","https://bitbucket.org/LaNMaSteR53/recon-ng",1515246745
 recon,reconnoitre,289.249b48c,"A security tool for multithreaded information gathering and service enumeration.","https://github.com/codingo/Reconnoitre",1516095563
@@ -2026,102 +1378,17 @@ crypto,rsatool,14.7dab6bc,"Tool that can be used to calculate RSA and RSA-CRT pa
 automation,rsmangler,1.4,"rsmangler takes a wordlist and mangle it","http://www.randomstorm.com/rsmangler-security-tool.php",1447155635
 exploitation,rspet,263.de4356e,"A Python based reverse shell equipped with functionalities that assist in a post exploitation scenario.","https://github.com/panagiks/RSPET",1508000776
 misc,rtfm,82.95aa66e,"A database of common, interesting or useful commands, in one handy referable form.","https://github.com/leostat/rtfm",1511174316
-,rtkit,0.11,"Realtime Policy and Watchdog Daemon","http://git.0pointer.de/?p=rtkit.git",1380753597
 radio,rtlamr,197.03369d1,"An rtl-sdr receiver for smart meters operating in the 900MHz ISM band.","https://github.com/bemasher/rtlamr/",1441613421
 scanner,rtlizer,35.5614163,"Simple spectrum analyzer.","https://github.com/csete/rtlizer",1441613551
 scanner,rtlsdr-scanner,1001.8621d8b,"A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.","https://github.com/EarToEarOak/RTLSDR-Scanner",1494843840
 voip,rtp-flood,1.0,"RTP flooder","http://www.hackingexposedvoip.com/",1441613744
 networking,rtpbreak,1.3a,"Detects, reconstructs and analyzes any RTP session","http://xenion.antifork.org/rtpbreak/",1484422602
 backdoor,rubilyn,0.0.1,"64bit Mac OS-X kernel rootkit that uses no hardcoded address to hook the BSD subsystem in all OS-X Lion & below. It uses a combination of syscall hooking and DKOM to hide activity on a host.","http://nullsecurity.net/tools/backdoor.html",1483211924
-,ruby-base32,0.3.2,"Ruby extension for base32 encoding and decoding.","https://github.com/stesla/base32",1515179293
-,ruby-blankslate,2.1.2.4,"BlankSlate extracted from Builder.","http://github.com/masover/blankslate",1411759690
-,ruby-blankslate,3.1.3,"Blank Slate base class.","http://onestepback.org",1515179306
-,ruby-bump,0.5.3,"Bump your gem version file.","https://github.com/gregorym/bump",1483211952
-,ruby-colored,1.2,">> puts 'this is red'.red >> puts 'this is red with a blue background (read: ugly)'.red_on_blue...","http://github.com/defunkt/colored",1483211958
-,ruby-colorize,0.8.1,"Add color methods to String class.","http://github.com/fazibear/colorize",1483211963
-,ruby-connection_pool,2.2.1,".","https://rubygems.org/gems/connection_pool",1488225997
-,ruby-domain_name,0.5.20161129,"Domain Name manipulation library for Ruby.","https://github.com/knu/ruby-domain_name",1515179339
-,ruby-fog,1.40.0,"The Ruby cloud services library.","http://github.com/fazibear/fog",1491741965
-,ruby-gscraper,0.4.0,"Web-scraping interface to various Google Services.","https://github.com/postmodern/gscraper",1515179382
-,ruby-http-cookie,1.0.3,"A Ruby library to handle HTTP Cookies based on RFC 6265.","https://github.com/sparklemotion/http-cookie",1515949498
-,ruby-http_configuration,1.0.4,"Gem that provides the ability to set defaults for proxies and timeouts for Net::HTTP.","http://github.com/bdurand/http_configuration",1515179401
-,ruby-httparty,0.13.7,"Makes http fun! Also, makes consuming restful web services dead easy.","https://rubygems.org/gems/httparty",1483993611
-,ruby-json,2.0.3,"JSON implementation as a Ruby extension in C","http://rubygems.org/gems/json",1515179433
-,ruby-json_pure,2.0.2,"JSON Implementation for Ruby.","http://flori.github.com/json",1515179453
-,ruby-mechanize,2.7.5,"Automates interaction with websites, handling cookies, redirects and forms.","http://mechanize.rubyforge.org/",1515948903
-,ruby-mini_exiftool,2.8.0,"This library is wrapper for the Exiftool command-line application (http://www.sno.phy.queensu.ca/~phil/exiftool).","http://gitorious.org/mini_exiftool",1515179474
-,ruby-mini_portile,0.7.0.rc4,"Simplistic port-like solution for developers.","http://github.com/luislavena/mini_portile",1515179486
-,ruby-mini_portile2,2.2.0.rc1,"Simplistic port-like solution for developers. Version 2.x, which is incompatible with v0.6/v0.7.","https://github.com/flavorjones/mini_portile",1515179499
-,ruby-multi_xml,0.5.5,"Provides swappable XML backends utilizing LibXML, Nokogiri, Ox, or REXML.","https://rubygems.org/gems/multi_xml",1483993368
-,ruby-net-http-digest_auth,1.4.1,"An implementation of RFC 2617 - Digest Access Authentication.","http://github.com/drbrain/net-http-digest_auth",1515949028
-,ruby-net-http-persistent,2.9.4,"Manages persistent connections using Net::HTTP plus a speed fix for Ruby 1.8.","http://docs.seattlerb.org/net-http-persistent",1515949357
-,ruby-nokogiri,1.6.8.rc2,"Nokogiri is an HTML, XML, SAX, and Reader parser.","http://nokogiri.org",1454244025
-,ruby-ntlm-http,0.1.1,"Ruby/NTLM HTTP library.","http://www.mindflowsolutions.net",1515949639
-,ruby-parslet,1.7.1,"Parser construction library with great error reporting in Ruby.","http://kschiess.github.com/parslet",1515179571
-,ruby-permutation,0.1.8,"Permutation library in pure Ruby","http://flori.github.com/permutation",1515179585
-,ruby-rdoc,5.0.0,"RDoc produces HTML and command-line documentation for Ruby projects.","http://docs.seattlerb.org/rdoc",1515179618
-,ruby-require_all,1.4.0,"A wonderfully simple way to load your code.","https://rubygems.org/gems/require_all/",1515179635
-,ruby-rprogram,0.3.2,"A library for creating wrappers around command-line programs.","https://github.com/postmodern/rprogram#readme",1488226503
-,ruby-ruby-nmap,0.9.2,".","https://rubygems.org/gems/ruby-nmap",1488226312
-,ruby-rubyzip,1.2.0,"A ruby module for reading and writing zip files.","http://rubyzip.sourceforge.net/",1483212135
-,ruby-sdoc,0.4.2,"rdoc html with javascript search index.","http://github.com/voloko/sdoc",1515179673
-,ruby-slop,4.4.1,"Simple Lightweight Option Parsing.","http://github.com/leejarvis/slop",1515179687
-,ruby-spider,0.5.1,"A Web spidering library.","http://spider.rubyforge.org/",1515179700
-,ruby-test-unit,3.1.8,"Unit testing framework for Ruby, based on xUnit principles.","http://test-unit.rubyforge.org/",1483212166
-,ruby-text-table,1.2.4,"Allows you to easily create and format plain text tables, useful when working with the terminal or when you want to quickly print formatted tables to a dot-matrix printer.","https://rubygems.org/gems/text-table",1488226611
-,ruby-unf,0.2.0.beta2,"A wrapper library to bring Unicode Normalization Form support to Ruby/JRuby.","https://github.com/knu/ruby-unf",1515179725
-,ruby-unf_ext,0.0.7.2,"Unicode Normalization Form support library for CRuby.","https://github.com/knu/ruby-unf_ext",1515179742
-,ruby-uri-query_params,0.7.1,"Allows access to the query component of the URI as a Hash..","https://rubygems.org/gems/uri-query_params",1483212196
-,ruby-uuidtools,2.1.5,"UUID generator.","http://uuidtools.rubyforge.org/",1515179763
-,ruby-webrobots,0.1.2,"A Ruby library to help write robots.txt compliant web robots.","https://github.com/knu/webrobots",1515949735
-,ruby-zip,2.0.2,"A Ruby library for reading and writing Zip files.","http://github.com/postmodern/rubyzip2",1515179783
-,ruby1.8,1.8.7_p370,"An object-oriented language for quick and easy programming","http://www.ruby-lang.org/en/",1441614039
-,ruby1.8-rake,10.4.2,"A Make-like program implemented in Ruby.","http://rake.rubyforge.org",1441968546
-,ruby1.8-sqlite3,1.3.10,"A Ruby interface for the SQLite3 database engine.","http://rubygems.org/gems/sqlite3",1441969695
-,ruby1.9,1.9.3_p448,"An object-oriented language for quick and easy programming","http://www.ruby-lang.org/en/",1441616030
-,ruby1.9-bundler,1.15.1,"Manages an application's dependencies through its entire life, across many machines, systematically and repeatably.","http://gembundler.com",1496650288
-,ruby1.9-ruby-termios,0.9.6,"A simple wrapper of termios(3).","http://arika.org/ruby/termios",1441616195
-,ruby2.3-base32,0.3.2,"Ruby extension for base32 encoding and decoding.","https://github.com/stesla/base32",1485984651
-,ruby2.3-blankslate,3.1.3,"Blank Slate base class.","http://onestepback.org",1485986633
-,ruby2.3-bump,0.5.3,"Bump your gem version file.","https://github.com/gregorym/bump",1485986647
-,ruby2.3-colored,1.2,">> puts 'this is red'.red >> puts 'this is red with a blue background (read: ugly)'.red_on_blue...","http://github.com/defunkt/colored",1485984671
-,ruby2.3-colorize,0.8.1,"Add color methods to String class.","http://github.com/fazibear/colorize",1485984678
-,ruby2.3-domain_name,0.5.20161129,"Domain Name manipulation library for Ruby.","https://github.com/knu/ruby-domain_name",1485985823
-,ruby2.3-http-cookie,1.0.3,"A Ruby library to handle HTTP Cookies based on RFC 6265.","https://github.com/sparklemotion/http-cookie",1485986140
-,ruby2.3-http_configuration,1.0.4,"Gem that provides the ability to set defaults for proxies and timeouts for Net::HTTP.","http://github.com/bdurand/http_configuration",1485984689
-,ruby2.3-json,2.0.3,"JSON implementation as a Ruby extension in C","http://rubygems.org/gems/json",1485984713
-,ruby2.3-json_pure,2.0.2,"JSON Implementation for Ruby.","http://flori.github.com/json",1485986735
-,ruby2.3-mini_exiftool,2.8.0,"This library is wrapper for the Exiftool command-line application (http://www.sno.phy.queensu.ca/~phil/exiftool).","http://gitorious.org/mini_exiftool",1485984730
-,ruby2.3-mini_portile,0.7.0.rc4,"Simplistic port-like solution for developers.","http://github.com/luislavena/mini_portile",1485984738
-,ruby2.3-mini_portile2,2.2.0.rc1,"Simplistic port-like solution for developers. Version 2.x, which is incompatible with v0.6/v0.7.","https://github.com/flavorjones/mini_portile",1485984746
-,ruby2.3-msgpack,1.0.2,"MessagePack, a binary-based efficient data interchange format.","http://msgpack.org/",1486047414
-,ruby2.3-multi_xml,0.5.5,"Provides swappable XML backends utilizing LibXML, Nokogiri, Ox, or REXML.","https://rubygems.org/gems/multi_xml",1485984778
-,ruby2.3-net-http-digest_auth,1.4,"An implementation of RFC 2617 - Digest Access Authentication.","http://github.com/drbrain/net-http-digest_auth",1485984786
-,ruby2.3-net-http-persistent,3.0.0,"Manages persistent connections using Net::HTTP plus a speed fix for Ruby 1.8.","http://docs.seattlerb.org/net-http-persistent",1485984793
-,ruby2.3-ntlm-http,0.1.1,"Ruby/NTLM HTTP library.","http://www.mindflowsolutions.net",1485984805
-,ruby2.3-parslet,1.7.1,"Parser construction library with great error reporting in Ruby.","http://kschiess.github.com/parslet",1485986749
-,ruby2.3-permutation,0.1.8,"Permutation library in pure Ruby","http://flori.github.com/permutation",1485984816
-,ruby2.3-rdoc,5.0.0,"RDoc produces HTML and command-line documentation for Ruby projects.","http://docs.seattlerb.org/rdoc",1485985851
-,ruby2.3-rprogram,0.3.2,"A library for creating wrappers around command-line programs.","https://github.com/postmodern/rprogram#readme",1485984825
-,ruby2.3-rubyzip,1.2.0,"A ruby module for reading and writing zip files.","http://rubyzip.sourceforge.net/",1485984835
-,ruby2.3-sdoc,0.4.2,"rdoc html with javascript search index.","http://github.com/voloko/sdoc",1485986155
-,ruby2.3-slop,4.4.1,"Simple Lightweight Option Parsing.","http://github.com/leejarvis/slop",1485984845
-,ruby2.3-spider,0.5.1,"A Web spidering library.","http://spider.rubyforge.org/",1485984852
-,ruby2.3-test-unit,3.1.8,"Unit testing framework for Ruby, based on xUnit principles.","http://test-unit.rubyforge.org/",1485984863
-,ruby2.3-text-table,1.2.4,"Allows you to easily create and format plain text tables, useful when working with the terminal or when you want to quickly print formatted tables to a dot-matrix printer.","https://rubygems.org/gems/text-table",1485984871
-,ruby2.3-unf,0.2.0.beta2,"A wrapper library to bring Unicode Normalization Form support to Ruby/JRuby.","https://github.com/knu/ruby-unf",1485984879
-,ruby2.3-unf_ext,0.0.7.2,"Unicode Normalization Form support library for CRuby.","https://github.com/knu/ruby-unf_ext",1485984890
-,ruby2.3-uri-query_params,0.7.1,"Allows access to the query component of the URI as a Hash..","https://rubygems.org/gems/uri-query_params",1485984899
-,ruby2.3-uuidtools,2.1.5,"UUID generator.","http://uuidtools.rubyforge.org/",1485984907
-,ruby2.3-webrobots,0.1.2,"A Ruby library to help write robots.txt compliant web robots.","https://github.com/knu/webrobots",1485984914
-,ruby2.3-zip,2.0.2,"A Ruby library for reading and writing Zip files.","http://github.com/postmodern/rubyzip2",1485984922
-,rubygems1.8,2.4.8,"A package management framework for the Ruby programming language.","http://docs.rubygems.org/",1483211995
 webapp,ruler,257.a07f8f0,"A tool to abuse Exchange services.","https://github.com/sensepost/ruler",1509266802
 webapp,rww-attack,0.9.2,"The Remote Web Workplace Attack tool will perform a dictionary attack against a live Microsoft Windows Small Business Server's 'Remote Web Workplace' portal. It currently supports both SBS 2003 and SBS 2008 and includes features to avoid account lock out.","http://packetstormsecurity.com/files/79021/Remote-Web-Workplace-Attack-Tool.html",1483212224
 fuzzer,s3-fuzzer,4.0a2a6f0,"A concurrent, command-line AWS S3 Fuzzer.","https://github.com/petermbenjamin/s3-fuzzer",1508070992
 forensic,safecopy,1.7,"A disk data recovery tool to extract data from damaged media.","http://safecopy.sourceforge.net/",1447171925
 ids,sagan,1.1.0,"A snort-like log analysis engine.","https://quadrantsec.com/sagan_log_analysis_engine/",1516796620
-,sagan-rules,11102015,"Rules package for Sagan.","http://sagan.softwink.com/",1447172164
 automation,sakis3g,0.2.0e,"An all-in-one script for connecting with 3G.","http://www.sakis3g.org/",1483212232
 scanner,sambascan,0.5.0,"Allows you to search an entire network or a number of hosts for SMB shares. It will also list the contents of all public shares that it finds.","http://sourceforge.net/projects/sambascan2/",1483212244
 cracker,samdump2,3.0.0,"Dump password hashes from a Windows NT/2k/XP installation","http://sourceforge.net/projects/ophcrack/files/samdump2/",1441540275
@@ -2133,7 +1400,6 @@ binary,saruman,1.1a8e77d,"ELF anti-forensics exec, for injecting full dynamic ex
 misc,sasm,3.2.0,"A simple crossplatform IDE for NASM, MASM, GAS and FASM assembly languages.","https://github.com/Dman95/SASM",1447172587
 webapp,sawef,28.e65dc9f,"Send Attack Web Forms.","https://github.com/danilovazb/sawef",1483212270
 scanner,sb0x,19.04f40fe,"A simple and Lightweight framework for Penetration testing.","https://github.com/levi0x0/sb0x-project",1408977675
-,sbc,1.2,"Bluetooth Subband Codec (SBC) library","http://www.bluez.org/",1393007579
 crypto,sbd,1.36,"Netcat-clone, portable, offers strong encryption - features AES-CBC + HMAC-SHA1 encryption, program execution (-e), choosing source port, continuous reconnection with delay + more","http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=sbd",1484422615
 exploitation,sc-make,10.a859987,"Tool for automating shellcode creation.","https://github.com/t00sh/sc-make",1483212295
 forensic,scalpel,2.0,"A frugal, high performance file carver","http://www.digitalforensicssolutions.com/Scalpel/",1441540985
@@ -2144,7 +1410,6 @@ fingerprint,scannerl,15.e52c46b,"The modular distributed fingerprinting engine."
 exploitation,scansploit,9.a0890af,"Exploit using barcodes, QRcodes, earn13, datamatrix.","https://github.com/huntergregal/scansploit",1483212279
 scanner,scanssh,2.1,"Fast SSH server and open proxy scanner.","http://www.monkey.org/~provos/scanssh/",1516657613
 networking,scapy,2.3.3,"A powerful interactive packet manipulation program written in Python","http://www.secdev.org/projects/scapy/",1476922128
-,scapy-ssl_tls,1.2.3.2,"An SSL/TLS layer for scapy the interactive packet manipulation tool.","https://github.com/tintinweb/scapy-ssl_tls",1496654625
 networking,scapy3k,0.23,"Powerful interactive packet manipulation program written in Python 3","https://github.com/phaethon/scapy",1511735639
 misc,schnappi-dhcp,0.1,"Can fuck network with no DHCP.","http://www.emanuelegentili.eu/",1483212289
 scanner,scout2,1147.15d20ce,"Security auditing tool for AWS environments.","http://isecpartners.github.io/Scout2/",1515326356
@@ -2182,7 +1447,6 @@ exploitation,shellme,5.d5206f0,"Because sometimes you just need shellcode and op
 debugger,shellnoob,2.1,"A toolkit that eases the writing and debugging of shellcode","https://github.com/reyammer/shellnoob",1483212462
 exploitation,shellsploit-framework,273.a16d22f,"New Generation Exploit Development Kit.","https://github.com/b3mb4m/shellsploit-framework",1483212471
 packer,sherlocked,1.f190c2b,"Universal script packer-- transforms any type of script into a protected ELF executable, encrypted with anti-debugging.","https://github.com/elfmaster/sherlocked",1441542214
-,shiboken,1.2.1,"Python bindings generator that uses API Extractor and outputs CPython code.","http://www.pyside.org",1386431665
 dos,shitflood,14.e74fc42,"A Socks5 clone flooder for the Internet Relay Chat (IRC) protocol.","https://github.com/acidvegas/shitflood",1459011315
 exploitation,shocker,60.239286f,"A tool to find and exploit servers vulnerable to Shellshock.","https://github.com/nccgroup/shocker",1483212519
 automation,shodan,1.7.7,"Python library for Shodan (https://developer.shodan.io).","http://github.com/achillean/shodan-python",1518629729
@@ -2220,7 +1484,6 @@ windows,skype-dump,0.1,"This is a tool that demonstrates dumping MD5 password ha
 forensic,skypefreak,33.9347a65,"A Cross Platform Forensic Framework for Skype.","http://osandamalith.github.io/SkypeFreak/",1483212630
 forensic,sleuthkit,4.6.0,"File system and media management forensic analysis tools","http://www.sleuthkit.org/sleuthkit",1519222456
 fuzzer,sloth-fuzzer,39.9f7f59a,"A smart file fuzzer.","https://github.com/mfontanini/sloth-fuzzer",1455460389
-,slowhttptest,1.7,"Highly configurable tool that simulates some Application Layer Denial of Service (DoS) attacks","https://github.com/shekyan/slowhttptest",1505735981
 dos,slowloris,0.7,"A tool which is written in perl to test http-server vulnerabilites for connection exhaustion denial of service (DoS) attacks so you can enhance the security of your webserver.","http://ha.ckers.org/slowloris/",1483212635
 dos,slowloris-py,23.a89668c,"Low bandwidth DoS tool.","https://github.com/gkbrk/slowloris",1519862620
 scanner,slurp,56.ec2d00e,"S3 bucket enumerator","https://github.com/bbb31/slurp",1518979418
@@ -2298,7 +1561,6 @@ networking,sps,4.3,"A Linux packet crafting tool. Supports IPv4, IPv6 including 
 webapp,sqid,0.3,"A SQL injection digger.","http://sqid.rubyforge.org/",1441700092
 fuzzer,sqlbrute,1.0,"Brute forces data out of databases using blind SQL injection.","http://www.justinclarke.com/archives/2006/03/sqlbrute.html",1483213206
 windows,sqldict,2.1,"A dictionary attack tool for SQL Server.","http://ntsecurity.nu/toolbox/sqldict/",1483213211
-,sqlite2,2.8.17,"A C library that implements an SQL database engine.","http://www.sqlite.org/",1502284438
 scanner,sqlivulscan,246.b1a2261,"This will give you the SQLi Vulnerable Website Just by Adding the Dork.","https://github.com/Hadesy2k/sqlivulscan",1514583643
 webapp,sqlmap,1.2.2,"Automatic SQL injection and database takeover tool","http://sqlmap.org",1518093137
 exploitation,sqlninja,0.2.999,"A tool targeted to exploit SQL Injection vulnerabilities on a web application that uses Microsoft SQL Server as its back-end.","http://sqlninja.sourceforge.net/",1483213227
@@ -2306,7 +1568,6 @@ cracker,sqlpat,1.0.1,"This tool should be used to audit the strength of Microsof
 windows,sqlping,4,"SQL Server scanning tool that also checks for weak passwords using wordlists.","http://www.sqlsecurity.com/downloads",1483213234
 windows,sqlpowerinjector,1.2,"Application created in .Net 1.1 that helps the penetration tester to find and exploit SQL injections on a web page.","http://www.sqlpowerinjector.com/download.htm",1486200501
 exploitation,sqlsus,0.7.2,"An open source MySQL injection and takeover tool, written in perl","http://sqlsus.sourceforge.net/",1483213240
-,ssdeep,2.13,"A program for computing context triggered piecewise hashes.","http://ssdeep.sourceforge.net/",1441547749
 scanner,ssdp-scanner,1.0,"SSDP amplification scanner written in Python. Makes use of Scapy.","http://packetstormsecurity.com/files/127994/SSDP-Amplification-Scanner.html",1441730350
 scanner,ssh-audit,165.22b671e,"SSH server auditing (banner, key exchange, encryption, mac, compression, compatbility, etc).","https://github.com/arthepsy/ssh-audit",1493126227
 honeypot,ssh-honeypot,53.05a6377,"Fake sshd that logs ip addresses, usernames, and passwords.","https://github.com/droberson/ssh-honeypot",1501845096
@@ -2329,8 +1590,6 @@ scanner,sslmap,0.2.0,"A lightweight TLS/SSL cipher suite scanner.","http://thesp
 cracker,sslnuke,5.c5faeaa,"Transparent proxy that decrypts SSL traffic and prints out IRC messages.","https://github.com/jtripper/sslnuke",1441548219
 scanner,sslscan,1.10.2,"A fast tools to scan SSL services, such as HTTPS to determine the ciphers that are supported","https://github.com/DinoTools/sslscan/",1495216196
 sniffer,sslsniff,0.8,"A tool to MITM all SSL connections on a LAN and dynamically generate certs for the domains that are being accessed on the fly","http://www.thoughtcrime.org/software/sslsniff/",1388155363
-,sslsplit,0.5.2,"Tool for man-in-the-middle attacks against SSL/TLS encrypted network connections","https://www.roe.ch/SSLsplit",1519233108
-,sslstrip,0.9,"Python tool to hijack HTTPS connections during a MITM attack","http://www.thoughtcrime.org/software/sslstrip/",1432724682
 crypto,sslyze,1.1.5,"Python tool for analyzing the configuration of SSL servers and for identifying misconfigurations.","https://github.com/nabla-c0d3/sslyze/",1511180678
 malware,ssma,202.e2599c0,"Simple Static Malware Analyzer.","https://github.com/secrary/SSMA",1518394438
 proxy,ssrf-proxy,293.e79da7a,"Facilitates tunneling HTTP communications through servers vulnerable to Server-Side Request Forgery.","https://github.com/bcoles/ssrf_proxy",1515179817
@@ -2346,10 +1605,8 @@ stego,stegsolve,1.0,"Steganography Solver.","https://github.com/zardus/ctf-tools
 sniffer,stenographer,464.0e212ae,"A packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets.","https://github.com/google/stenographer",1517518238
 stego,stepic,0.3,"A python image steganography tool.","http://domnit.org/stepic/doc/",1483213454
 scanner,sticky-keys-hunter,15.c816fc9,"Script to test an RDP host for sticky keys and utilman backdoor.","https://github.com/ztgrace/sticky_keys_hunter",1492958253
-,stomper,0.4.1,"A transport neutral client implementation of the STOMP protocol.","http://code.google.com/p/stomper/",1483213465
 misc,stompy,0.0.4,"An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.","http://lcamtuf.coredump.cx/",1447174891
 voip,storm-ring,0.1,"This simple tool is useful to test a PABX with 'allow guest' parameter set to 'yes' (in this scenario an anonymous caller could place a call).","http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html",1483213469
-,strace,4.18,"A diagnostic, debugging and instructional userspace tracer","http://sourceforge.net/projects/strace/",1500281169
 scanner,striker,52.3e16a24,"An offensive information and vulnerability scanner.","https://github.com/UltimateHackers/Striker",1520072575
 proxy,striptls,53.eff1d59,"Proxy PoC implementation of STARTTLS stripping attacks.","https://github.com/tintinweb/striptls",1500725265
 scanner,strutscan,4.8712c12,"Apache Struts2 vulnerability scanner written in Perl.","https://github.com/riusksk/StrutScan",1483213482
@@ -2398,7 +1655,6 @@ networking,tcpwatch,1.3.1,"A utility written in Python that lets you monitor for
 misc,tcpxtract,1.0.1,"A tool for extracting files from network traffic.","http://tcpxtract.sourceforge.net",1441551567
 voip,teardown,1.0,"Command line tool to send a BYE request to tear down a call.","http://www.hackingexposedvoip.com/",1441551617
 forensic,tekdefense-automater,88.42548cf,"IP URL and MD5 OSINT Analysis","https://github.com/1aN0rmus/TekDefense-Automater",1487531063
-,termcap,1.3.1,"Enables programs to use display computer terminals in a device-independent manner.","http://www.catb.org/~esr/terminfo/",1474965479
 fuzzer,termineter,0.1.0,"Smart meter testing framework","https://code.google.com/p/termineter/",1441551671
 forensic,testdisk,7.0,"Checks and undeletes partitions + PhotoRec, signature based recovery tool","http://www.cgsecurity.org/index.html?testdisk.html",1490813867
 crypto,testssl,2.9.5,"Testing TLS/SSL encryption.","https://github.com/drwetter/testssl.sh",1509730811
@@ -2429,7 +1685,6 @@ crypto,tlsenum,78.787c88b,"A command line tool to enumerate TLS cipher-suites su
 crypto,tlspretense,0.6.2,"SSL/TLS client testing framework","https://github.com/iSECPartners/tlspretense",1483213704
 automation,tlssled,1.3,"A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.","http://blog.taddong.com/2011/05/tlssled-v10.html",1483213721
 misc,tnscmd,1.3,"a lame tool to prod the oracle tnslsnr process (1521/tcp)","http://www.jammed.com/~jwa/hacks/security/tnscmd/",1483213728
-,toilet,0.3,"Free replacement for the FIGlet utility.","http://libcaca.zoy.org/wiki/toilet",1445294905
 exploitation,tomcatwardeployer,66.524ab11,"Apache Tomcat auto WAR deployment & pwning penetration testing tool.","https://github.com/mgeeky/tomcatWarDeployer",1514113830
 scanner,topera,19.3e230fd,"An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.","https://github.com/toperaproject/topera",1483213745
 proxy,tor,0.3.2.9,"Anonymizing overlay network.","https://www.torproject.org/",1516997542
@@ -2442,7 +1697,6 @@ webapp,tplmap,660.4fdcd32,"Automatic Server-Side Template Injection Detection an
 recon,traceroute,2.1.0,"Tracks the route taken by packets over an IP network","http://traceroute.sourceforge.net/",1467407738
 recon,treasure,6.a91d52b,"Hunt for sensitive information through githubs code search.","https://github.com/GuerrillaWarfare/Treasure",1439837678
 forensic,trid,2.24,"An utility designed to identify file types from their binary signatures.","http://mark0.net/soft-trid-e.html",1470084522
-,trid-defs,2016.27.07,"Filesignature database for trid","http://mark0.net/soft-trid-e.html",1470084529
 fuzzer,trinity,5104.c07cd60f,"A Linux System call fuzzer.","http://codemonkey.org.uk/projects/trinity/",1520158033
 binary,triton,1904.5d876f6f,"A Dynamic Binary Analysis (DBA) framework.","https://github.com/JonathanSalwan/Triton",1486370287
 backdoor,trixd00r,0.0.1,"An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.","http://nullsecurity.net/tools/backdoor.html",1441553312
@@ -2460,7 +1714,6 @@ social,tweets-analyzer,38.09bfb84,"Tweets metadata scraper & activity analyzer."
 recon,twofi,2.0,"Twitter Words of Interest.","http://www.digininja.org/projects/twofi.php",1483213830
 webapp,typo-enumerator,77.9565029,"Enumerate Typo3 version and extensions.","https://github.com/whoot/Typo-Enumerator",1495706780
 backdoor,u3-pwn,2.0,"A tool designed to automate injecting executables to Sandisk smart usb devices with default U3 software install.","http://www.nullsecurity.net/tools/backdoor.html",1483213861
-,u3-tool,0.3,"Tool for controlling USB flash devices that confirm to the U3 specifications.","http://u3-tool.sourceforge.net/",1441555061
 misc,uatester,1.06,"User Agent String Tester","http://code.google.com/p/ua-tester/",1441555086
 bluetooth,ubertooth,2017.03.R2,"A 2.4 GHz wireless development board suitable for Bluetooth experimentation. Open source hardware and software. Tools only.","https://github.com/greatscottgadgets/ubertooth/releases",1496657164
 recon,ubiquiti-probing,5.c28f4c1,"A Ubiquiti device discovery tool.","https://github.com/headlesszeke/ubiquiti-probing",1483213873
@@ -2475,10 +1728,8 @@ cracker,ufo-wardriving,4,"Allows you to test the security of wireless networks b
 dos,ufonet,32.1c88898,"A tool designed to launch DDoS attacks against a target, using 'Open Redirect' vectors on third party web applications, like botnet.","https://github.com/epsylon/ufonet",1504389438
 scanner,umap,25.3ad8121,"The USB host security assessment tool.","https://github.com/nccgroup/umap",1483213930
 networking,umit,1.0,"A powerful nmap frontend.","http://www.umitproject.org/",1483213946
-,underscorejs,1.8.3,"Utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects.","http://underscorejs.org/",1483213955
 forensic,unhide,20130526,"A forensic tool to find processes hidden by rootkits, LKMs or by other techniques.","http://sourceforge.net/projects/unhide/",1369957325
 exploitation,unibrute,1.b3fb4b7,"Multithreaded SQL union bruteforcer.","https://github.com/GDSSecurity/Unibrute",1483213963
-,unicorn,1.0.1,"Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU","http://www.unicorn-engine.org",1495471438
 backdoor,unicorn-powershell,88.0cf03f3,"A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.","https://github.com/trustedsec/unicorn",1520075892
 scanner,unicornscan,0.4.7,"A new information gathering and correlation engine.","http://www.unicornscan.org/",1390493094
 fuzzer,uniofuzz,1337,"The universal fuzzing tool for browsers, web services, files, programs and network services/ports","http://nullsecurity.net/tools/fuzzer.html",1483213975
@@ -2638,14 +1889,12 @@ webapp,wuzz,204.37fd354,"Interactive cli tool for HTTP inspection.","https://git
 binary,wxhexeditor,637.5103931,"A free hex editor / disk editor for Linux, Windows and MacOSX.","http://wxhexeditor.sourceforge.net/",1516096023
 cracker,wyd,0.2,"Gets keywords from personal files. IT security/forensic tool.","http://www.remote-exploit.org/?page_id=418",1484422901
 windows,x-scan,3.3,"A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.","http://www.xfocus.org/",1483215390
-,x3270,3.3.15ga9,"An IBM 3270 terminal emulator for the X Window System.","http://x3270.bgp.nu/",1441566080
 windows,x64dbg,2017.11.20,"An open-source x64/x32 debugger for windows.","http://www.sniperx.net/",1511193914
 exploitation,xcat,0.9,"A command line tool to automate the exploitation of blind XPath injection vulnerabilities.","https://github.com/orf/xcat",1507383553
 sniffer,xcavator,5.bd9e2d8,"Man-In-The-Middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.","https://github.com/nccgroup/xcavator",1483215327
 scanner,xcname,11.9c475a1,"A tool for enumerating expired domains in CNAME records.","https://github.com/mandatoryprogrammer/xcname",1483215335
 networking,xerosploit,28.b5dad87,"Efficient and advanced man in the middle framework.","https://github.com/LionSec/xerosploit",1489101546
 tunnel,xfltreat,32.be749dc,"Tunnelling framework.","https://github.com/earthquake/xfltreat/",1506766538
-,xmpppy,0.5.0_rc1,"A Python library to provide easy scripting with Jabber,","http://xmpppy.sourceforge.net/",1516748632
 crypto,xorbruteforcer,0.1,"Script that implements a XOR bruteforcing of a given file, although a specific key can be used too.","http://eternal-todo.com/category/bruteforce",1483215341
 crypto,xorsearch,1.11.1,"Program to search for a given string in an XOR, ROL or ROT encoded binary file.","http://blog.didierstevens.com/programs/xorsearch/",1441566438
 crypto,xortool,0.96,"A tool to analyze multi-byte xor cipher.","https://github.com/hellman/xortool/",1483215347
@@ -2667,9 +1916,7 @@ webapp,xwaf,149.a9d9cee,"Automatic WAF bypass tool.","https://github.com/3xp10it
 exploitation,xxeinjector,52.4190611,"Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.","https://github.com/enjoiz/XXEinjector",1485540262
 webapp,yaaf,7.4d6273a,"Yet Another Admin Finder.","https://github.com/Plasticoo/YAAF",1483215454
 networking,yaf,2.9.3,"Yet Another Flowmeter.","http://tools.netsa.cert.org/yaf/",1516882261
-,yaourt,1.8,"A pacman wrapper with extended features and AUR support.","http://www.archlinux.fr/yaourt-en/",1483215458
 malware,yara,3.7.1,"Tool aimed at helping malware researchers to identify and classify malware samples","https://github.com/VirusTotal/yara",1516918906
-,yara-rules,1500.1d8bdc8,"A Repository of yara rules.","https://github.com/Yara-Rules/rules",1518043601
 scanner,yasat,848,"Yet Another Stupid Audit Tool.","http://yasat.sourceforge.net/",1496667175
 code-audit,yasca,2.1,"Multi-Language Static Analysis Toolset.","http://www.scovetta.com/yasca.html",1483215480
 webapp,yasuo,121.994dcb1,"A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network.","https://github.com/0xsauby/yasuo",1512914094
@@ -2678,7 +1925,6 @@ webapp,ycrawler,0.1,"A web crawler that is useful for grabbing all user supplied
 networking,yersinia,0.8.2,"A network tool designed to take advantage of some weakness in different network protocols.","http://www.yersinia.net/",1503599459
 exploitation,yinjector,0.1,"A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods.","http://packetstormsecurity.com/files/98359/yInjector-MySQL-Injection-Tool.html",1484422921
 webapp,ysoserial,0.0.5,"A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.","https://github.com/frohoff/ysoserial",1504436761
-,yuck,1049.18642e5,"A bog-standard command line option parser for C that works with only household ingredients.","https://github.com/hroptatyr/yuck",1519593644
 networking,zackattack,5.1f96c14,"A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.","https://github.com/urbanesec/ZackAttack/",1483387993
 webapp,zaproxy,2.7.0,"Integrated penetration testing tool for finding vulnerabilities in web applications","https://www.owasp.org/index.php/ZAP",1513033844
 exploitation,zarp,0.1.8,"A network attack tool centered around the exploitation of local networks.","https://defense.ballastsecurity.net/wiki/index.php/Zarp",1485540792
@@ -2690,6 +1936,5 @@ exploitation,zirikatu,7.afe1d9c,"Fud Payload generator script.","https://github.
 wireless,zizzania,124.8f2062f,"Automated DeAuth attack.","https://github.com/cyrus-and/zizzania",1482920454
 scanner,zmap,2.1.1,"Fast network scanner designed for Internet-wide network surveys","https://zmap.io/",1514319686
 cracker,zulu,0.1,"A light weight 802.11 wireless frame generation tool to enable fast and easy debugging and probing of 802.11 networks.","http://sourceforge.net/projects/zulu-wireless/",1441569253
-,zxing,2.2,"Multi-format 1D/2D barcode image processing library (C++ version).","http://code.google.com/p/zxing/",1455488172
 wireless,zykeys,0.1,"Demonstrates how default wireless settings are derived on some models of ZyXEL routers.","http://packetstormsecurity.com/files/119156/Zykeys-Wireless-Tool.html",1441569324
 fuzzer,zzuf,0.15,"Transparent application input fuzzer.","http://sam.zoy.org/zzuf/",1470089246

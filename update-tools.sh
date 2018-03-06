@@ -64,11 +64,13 @@ parse_db() {
 	fgroup=$(echo "$group" | sed -e 's/blackarch-//g' -e 's/ //g' -e "s/'//g")
 	noquotedesc=$(echo "$desc" | sed -e "s#\"#\'#g")
     dqt='"'
-    if [ "$url" ]; then
-	  echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},${dqt}$url${dqt},$build" >> "$OUT"
-    else
-      echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},,$build" >> "$OUT"
-	fi
+    if [ "$fgroup" ]; then
+        if [ "$url" ]; then
+	        echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},${dqt}$url${dqt},$build" >> "$OUT"
+        else
+            echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},,$build" >> "$OUT"
+	    fi
+    fi
   done
 }
 
