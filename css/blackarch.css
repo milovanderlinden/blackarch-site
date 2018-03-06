@@ -262,20 +262,9 @@ background-color: #333;
 	margin: 0 0 10px 0;
 }
 
-/* tbl tools list and donate */
-#tbl-minimalist {
-	margin: 15px;
-	font-size: 14px;
-	border-collapse: collapse;
-	text-align: left;
-	background-color: rgba(0, 0, 0, 0.0);
-}
 /* tbl donate minimum width */
 .tbl-donate {
-min-width:200px;
-}
-#tbl-minimalist td {
-	border-bottom: 1px solid #494949;
+	min-width:200px;
 }
 
 #tbl-minimalist tbody tr:hover>.tbl-name, #tbl-minimalist tbody tr:hover>.tbl-homepage
@@ -298,20 +287,6 @@ min-width:200px;
 #tbl-minimalist tbody tr:hover {
 transition: background-color 0.7s ease;
 background-color: rgba(15, 8, 8, 0.4);
-}
-
-.tbl-name, .tbl-version, .tbl-dversion {
-	max-width: 140px;
-}
-
-.tbl-version, .tbl-dversion {
-	padding: 0 10px 0 0;
-	box-sizing: border-box;
-}
-
-.tbl-description:not(:first-child), .tbl-ddescription:not(:first-child) {
-	padding: 0 30px 0 0;
-	box-sizing: border-box;
 }
 
 .tbl-homepage:not(:first-child) {
@@ -355,14 +330,6 @@ a.hcat {
 	}
 }
 
-@media ( max-width :450px) {
-	.tbl-homepage {
-		font-size: 10px;
-	}
-	.tbl-name {
-		font-size: 10px;
-	}
-}
 /* Index array (team) */
 #developers {
 	table-layout: fixed;
