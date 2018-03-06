@@ -153,23 +153,17 @@ display:inline-block;
 }
 
 @media ( max-width :1200px) {
-	.top-logo {
-		height: 50px;
-		width: 43px;
-	}
 	.top-fond {
 		display: none;
 	}
 	.menu-lnk {
-		margin: 8.5px 0 0 0;
+		margin: 1em;
 	}
 }
 
 @media ( max-width :1000px) {
 	.top-logo {
-		height: 30px;
-		width: 40px;
-		margin: 5px 0 0 0;
+		margin: 0.5em;
 	}
 	.menu-lnk li, .menu-lnk li a {
 		font-size: 12px;
