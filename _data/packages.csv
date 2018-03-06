@@ -384,7 +384,7 @@ database,mysql2sqlite,14.e5b2c31,Converts a mysqldump file into a Sqlite 3 compa
 database,pgdbf,113.4e84775,Convert XBase / FoxPro databases to PostgreSQL,https://github.com/kstrauser/pgdbf
 debugger,edb,0.9.20,A QT4-based binary mode debugger with the goal of having usability on par with OllyDbg.,http://www.codef00.com/projects.php#Debugger
 debugger,gdb,8.1,The GNU Debugger,http://www.gnu.org/software/gdb/
-debugger,gdbgui,320.9ffaf77,Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.,https://github.com/cs01/gdbgui
+debugger,gdbgui,320.9ffaf77,"Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.",https://github.com/cs01/gdbgui
 debugger,gef,1264.699e0e5,Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.,https://github.com/hugsy/gef
 debugger,lldb,5.0.1,"Next generation, high-performance debugger",http://lldb.llvm.org/
 debugger,ollydbg,201g,A 32-bit assembler-level analysing debugger,http://www.ollydbg.de
