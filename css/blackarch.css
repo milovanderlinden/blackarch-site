@@ -285,6 +285,10 @@ background-color: #333;
 	color: #FCBB41;
 }
 
+#tbl-minimalist tbody tr:hover>.tbl-categorie>a.hcat {
+	color: #FCBB41;
+}
+
 #tbl-minimalist tbody tr:hover {
 transition: background-color 0.7s ease;
 background-color: rgba(15, 8, 8, 0.4);
@@ -330,26 +334,9 @@ a.hcat {
 		display: none;
 	}
 }
-
-/* Index array (team) */
-#developers {
-	table-layout: fixed;
-	width: 600;
-}
-
-#developers tr td:nth-of-type(1) {
-	width: 180px;
-	padding: 0 0 5px 0;
-	text-align: left;
-}
-#developers tr td:nth-of-type(3) {
-width: 260px;
-text-align: left;
-}
-#developers tr td:nth-of-type(2), #developers tr td:nth-of-type(4), #developers tr td:nth-of-type(5) {
-width: 150px;
-text-align: left;
-}
+.dev-mail a {
+	color:  #4BA6E7;
+	}
 @media (max-width:650px) {
 	#developers tr td:nth-child(3), #developers tr td:nth-child(4) {
 	display:none;

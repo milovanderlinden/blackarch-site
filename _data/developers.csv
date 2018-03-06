@@ -1,0 +1,17 @@
+name,nick,email,gpg,hex,role
+Evan Teitelman,paraxor,teitelmanevan@gmail.com,"gpgkeys/paraxor.asc",0xEA87E4E3,"Founder, Developer"
+Levon Kayan,noptrix,noptrix@nullsecurity.net,"gpgkeys/noptrix.asc",0x7A747D10,Developer
+Javier,nrz,nrz@nullsecurity.net,"gpgkeys/nrz.asc",0x7C03DD86,Developer
+Hannes Eichblatt,heichblatt,blackarch@hanneseichblatt.de,"gpgkeys/heichblatt.asc",0x31B0AF0E,Developer
+Ellis Kenyo,elken,elken.tdos@gmail.com,"gpgkeys/elken.asc",0x0F4093D1,Developer
+Louis Dion-Marcil,ldionmarcil,louis.dionmarcil@gmail.com,"gpgkeys/ldionmarcil.asc",0x0E61E739,Developer
+Pedro Freitas,psf,pedrosffreitas@protonmail.com,"gpgkeys/psf.asc",0x6B644488,Developer
+Dimitri Mader,anyon3,dimitri@linux.com,"gpgkeys/anyon3.asc",0x8B8E3622,WebDeveloper
+Jeremy Marlow,i3_Arch,jamarlow410@gmail.com,"gpgkeys/i3_Arch.asc",0xC8173B68,Contributor
+Pierre B.,Pi3rrot,pierre@pi3rrot.net,"gpgkeys/pi3rrot.asc",0x0B694394,Contributor
+Halit Alptekin,rapt0r,me@halitalptekin.com,"gpgkeys/rapt0r.asc",0x17F838F9,Contributor
+Ano Nymous,sudokode,sudokode@gmail.com,"gpgkeys/sudokode.asc",0xBADC0DE,Contributor
+Guy Marquez,eserror,guy.marquez@yandex.com,"gpgkeys/eserror.asc",0x1DDA1182,Contributor
+Felipe Montes,GudwaL,felipe@smartdefence.cl,"gpgkeys/gudwal.asc",0x9548C879,Contributor
+Abelardo Ricart,abby,aricart@gmail.com,"gpgkeys/abby.asc",0xF126259B,Contributor
+Alexander Rothenberg,EisWiesel,unreal436@gmail.com,"gpgkeys/eiswiesel.asc",0xBADC0DE,Contributor
