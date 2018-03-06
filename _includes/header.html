@@ -14,32 +14,20 @@
   </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
+      {% assign navigation_pages = site.pages | where: 'nav', "true" | sort: 'position' %}
       <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
-              <li id="home" itemprop="name">
-                  <a itemprop="url" href="{{ 'index.html' | relative_url }}"><i class="fa fa-home"></i> Home</a>
-              </li>
-              <li id="downloads" itemprop="name">
-                  <a itemprop="url" href="{{ 'downloads.html'  | relative_url }}"><i class="fa fa-download"></i> Downloads</a>
-              </li>
-              <li id="guide" itemprop="name">
-                  <a itemprop="url" href="{{ 'guide.html'  | relative_url }}"><i class="fa fa-book"></i> Guide</a>
-              </li>
-              <li id="faq" itemprop="name">
-                  <a itemprop="url" href="{{ 'faq.html'  | relative_url }}"><i class="fa fa-question-circle-o"></i> Faq</a>
-              </li>
-              <li id="tools" itemprop="name">
-                  <a itemprop="url" href="{{ 'tools.html' | relative_url }}"><i class="fa fa-list-alt"></i> Tools</a>
-              </li>
-              <li id="community" itemprop="name">
-                  <a itemprop="url" href="{{ 'community.html' | relative_url }}"><i class="fa fa-users"></i> Community</a>
-              </li>
-              <li id="blog" itemprop="name">
-                  <a itemprop="url" href="{{ 'blog.html' | relative_url }}"><i class="fa fa-newspaper-o"></i> Blog</a>
-              </li>
-              <li id="donate" itemprop="name">
-         <a itemprop="url" href="{{ 'donate.html' | relative_url }}"><i class="fa fa-heart"></i> Donate</a>
-              </li>
+              {% for node in navigation_pages %}
+                {% if node.nav %}
+                    <li id="{{ node.id }}" itemprop="name">
+                    {% if page.url == node.url %}
+                        <a class="navbar-item navbar-button selected" itemprop="url"><i class="fa {{ node.icon }}"></i> {{node.title}}</a>
+                    {% else %}
+                        <a class="navbar-item navbar-button" itemprop="url" href="{{node.url | relative_url }}"><i class="fa {{ node.icon }}"></i> {{node.title}}</a>
+                    {% endif %}
+                    </li>
+                {% endif %}
+              {% endfor %}
           </ul>
       </div>
       <!-- /.navbar-collapse -->
