@@ -9,9 +9,9 @@
     <!-- Page Heading/Breadcrumbs -->
     {% assign groupname = page.group %}
     {% if page.id != 'tools' %}
-    {% assign packages = site.data.tools | where:'group', groupname | sort: 'name' %}
+    {% assign packages = site.data.tools | where:'group', groupname | sort: 'build' | reverse  %}
     {% else %}
-    {% assign packages = site.data.tools | sort: 'name' %}
+    {% assign packages = site.data.tools | sort: 'build' | reverse %}
     {% endif %}
     <div class="row">
         <div class="col-lg-12">
@@ -50,8 +50,7 @@
                     <tr>
                         <td class="tbl-name" itemprop="name">{{ member.name }}</td>
                         <td class="tbl-version vcat" itemprop="version">{{ member.vers }}</td>
-                        <td class="tbl-version vcat" itemprop="version">{{ member.build | date: "%Y-%m-%d" }}
-                            </td>
+                        <td class="tbl-version vcat" itemprop="version">{{ member.build | date: "%Y-%m-%d" }}</td>
                         <td class="tbl-description dcat" itemprop="description">{{ member.desc}}</td>
                         {% assign groupurl = '/tools/' | append: member.group | append: '.html' %}
                         <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
