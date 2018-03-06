@@ -6,6 +6,7 @@ body {
 	padding-top: 50px;
 	background-color: #1d1d1d;
 	color: #F4F4F4;
+	font-family: 'Nanum Gothic Coding', monospace;
 }
 
 a:not(.hcat ) {

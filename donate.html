@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Donate
+title: Donations
 ---
     <!-- Page Content -->
     <div class="container result">
@@ -8,17 +8,43 @@ title: Donate
 		<div class="row">
             <div class="col-lg-12">
                <div class="page-header page-header-title">
-	           <h1>Donation</h1> <h2>Help us today</h2>
+	           <h1>Donate</h1> <h2>Help us today</h2>
                </div>
                 <ol class="breadcrumb">
                     <li><a class=home href="index.html">Home</a>
                     </li>
-                    <li class="active">Donate</li>
+                    <li class="active">{{ page.title }}</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
-        <!-- Content Row -->
+		<!-- Content Row -->
+	<div class="panel panel-default text-left">
+			<div class="panel-heading"><b>List of donations</b></div>
+			<div class="list-group-item">
+				<p>To be entirely transparent, we will display every donation here, if you made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our IRC channel. In case we receive a donation and nobody claimed it, we will display it as Anonymous</p>
+				{% assign donors = site.data.donors %}
+					<table id="tbl-minimalist" class="table tbl-donate">
+					<thead>
+						<tr id="idx-tool">
+						<th class="tbl-name">Name</th>
+						<th class="tbl-dversion">Amount</th>
+						<th class="tbl-ddescription">Date</th>
+					</tr>
+					</thead>
+					<tbody>
+					{% for donor in donors %}
+						<tr>
+							<td class="tbl-name">{{ donor.name }}</td>
+							<td class="tbl-dversion vcat">{{ donor.ammount }}</td>
+							<td class="tbl-ddescription dcat">{{ donor.date}}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+					</table>
+					<p><i>Donations are listed here from January 2017</i></p>
+			</div>
+			</div>
     <div class="panel panel-default text-left">
   	<div class=panel-heading>
             <b>Help BlackArch</b>
@@ -57,48 +83,6 @@ title: Donate
 	</div>
 	</div>
 	<br>
-	<div class="panel panel-default text-left">
-		<div class="panel-heading"><b>List of the donors</b></div>
-		<div class=list-group-item>
-	        <p>To be entirely transparent, we will display every donations here, if you have made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our IRC channel. In case we receive a donation and nobody claimed it, we will display it as Anonymous</p>
-			 <table id=tbl-minimalist class=tbl-donate>
-			 <thead>
-	         	<tr id=idx-tool>
-	             <th class=tbl-name>Name</th>
-	             <th class=tbl-dversion>Amount</th>
-	             <th class=tbl-ddescription>Date</th>
-	             <th class=tbl-dhomepage>Website</th>
-	            </tr>
-	         </thead>
-	         <tbody>
-	            <tr>
-	             <td class=tbl-name>Anonymous</td>
-	             <td class="tbl-dversion vcat">100,00 USD</td>
-	             <td class="tbl-ddescription dcat">17 October 2017</td>
-	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
-	            </tr>
-	            <tr>
-	             <td class=tbl-name>Anonymous</td>
-	             <td class="tbl-dversion vcat">25,00 USD</td>
-	             <td class="tbl-ddescription dcat">01 October 2017</td>
-	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
-	            </tr>
-	            <tr>
-	             <td class=tbl-name>Thomas Cassin</td>
-	             <td class="tbl-dversion vcat">22,77 USD</td>
-	             <td class="tbl-ddescription dcat">25 August 2017</td>
-	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
-	            </tr>
-	            <tr>
-	             <td class=tbl-name>Anonymous</td>
-	             <td class="tbl-dversion vcat">5 EUR</td>
-	             <td class="tbl-ddescription dcat">03 January 2017</td>
-	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
-	            </tr>
-	         </tbody>
-			 </table>
-			 <p><i>The display of the donator start from January 2017</i></p>
-        </div>
-     </div>
+
      <!-- /.row -->
        
