@@ -8,7 +8,7 @@ export LC_ALL=C
 SITE="blackarch.org"
 REPO="blackarch"
 ARCH="x86_64"
-OUT="data/tools"
+OUT="_data/tools.csv"
 
 # Remove previous file entry except the mirrors file
 find data ! -name 'mirrors' -type f -exec rm -f {} +
@@ -24,7 +24,7 @@ get_db() {
 
 parse_db() {
     mkdir -p "$(dirname file)"
-
+    echo "group,name,vers,desc,url" >> "$OUT"
     for d in "$tmp"/*
     do
 	# Name
@@ -56,24 +56,22 @@ parse_db() {
 	esac
 	
 	# Website url
-        url="$(grep --no-group-separator -A2 '^%URL%$' "${d}"/desc |
-        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%URL%$')"
+    url="$(grep --no-group-separator -A2 '^%URL%$' "${d}"/desc |
+      sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%URL%$')"
 
 	fgroup=$(echo "$group" | sed -e 's/blackarch-//g' -e 's/ //g' -e "s/'//g")
-	
-	# Do not insert the current package if the $group variable is empty
-	if [ "$group" ]; then
-	    echo "$name|$vers|$desc|$group|$url" >> "$OUT"
-	    if [ "$fgroup" ];  then
-		# [review] This was happening at least three times.
-		echo "$name|$vers|$desc|$url" >> data/"$fgroup"
-	    fi
-        fi
-    done
+	noquotedesc=$(echo "$desc" | sed -e "s#\"#\'#g")
+    dqt='"'
+    if [ "$url" ]; then
+	  echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},${dqt}$url${dqt}" >> "$OUT"
+    else
+      echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt}," >> "$OUT"
+	fi
+  done
 }
 
 split() {
-    sed -i 's/\t/\|/g' "$OUT"
+    sed -i 's/\t/,/g' "$OUT"
 }
 
 main() {

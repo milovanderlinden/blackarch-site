@@ -33,7 +33,7 @@ title: Tools
                 </p>
                 <br>
                 <p>
-                    <b>Tool count:</b> <a href="">{{ site.data.packages.size }}</a>
+                    <b>Tool count:</b> <a href="">{{ site.data.tools.size }}</a>
                 </p>
 	        </div>
 	      </div>
@@ -53,14 +53,18 @@ title: Tools
                     </tr>
                 </thead>
                 <tbody>
-                    {% assign packages = site.data.packages | sort: 'name' %}
+                    {% assign packages = site.data.tools | sort: 'name' %}
                     {% for member in packages %}
                     <tr>
                         <td class="tbl-name" itemprop="name">{{ member.name }}</td>
-                        <td class="tbl-version vcat" itemprop="version">{{ member.version }}</td>
-                        <td class="tbl-description dcat" itemprop="description">{{ member.description}}</td>
-                        <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ member.cat }}.html" title="{{ member.cat }}">{{ member.cat | capitalize }}</a></td>
+                        <td class="tbl-version vcat" itemprop="version">{{ member.vers }}</td>
+                        <td class="tbl-description dcat" itemprop="description">{{ member.desc}}</td>
+                        <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ member.group }}.html" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
+                        {% if member.url %}
                         <td class="tbl-homepage" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
+                        {% else %}
+                        <td></td>
+                        {% endif %}
                     </tr>
                     {% endfor %}
                 </tbody>
