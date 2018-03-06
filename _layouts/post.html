@@ -9,35 +9,24 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="page-header page-header-title">
-          <h1>{{ page.title }}</h1> <h2>{{ page.description }}</h2>
+          <h1>{{ page.title }}</h1>
         </div>
         <ol class="breadcrumb">
-          <li>
-            <a class=home href="../../../index.html">Home</a>
-          </li>
-          <li>
-            <a href="../../../community.html">Community</a>
-          </li>
-          <li>
-              <a href="../../../blog.html">Blog</a>
-            </li>
-          <li class="active">{{ page.title }}</li>
+          <li><a class=home href="../../../index.html">Home</a></li>
+          <li><a href="../../../community.html">Community</a></li>
+          <li><a href="../../../blog.html">Blog</a></li>
         </ol>
+        <h2>{{ page.description }}</h2>
       </div>
-      <div class="col-md-8">
-        <div class="panel panel-default text-left">
-          <ul class="list-group nblog">
-              <li class="list-group-item">
-                  <article itemscope itemtype="http://schema.org/NewsArticle"><header>
-                      <time itemprop="datePublished">{{ page.date | date: "%a, %b %d %Y %H:%M:%S GMT" }}</time>
-                    <h4 itemprop="name">{{ page.title }}</h4></header>
-                    <div itemprop="description">
-                        {{ content }}
-                    </div>
-                  </article>
-              </li>
-          </ul>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+            <time itemprop="datePublished">{{ page.date | date: "%a, %b %d %Y %H:%M:%S GMT" }}</time>
+            <div itemprop="description">
+                {{ content }}
+            </div>
+          </article>
       </div>
     </div>
   </div>
