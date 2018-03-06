@@ -616,7 +616,5 @@ a.hcat {
 	border-color: #494949;
 }
 .selected {
-	color: #0f0 !important;
-	border-left: 1px solid #0f0;
-	border-right: 1px solid #0f0;
+	font-weight: bold;
 }
