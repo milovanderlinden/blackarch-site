@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Honeypot
+title: Honeypots
 group: honeypot
 ---
 

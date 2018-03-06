@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fuzzer
+title: Fuzzers
 group: fuzzer
 ---
 

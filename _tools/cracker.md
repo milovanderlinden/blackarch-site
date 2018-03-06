@@ -1,6 +1,6 @@
 ---
 layout: tools
-title: Cracker
+title: Crackers
 group: cracker
 ---
 

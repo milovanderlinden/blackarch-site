@@ -1,6 +1,6 @@
 ---
 layout: tools
-title: tools
+title: Crypto
 group: crypto
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Keylogger
+title: Keyloggers
 group: keylogger
 ---
 

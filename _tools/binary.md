@@ -4,4 +4,4 @@ title: Binary
 group: binary
 ---
     
-Packages that operate on binary  les in some form.
+Packages that operate on binaries in some form.

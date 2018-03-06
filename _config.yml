@@ -1,0 +1,6 @@
+# Site settings
+collections:
+  tools:
+    output: true
+plugins:
+  - jekyll-sitemap

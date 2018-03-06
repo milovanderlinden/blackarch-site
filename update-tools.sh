@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Generate data/tools.
+# Generate _data/tools.csv that is used by Jekyll to generate pages.
 # Format: <name>\t<version>\t<url>\t<description>
 
 export LC_ALL=C

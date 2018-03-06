@@ -1,6 +1,6 @@
 ---
 layout: tools
-title: Disassembler
+title: Disassemblers
 group: disassembler
 ---
 

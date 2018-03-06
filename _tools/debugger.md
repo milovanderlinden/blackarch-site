@@ -1,6 +1,6 @@
 ---
 layout: tools
-title: Debugger
+title: Debuggers
 group: debugger
 ---
 

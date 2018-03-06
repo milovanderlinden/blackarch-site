@@ -13,9 +13,9 @@
           <h1>{{ page.title }}</h1> <h2>The list</h2>
             </div>
             <ol class="breadcrumb">
-                <li><a class="home" href="index.html">Home</a>
+                <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a>
                 </li>
-                <li class="active"><a class="tools" href="tools.html">Tools</a></li>
+                <li class="active"><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
                  <li class="active">{{ page.title }}</li>
             </ol>
         </div>

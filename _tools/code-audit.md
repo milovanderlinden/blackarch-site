@@ -1,6 +1,6 @@
 ---
 layout: tools
-title: Code-audit
+title: Code-audits
 group: code-audit
 ---
 

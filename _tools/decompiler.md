@@ -1,6 +1,6 @@
 ---
 layout: tools
-title: Decompiler
+title: Decompilers
 group: decompiler
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: tools
-title: Recon
+title: Reconnaissance
 group: recon
 ---
 
