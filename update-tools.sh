@@ -24,7 +24,7 @@ get_db() {
 
 parse_db() {
     mkdir -p "$(dirname file)"
-    echo "group,name,vers,desc,url" >> "$OUT"
+    echo "group,name,vers,desc,url,build" >> "$OUT"
     for d in "$tmp"/*
     do
 	# Name
@@ -38,7 +38,9 @@ parse_db() {
 	# Description
         desc="$(grep --no-group-separator -A2 '^%DESC%$' "${d}"/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%DESC%$')"
-
+    # Build
+        build="$(grep --no-group-separator -A2 '^%BUILDDATE%$' "${d}"/desc |
+        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%BUILDDATE%$')"
 	# Category
 	# Add exception for the following packages
 	case "${name}" in
@@ -63,9 +65,9 @@ parse_db() {
 	noquotedesc=$(echo "$desc" | sed -e "s#\"#\'#g")
     dqt='"'
     if [ "$url" ]; then
-	  echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},${dqt}$url${dqt}" >> "$OUT"
+	  echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},${dqt}$url${dqt},$build" >> "$OUT"
     else
-      echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt}," >> "$OUT"
+      echo "$fgroup,$name,$vers,${dqt}$noquotedesc${dqt},,$build" >> "$OUT"
 	fi
   done
 }
