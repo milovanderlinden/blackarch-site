@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tools
 title: Packer
 group: packer
 ---

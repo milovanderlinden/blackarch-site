@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tools
 title: Fuzzers
 group: fuzzer
 ---
