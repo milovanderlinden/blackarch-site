@@ -20,10 +20,10 @@
             <ol class="breadcrumb">
                 <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
                 {% if page.id != 'tools' %}
-                <li class="active"><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
+                <li><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
                 <li class="active">{{ page.title }}</li>
                 {% else%}
-                <li>Tools</li>
+                <li class="active">Tools</li>
                 {% endif %}
             </ol>
         </div>
