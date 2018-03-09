@@ -161,16 +161,6 @@ display:inline-block;
 	}
 }
 
-@media ( max-width :1000px) {
-	.top-logo {
-		margin: 0.5em;
-	}
-	.menu-lnk li, .menu-lnk li a {
-		font-size: 12px;
-	}
-}
-/* End top menu */
-
 .community-head {
 	padding: 4px 15px 4px 15px;
 	margin-bottom: 20px;

@@ -23,7 +23,7 @@ networking,afpfs-ng,0.8.1,"A client for the Apple Filing Protocol (AFP)","http:/
 windows,agafi,13.8007d3d,"A gadget finder and a ROP-Chainer tool for x86 platforms.","https://github.com/CoreSecurity/Agafi",1487284598
 cracker,against,0.2,"A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possible targets and a multithreaded brute-forcing module which attacks parallel all discovered hosts or given ip addresses from a list.","http://nullsecurity.net/tools/cracker.html",1483189252
 exploitation,aggroargs,51.c032446,"Bruteforce commandline buffer overflows, linux, aggressive arguments.","https://github.com/tintinweb/aggroArgs",1493890228
-networking,aiengine,737.641954dd,"A packet inspection engine with capabilities of learning without any human intervention.","https://bitbucket.org/camp0/aiengine/",1519861476
+networking,aiengine,738.db602f84,"A packet inspection engine with capabilities of learning without any human intervention.","https://bitbucket.org/camp0/aiengine/",1520518249
 forensic,aimage,3.2.5,"A program to create aff-images.","http://www.afflib.org",1391262768
 forensic,air,2.0.0,"A GUI front-end to dd/dc3dd designed for easily creating forensic images.","http://air-imager.sourceforge.net/",1483189270
 wireless,aircrack-ng,1.2rc4,"Key cracker for the 802.11 WEP and WPA-PSK protocols","https://www.aircrack-ng.org",1490642002
@@ -53,7 +53,7 @@ social,anontwi,1.1b,"A free software python client designed to navigate anonymou
 webapp,anti-xss,165.6534a4d,"A XSS vulnerability scanner.","https://github.com/lewangbtcc/anti-XSS",1486629781
 windows,antiransom,3.02,"A tool capable of detect and stop attacks of Ransomware using honeypots.","http://www.security-projects.com/?Anti_Ransom___Download",1496231904
 scanner,apache-users,2.1,"This perl script will enumerate the usernames on a unix system that use the apache module UserDir.","https://labs.portcullis.co.uk/downloads/",1483189580
-networking,apacket,181.4aae292,"Sniffer syn and backscatter packets.","https://github.com/Acey9/apacket",1520157575
+networking,apacket,195.f19259f,"Sniffer syn and backscatter packets.","https://github.com/Acey9/apacket",1520518292
 wireless,aphopper,0.3,"A program that automatically hops between access points of different wireless networks.","http://aphopper.sourceforge.net/",1496436774
 recon,api-dnsdumpster,59.eda15d6,"Unofficial Python API for http://dnsdumpster.com/.","https://github.com/PaulSec/API-dnsdumpster.com",1518978125
 mobile,apkid,148.eef3689,"Android Application Identifier for Packers, Protectors, Obfuscators and Oddities.","https://github.com/rednaga/APKiD",1517181126
@@ -88,7 +88,7 @@ scanner,athena-ssl-scanner,0.6.2,"A SSL cipher scanner that checks all cipher co
 scanner,atscan,1830.e2dfd48,"Server, Site and Dork Scanner.","https://github.com/AlisamTechnology/ATSCAN-V3.1",1514375531
 windows,atstaketools,0.1,"This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.","http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html",1483189813
 crypto,auto-xor-decryptor,7.2eb176d,"Automatic XOR decryptor tool.","http://www.blog.mrg-effitas.com/publishing-of-mrg-effitas-automatic-xor-decryptor-tool/",1483189927
-automation,automato,25.5c32f2b,"Should help with automating some of the user-focused enumeration tasks during an internal penetration test.","https://github.com/skahwah/automato",1517516942
+automation,automato,26.0aa769d,"Should help with automating some of the user-focused enumeration tasks during an internal penetration test.","https://github.com/skahwah/automato",1520518312
 automation,autonessus,24.7933022,"This script communicates with the Nessus API in an attempt to help with automating scans.","https://github.com/redteamsecurity/AutoNessus",1492807474
 forensic,autopsy,2.24,"A GUI for The Sleuth Kit.","http://www.sleuthkit.org/autopsy",1483189830
 automation,autopwn,177.2f3f605,"Specify targets and run sets of tools against them.","https://github.com/nccgroup/autopwn",1483189911
@@ -119,7 +119,7 @@ webapp,bbscan,39.57a2e33,"A tiny Batch weB vulnerability Scanner.","https://gith
 proxy,bdfproxy,101.f9d50ec,"Patch Binaries via MITM: BackdoorFactory + mitmProxy","https://github.com/secretsquirrel/BDFProxy",1501704780
 malware,bdlogparser,1,"This is a utility to parse a Bit Defender log file, in order to sort them into a malware archive for easier maintanence of your malware collection.","http://magikh0e.xyz/",1421619927
 exploitation,bed,0.5,"Collection of scripts to test for buffer overflows, format string vulnerabilities.","http://www.aldeid.com/wiki/Bed",1483190145
-exploitation,beef,2999.dfc08595,"The Browser Exploitation Framework that focuses on the web browser","http://beefproject.com/",1518978216
+exploitation,beef,3062.b2793827,"The Browser Exploitation Framework that focuses on the web browser","http://beefproject.com/",1520518353
 honeypot,beeswarm,1182.9f39f33,"Honeypot deployment made easy http://www.beeswarm-ids.org/","https://github.com/honeynet/beeswarm/",1485539508
 wireless,beholder,0.8.10,"A wireless intrusion detection tool that looks for anomalies in a wifi environment.","http://www.beholderwireless.org/",1421536803
 scanner,belati,59.d413f49,"The Traditional Swiss Army Knife for OSINT.","https://github.com/aancw/Belati",1517249837
@@ -157,7 +157,7 @@ fingerprint,blindelephant,7,"A web application fingerprinter. Attempts to discov
 database,blindsql,1.0,"Set of bash scripts for blind SQL injection attacks.","http://www.enye-sec.org/programas.html",1483190679
 scanner,blindy,12.59de8f2,"Simple script to automate brutforcing blind sql injection vulnerabilities.","https://github.com/missDronio/blindy",1500278759
 webapp,blisqy,15.0d73ed0,"Exploit Time-based blind-SQL injection in HTTP-Headers (MySQL/MariaDB).","https://github.com/JohnTroony/Blisqy",1508189001
-recon,bloodhound,433.c099666,"Six Degrees of Domain Admin","https://github.com/BloodHoundAD/BloodHound",1520023228
+recon,bloodhound,437.3355c35,"Six Degrees of Domain Admin","https://github.com/BloodHoundAD/BloodHound",1520518605
 voip,bluebox-ng,1.1.0,"A GPL VoIP/UC vulnerability scanner.","https://github.com/jesusprubio/bluebox-ng",1485305357
 bluetooth,bluebugger,0.1,"An implementation of the bluebug technique which was discovered by Martin Herfurt.","http://packetstormsecurity.com/files/54024/bluebugger.1.tar.gz.html",1391265851
 bluetooth,bluediving,0.9,"A Bluetooth penetration testing suite.","http://bluediving.sourceforge.net/",1458338307
@@ -176,7 +176,7 @@ misc,bokken,1.8,"GUI for radare2 and pyew.","http://inguma.eu/projects/bokken/",
 dos,bonesi,12.733c9e9,"The DDoS Botnet Simulator.","https://github.com/Markus-Go/bonesi",1469115106
 wireless,boopsuite,160.f3333ca,"A Suite of Tools written in Python for wireless auditing and security testing.","https://github.com/M1ND-B3ND3R/BoopSuite",1518562878
 exploitation,bowcaster,174.0021c99,"A framework intended to aid those developing exploits.","https://github.com/zcutlip/bowcaster",1509265165
-malware,box-js,354.dd067da,"A tool for studying JavaScript malware.","https://github.com/CapacitorSet/box-js",1519861732
+malware,box-js,355.34b21c1,"A tool for studying JavaScript malware.","https://github.com/CapacitorSet/box-js",1520518790
 scanner,braa,0.82,"A mass snmp scanner","http://s-tech.elsat.net.pl/braa/",1388156021
 bluetooth,braces,0.4,"A Bluetooth Tracking Utility.","http://braces.shmoo.com/",1388156000
 networking,bro,2.5.2,"A powerful network analysis framework that is much different from the typical IDS you may know.","https://www.bro.org/download/index.html",1508662556
@@ -420,7 +420,7 @@ exploitation,dotdotpwn,3.0.2,"The Transversal Directory Fuzzer","http://dotdotpw
 cracker,dpeparser,beta002,"Default password enumeration project","http://www.toolswatch.org/dpe/",1483196927
 scanner,dpscan,0.1,"Drupal Vulnerabilty Scanner.","https://github.com/insaneisnotfree/Blue-Sky-Information-Security",1483196935
 exploitation,dr-checker,134.050e078,"A Soundy Vulnerability Detection Tool for Linux Kernel Drivers.","https://github.com/ucsb-seclab/dr_checker",1520023398
-backdoor,dr0p1t-framework,42.a4c185e,"A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks.","https://github.com/D4Vinci/Dr0p1t-Framework",1507535951
+backdoor,dr0p1t-framework,43.ce7c04a,"A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks.","https://github.com/D4Vinci/Dr0p1t-Framework",1520518832
 automation,dracnmap,69.09d3945,"Tool to exploit the network and gathering information with nmap help.","https://github.com/screetsec/Dracnmap",1507801673
 recon,dradis,3.0.0.rc1,"An open source framework to enable effective information sharing.","http://dradisframework.org/",1483196965
 recon,dradis-ce,857.692d172,"An open source framework to enable effective information sharing.","http://dradisframework.org/",1501244819
@@ -497,12 +497,12 @@ recon,exitmap,357.0897703,"A fast and modular scanner for Tor exit relays.","htt
 forensic,exiv2,0.26,"Exif, Iptc and XMP metadata manipulation library and tools","http://exiv2.org",1505642506
 binary,expimp-lookup,4.79a96c7,"Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.","https://github.com/tr3w/ExpImp-Lookup",1483197370
 exploitation,exploit-db,1.6,"The Exploit Database (EDB) – an ultimate archive of exploits and vulnerable software - A collection of hacks","http://www.exploit-db.com",1483197374
-exploitation,exploitpack,109.758e1a7,"Exploit Pack - Project.","https://github.com/juansacco/exploitpack",1518978490
-misc,exrex,121.de883b0,"Irregular methods on regular expressions.","https://github.com/asciimoo/exrex",1504951314
+exploitation,exploitpack,110.27b1c73,"Exploit Pack - Project.","https://github.com/juansacco/exploitpack",1520518875
+misc,exrex,123.d1952ab,"Irregular methods on regular expressions.","https://github.com/asciimoo/exrex",1520518903
 misc,extracthosts,14.ec8b89c,"Extracts hosts (IP/Hostnames) from files.","https://github.com/bwall/ExtractHosts",1483197433
 forensic,extundelete,0.2.4,"Utility for recovering deleted files from ext2, ext3 or ext4 partitions by parsing the journal","http://extundelete.sourceforge.net",1449328755
 exploitation,eyepwn,1.0,"Exploit for Eye-Fi Helper directory traversal vulnerability","http://www.pentest.co.uk",1483197441
-webapp,eyewitness,678.6f95922,"Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.","https://github.com/ChrisTruncer/EyeWitness",1517249930
+webapp,eyewitness,679.9fa6fb8,"Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.","https://github.com/ChrisTruncer/EyeWitness",1520518948
 cracker,f-scrack,19.9a00357,"A single file bruteforcer supports multi-protocol.","https://github.com/ysrc/F-Scrack",1483197796
 recon,facebot,23.57f6025,"A facebook profile and reconnaissance system.","https://github.com/pun1sh3r/facebot",1483197470
 social,facebrok,33.0f6fe8d,"Social Engineering Tool Oriented to facebook.","https://github.com/PowerScript/facebrok",1491550611
@@ -591,7 +591,7 @@ recon,gasmask,46.37f368c,"All in one Information gathering tool - OSINT.","https
 recon,gatecrasher,2.3ad5225,"Network auditing and analysis tool developed in Python.","https://github.com/michaeltelford/gatecrasher",1488051192
 malware,gcat,28.6cb165a,"A fully featured backdoor that uses Gmail as a C&C server.","https://github.com/byt3bl33d3r/gcat",1492902176
 debugger,gdb,8.1,"The GNU Debugger","http://www.gnu.org/software/gdb/",1517373732
-debugger,gdbgui,320.9ffaf77,"Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.","https://github.com/cs01/gdbgui",1520075790
+debugger,gdbgui,321.0a6afe0,"Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.","https://github.com/cs01/gdbgui",1520518978
 debugger,gef,1264.699e0e5,"Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.","https://github.com/hugsy/gef",1520075821
 misc,genlist,0.1,"Generates lists of IP addresses.",,1484422322
 recon,geoedge,0.2,"This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).",,1483197906
@@ -622,14 +622,14 @@ webapp,golismero,61.1eb98ed,"Opensource web security testing framework.","https:
 recon,goodork,2.2,"A python script designed to allow you to leverage the power of google dorking straight from the comfort of your command line.","http://goo-dork.blogspot.com/",1483198037
 recon,goofile,1.5,"Command line filetype search","https://code.google.com/p/goofile/",1388155792
 recon,goog-mail,1.0,"Enumerate domain emails from google.","http://www.darkc0de.com/others/goog-mail.py",1483198058
-automation,google-explorer,114.fada9bc,"Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.","https://github.com/anarcoder/google_explorer",1518041951
+automation,google-explorer,116.e5076f6,"Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.","https://github.com/anarcoder/google_explorer",1520519059
 scanner,googlesub,1.3,"A python script to find domains by using google dorks.","https://github.com/zombiesam/googlesub",1483198051
 recon,goohak,22.c103f43,"Automatically Launch Google Hacking Queries Against A Target Domain.","https://github.com/1N3/Goohak",1513260902
 automation,gooscan,1.0.9,"A tool that automates queries against Google search appliances, but with a twist.","http://johnny.ihackstuff.com/downloads/task,doc_details&Itemid=/gid,28/",1390485090
 social,gophish,0.4.0,"Open-Source Phishing Framework.","https://getgophish.com/",1507814365
 recon,gosint,104.07b811c,"OSINT framework in Go.","https://github.com/Nhoya/gOSINT",1518559779
 windows,gplist,1.0,"Lists information about the applied Group Policies.","http://ntsecurity.nu/toolbox/gplist/",1469713861
-radio,gps-sdr-sim,147.bbae665,"Software-Defined GPS Signal Simulator.","https://github.com/osqzss/gps-sdr-sim",1518563082
+radio,gps-sdr-sim,161.4733b8a,"Software-Defined GPS Signal Simulator.","https://github.com/osqzss/gps-sdr-sim",1520519093
 wireless,gqrx,2.10,"Interactive SDR receiver waterfall for many devices.","http://gqrx.dk/",1517011929
 scanner,grabbb,0.0.7,"Clean, functional, and fast banner scanner.","https://packetstormsecurity.com/files/11372/grabbb.0.7.tar.gz.html",1469706252
 webapp,grabber,0.1,"A web application scanner. Basically it detects some kind of vulnerabilities in your website.","http://rgaucher.info/beta/grabber/",1483198067
@@ -795,11 +795,11 @@ voip,isip,2.fad1f10,"Interactive sip toolkit for packet manipulations, sniffing,
 voip,isme,0.12,"Scans a VOIP environment, adapts to enterprise VOIP, and exploits the possibilities of being connected directly to an IP Phone VLAN.","https://packetstormsecurity.com/files/123534/IP-Phone-Scanning-Made-Easy.12.html",1484422392
 recon,isr-form,1.0,"Simple html parsing tool that extracts all form related information and generates reports of the data. Allows for quick analyzing of data.","http://www.infobyte.com.ar/",1484422400
 sniffer,issniff,294.79c6c2a,"Internet Session Sniffer.","https://github.com/juphoff/issniff",1487428864
-recon,ivre,1618.e17126a,"Network recon framework.","https://ivre.rocks/",1519945171
+recon,ivre,1620.199091e,"Network recon framework.","https://ivre.rocks/",1520519162
 scanner,jaadas,0.1,"Joint Advanced Defect assEsment for android applications.","https://github.com/flankerhqd/JAADAS/",1487530453
 reversing,jad,1.5.8e,"Java decompiler","https://varaneckas.com/jad",1506370097
 decompiler,jadx,0.6.1,"Command line and GUI tools to produce Java source code from Android Dex and APK files","https://github.com/skylot/jadx",1482098585
-webapp,jaidam,12.e1cbcb5,"Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well-known open source tools, WPScan and Joomscan.","https://github.com/stasinopoulos/jaidam",1500278956
+webapp,jaidam,18.15e0fec,"Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well-known open source tools, WPScan and Joomscan.","https://github.com/stasinopoulos/jaidam",1520519188
 reversing,javasnoop,1.1,"A tool that lets you intercept methods, alter data and otherwise hack Java applications running on your computer","https://code.google.com/p/javasnoop/",1395492405
 exploitation,jboss-autopwn,1.3bc2d29,"A JBoss script for obtaining remote shell access.","https://github.com/SpiderLabs/jboss-autopwn",1401145516
 fuzzer,jbrofuzz,2.5,"Web application protocol fuzzer that emerged from the needs of penetration testing.","http://sourceforge.net/projects/jbrofuzz/",1483198744
@@ -846,7 +846,7 @@ fuzzer,kitty,321.f19e811,"Fuzzing framework written in python.","https://github.
 windows,klogger,1.0,"A keystroke logger for the NT-series of Windows.","http://ntsecurity.nu/toolbox/klogger/",1400693517
 scanner,knock,271.3df25f1,"Subdomain scanner.","https://github.com/guelfoweb/knock",1517517329
 scanner,knxmap,241.400ccd5,"KNXnet/IP scanning and auditing tool for KNX home automation installations.","https://github.com/ernw/knxmap",1515757932
-exploitation,koadic,118.507d554,"A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.","https://github.com/zerosum0x0/koadic",1520023473
+exploitation,koadic,120.3e42972,"A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.","https://github.com/zerosum0x0/koadic",1520519209
 webapp,kolkata,3.0,"A web application fingerprinting engine written in Perl that combines cryptography with IDS evasion.","http://www.blackhatlibrary.net/Kolkata",1388155681
 crypto,kraken,32.368a837,"A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.","http://opensource.srlabs.de/projects/a51-decrypt",1403213380
 exploitation,l0l,322.1319ea7,"The Exploit Development Kit.","https://github.com/roissy/l0l",1505403818
@@ -885,7 +885,7 @@ forensic,limeaide,178.d332e10,"Remotely dump RAM of a Linux client and create a 
 scanner,linenum,32.c5a1316,"Scripted Local Linux Enumeration & Privilege Escalation Checks","https://github.com/rebootuser/LinEnum",1516661891
 automation,linset,9.8746b1f,"Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.","https://github.com/vk496/linset",1483201810
 recon,linux-exploit-suggester,32.9db2f5a,"A Perl script that tries to suggest exploits based OS version number.","https://github.com/PenturaLabs/Linux_Exploit_Suggester",1483201814
-recon,linux-exploit-suggester.sh,55.5213407,"Linux privilege escalation auditing tool.","https://github.com/mzet-/linux-exploit-suggester",1518978779
+recon,linux-exploit-suggester.sh,56.86ef6c3,"Linux privilege escalation auditing tool.","https://github.com/mzet-/linux-exploit-suggester",1520519227
 exploitation,lisa.py,42.dc4e241,"An Exploit Dev Swiss Army Knife.","https://github.com/ant4g0nist/lisa.py",1499167845
 misc,list-urls,0.1,"Extracts links from webpage","http://www.whoppix.net",1483201831
 scanner,littleblackbox,0.1.3,"Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.","http://code.google.com/p/littleblackbox/wiki/FAQ",1402250618
@@ -937,7 +937,7 @@ automation,maskprocessor,0.73,"A High-Performance word generator with a per-posi
 recon,massbleed,16.cf7c5d6,"SSL Vulnerability Scanner.","https://github.com/1N3/Sn1per",1513261023
 scanner,masscan,1.0.4,"TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes","https://github.com/robertdavidgraham/masscan",1499888578
 automation,masscan-automation,24.2df3467,"Masscan integrated with Shodan API.","https://github.com/trevordavenport/MasscanAutomation",1443638055
-automation,massexpconsole,171.32ff9ad,"A collection of tools and exploits with a cli ui for mass exploitation.","https://github.com/jm33-m0/massExpConsole",1519861935
+automation,massexpconsole,178.e66e9ff,"A collection of tools and exploits with a cli ui for mass exploitation.","https://github.com/jm33-m0/massExpConsole",1520519261
 defensive,mat,0.6.1,"Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library.","https://mat.boum.org/",1489091183
 tunnel,matahari,0.1.30,"A reverse HTTP shell to execute commands on remote machines behind firewalls.","http://matahari.sourceforge.net/",1483202832
 stego,matroschka,52.0345a5e,"Python steganography tool to hide images or text in images.","https://github.com/fgrimme/Matroschka",1483202840
@@ -956,7 +956,7 @@ windows,memimager,1.0,"Performs a memory dump using NtSystemDebugControl.","http
 database,metacoretex,0.8.0,"MetaCoretex is an entirely JAVA vulnerability scanning framework for databases.","http://metacoretex.sourceforge.net/",1483202872
 recon,metagoofil,1.4b,"An information gathering tool designed for extracting metadata of public documents.","http://www.edge-security.com/metagoofil.php",1483202884
 binary,metame,2.82cfd20,"A simple metamorphic code engine for arbitrary executables.","https://github.com/a0rtega/metame",1498932195
-exploitation,metasploit,4.16.41,"Advanced open-source platform for developing, testing, and using exploit code","https://www.metasploit.com/",1519596031
+exploitation,metasploit,4.16.43,"Advanced open-source platform for developing, testing, and using exploit code","https://www.metasploit.com/",1520193361
 backdoor,meterssh,18.9a5ed19,"A way to take shellcode, inject it into memory then tunnel whatever port you want to over SSH to mask any type of communications as a normal SSH connection.","https://github.com/trustedsec/meterssh",1492205314
 webapp,metoscan,05,"Tool for scanning the HTTP methods supported by a webserver. It works by testing a URL and checking the responses for the different requests.","http://www.open-labs.org/",1388155620
 wireless,mfcuk,0.3.8,"MIFARE Classic Universal toolKit","http://code.google.com/p/mfcuk/",1388155631
@@ -985,7 +985,7 @@ exploitation,mitmf,452.ba0989b,"A Framework for Man-In-The-Middle attacks writte
 proxy,mitmproxy,3.0.3,"SSL-capable man-in-the-middle HTTP proxy","http://mitmproxy.org/",1519667436
 cracker,mkbrutus,1.0.2,"Password bruteforcer for MikroTik devices or boxes running RouterOS.","http://mkbrutusproject.github.io/MKBRUTUS/",1483203013
 forensic,mobiusft,0.5.21,"An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.","http://savannah.nongnu.org/projects/mobiusft",1483203027
-mobile,mobsf,487.cacb35b,"An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.","https://github.com/ajinabraham/Mobile-Security-Framework-MobSF",1515499152
+mobile,mobsf,488.43851ed,"An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.","https://github.com/ajinabraham/Mobile-Security-Framework-MobSF",1520519437
 scanner,modscan,0.1,"A new tool designed to map a SCADA MODBUS TCP based network.","https://code.google.com/p/modscan/",1483203084
 networking,moloch,0.11.3,"An open source large scale IPv4 full PCAP capturing, indexing and database system.","https://github.com/aol/moloch",1458724025
 scanner,mongoaudit,216.28d1e03,"A powerful MongoDB auditing and pentesting tool .","https://github.com/stampery/mongoaudit",1493821549
@@ -1017,7 +1017,7 @@ networking,mtr,0.92,"Combines the functionality of traceroute and ping into one 
 webapp,multiinjector,0.4,"Automatic SQL injection utility using a lsit of URI addresses to test parameter manipulation.","http://chaptersinwebsecurity.blogspot.de/2008/11/multiinjector-v03-released.html",1491724597
 spoof,multimac,1.0.3,"Multiple MACs on an adapter","http://sourceforge.net/projects/multimac/",1388155612
 radio,multimon-ng,20180215,"An sdr decoder, supports pocsag, ufsk, clipfsk, afsk, hapn, fsk, dtmf, zvei.","http://dekar.wc3edit.net/2012/05/24/multimonng/",1518978932
-scanner,multiscanner,410.3ae9049,"Modular file scanning/analysis framework.","https://github.com/mitre/multiscanner",1518237443
+scanner,multiscanner,421.7202d61,"Modular file scanning/analysis framework.","https://github.com/mitre/multiscanner",1520519536
 tunnel,multitun,43.9804513,"Tunnel arbitrary traffic through an innocuous WebSocket.","https://github.com/covertcodes/multitun",1483203240
 automation,mutator,51.164132d,"This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012","https://bitbucket.org/alone/mutator/",1400899000
 fingerprint,mwebfp,16.a800b98,"Mass Web Fingerprinter.","https://github.com/falcon-lnhg/mwebfp",1500709572
@@ -1110,7 +1110,7 @@ crypto,omnihash,70.870e9ae,"Hash files, strings, input streams and network resou
 cracker,onesixtyone,0.7,"An SNMP scanner that sends multiple SNMP requests to multiple IP addresses","http://labs.portcullis.co.uk/application/onesixtyone/",1388155545
 recon,onioff,80.91bdffc,"An onion url inspector for inspecting deep web links.","https://github.com/k4m4/onioff",1518042252
 scanner,onionscan,130.da42865,"Scan Onion Services for Security Issues.","github.com/s-rah/onionscan",1488051448
-misc,onionshare,1412.8299aad,"Securely and anonymously share a file of any size.","https://github.com/micahflee/onionshare/",1519679957
+misc,onionshare,1416.b16c654,"Securely and anonymously share a file of any size.","https://github.com/micahflee/onionshare/",1520519571
 webapp,opendoor,381.f1e8df2,"OWASP WEB Directory Scanner.","https://github.com/stanislav-web/OpenDoor",1507330671
 crypto,openstego,0.7.1,"A tool implemented in Java for generic steganography, with support for password-based encryption of the data.","http://www.openstego.info/",1493656844
 exploitation,opensvp,65.df54ed8,"A security tool implementing 'attacks' to be able to the resistance of firewall to protocol level attack.","https://github.com/regit/opensvp",1487671503
@@ -1223,7 +1223,7 @@ webapp,plecost,98.1a4a11b,"Wordpress finger printer Tool.","https://github.com/i
 webapp,plown,13.ccf998c,"A security scanner for Plone CMS.","https://github.com/unweb/plown",1483209205
 misc,plumber,12.842aa48,"A python implementation of a grep friendly ftrace wrapper.","https://github.com/cybereason/linux_plumber",1494415094
 misc,plutil,1.6,"Converts .plist files between binary and UTF (editable) text formats.","http://scw.us/iPhone/plutil/",1486293367
-networking,pmacct,2180.5944d1db,"Small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP IGP Streaming Telemetry].","https://github.com/pmacct/pmacct",1520157854
+networking,pmacct,2185.5af2fc45,"Small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP IGP Streaming Telemetry].","https://github.com/pmacct/pmacct",1520519740
 windows,pmap,1.10,"Passively discover, scan, and fingerprint link-local peers by the background noise they generate (i.e. their broadcast and multicast traffic).","http://www.hellfiresecurity.com/tools.htm",1483209210
 exploitation,pmcma,1.00,"Automated exploitation of invalid memory writes (being them the consequences of an overflow in a writable section, of a missing format string, integer overflow, variable misuse, or any other type of memory corruption).","http://packetstormsecurity.com/files/104724/Post-Memory-Corruption-Memory-Analyzer.00.html",1484422551
 windows,pmdump,1.2,"A tool that lets you dump the memory contents of a process to a file without stopping the process.","http://ntsecurity.nu/toolbox/pmdump/",1469743828
@@ -1246,7 +1246,7 @@ scanner,ppscan,0.3,"Yet another port scanner with HTTP and FTP tunneling support
 proxy,pr0cks,20.c98188b,"python script setting up a transparent proxy to forward all TCP and DNS traffic through a SOCKS / SOCKS5 or HTTP(CONNECT) proxy using iptables -j REDIRECT target.","https://github.com/n1nj4sec/pr0cks",1489226532
 scanner,prads,1128.407cf7c,"Is a 'Passive Real-time Asset Detection System'.","http://gamelinux.github.io/prads/",1489918295
 scanner,praeda,48.1dc2220,"An automated data/information harvesting tool designed to gather critical information from various embedded devices.","https://github.com/percx/Praeda",1483209297
-exploitation,pret,78.710c444,"Printer Exploitation Toolkit - The tool that made dumpster diving obsolete.","https://github.com/RUB-NDS/PRET",1514583428
+exploitation,pret,79.d8d67ca,"Printer Exploitation Toolkit - The tool that made dumpster diving obsolete.","https://github.com/RUB-NDS/PRET",1520519762
 misc,princeprocessor,130.f0c101d,"Standalone password candidate generator using the PRINCE algorithm.","https://github.com/jsteube/princeprocessor/",1512634843
 binary,proctal,472.e00ec27,"Provides a command line interface and a C library to manipulate the address space of a running program on Linux.","https://github.com/daniel-araujo/proctal",1518110182
 decompiler,procyon,0.5.30,"A suite of Java metaprogramming tools focused on code generation and analysis.","https://bitbucket.org/mstrobel/procyon/",1483209312
@@ -1255,7 +1255,7 @@ networking,prometheus,176.a316d66,"A Firewall analyzer written in ruby","https:/
 windows,promiscdetect,1.0,"Checks if your network adapter(s) is running in promiscuous mode, which may be a sign that you have a sniffer running on your computer.","http://ntsecurity.nu/toolbox/promisdetect/",1469744231
 fingerprint,propecia,2,"A fast class scanner that scans for a specified open port with banner grabbing","http://www.redlevel.org",1391270197
 voip,protos-sip,2,"SIP test suite.","https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-sip",1401395633
-defensive,prowler,356.6ccd102,"Tool for AWS security assessment, auditing and hardening.","https://github.com/alfresco/prowler",1519862580
+defensive,prowler,360.d806c86,"Tool for AWS security assessment, auditing and hardening.","https://github.com/alfresco/prowler",1520519789
 webapp,proxenet,712.67fc6b5,"THE REAL hacker friendly proxy for web application pentests.","https://github.com/hugsy/proxenet",1480093754
 radio,proxmark,2101.51d51c67,"A powerful general purpose RFID tool, the size of a deck of cards, designed to snoop, listen and emulate everything from Low Frequency (125kHz) to High Frequency (13.56MHz) tags.","https://github.com/Proxmark/proxmark3",1519680273
 proxy,proxychains-ng,4.12,"A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies","https://github.com/rofl0r/proxychains",1482598112
@@ -1286,7 +1286,7 @@ misc,pydictor,76.d9a336a,"A useful hacker dictionary builder for a brute-force a
 networking,pyersinia,49.73f4056,"Network attack tool like yersinia but written in Python.","https://github.com/nottinghamprisateam/pyersinia",1483209527
 malware,pyew,104.4754f38,"A python tool to analyse malware.","https://code.google.com/p/pyew/",1486401298
 networking,pyexfil,70.0569d88,"A couple of beta stage tools for data exfiltration.","https://github.com/ytisf/PyExfil",1514113585
-webapp,pyfiscan,2051.aa6802a,"Free web-application vulnerability and version scanner.","https://github.com/fgeek/pyfiscan",1520157877
+webapp,pyfiscan,2052.cca0e34,"Free web-application vulnerability and version scanner.","https://github.com/fgeek/pyfiscan",1520519803
 misc,pyinstaller,3.3,"A program that converts (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, Solaris and AIX.","http://www.pyinstaller.org/",1509444628
 fuzzer,pyjfuzz,140.c8e5fff,"Python JSON Fuzzer.","https://github.com/mseclab/PyJFuzz",1504015490
 exploitation,pykek,12.651b9ba,"Kerberos Exploitation Kit.","https://github.com/bidord/pykek",1494964830
@@ -1296,7 +1296,7 @@ cracker,pyrit,0.5.0,"The famous WPA precomputed cracker","https://github.com/JPa
 scanner,pyssltest,9.d7703f0,"A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.","https://github.com/moheshmohan/pyssltest",1483209582
 sniffer,pytacle,alpha2,"Automates the task of sniffing GSM frames","http://packetstormsecurity.com/files/124299/pytacle-alpha2.tar.gz",1483209598
 scanner,pytbull,2.0,"A python based flexible IDS/IPS testing framework shipped with more than 300 tests.","http://pytbull.sourceforge.net/",1483209611
-scanner,pythem,428.76a4441,"python2 penetration testing framework.","https://github.com/m4n3dw0lf/PytheM",1519680403
+scanner,pythem,431.ed704e9,"python2 penetration testing framework.","https://github.com/m4n3dw0lf/PytheM",1520519836
 reversing,python-capstone,3.0.4,"A lightweight multi-platform, multi-architecture disassembly framework","http://www.capstone-engine.org/index.html",1499752345
 reversing,python-jsbeautifier,1.7.5,"JavaScript unobfuscator and beautifier","https://github.com/beautify-web/js-beautify",1512712571
 networking,python-python-cymruwhois,30.022e16d,"Python client for the whois.cymru.com service","https://github.com/JustinAzoff/python-cymruwhois",1500737050
@@ -1308,8 +1308,8 @@ automation,python3-shodan,1.7.7,"Python library for Shodan (https://developer.sh
 mobile,qark,136.1dd2fea,"Tool to look for several security related Android application vulnerabilities.","https://github.com/linkedin/qark",1510505878
 recon,quickrecon,0.3.2,"A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.","http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html",1491309532
 defensive,quicksand-lite,28.857210e,"Command line tool for scanning streams within office documents plus xor db attack.","https://github.com/tylabs/quicksand_lite",1518979373
-reversing,radare2,2.3.0,"Open-source tools to disasm, debug, analyze and manipulate binary files","https://radare.org",1518091660
-decompiler,radare2-cutter,1.2,"Qt and C++ GUI for radare2 reverse engineering framework.","https://github.com/radareorg/cutter",1518105793
+reversing,radare2,2.4.0,"Open-source tools to disasm, debug, analyze and manipulate binary files","https://radare.org",1520367585
+decompiler,radare2-cutter,1.2,"Qt and C++ GUI for radare2 reverse engineering framework.","https://github.com/radareorg/cutter",1520373700
 disassembler,radare2-keystone,405.9214455,"Keystone assembler plugins for radare2.","https://github.com/radare/radare2-extras/tree/master/unicorn",1512080636
 windows,radiography,2,"A forensic tool which grabs as much information as possible from a Windows system.","http://www.security-projects.com/?RadioGraPhy",1441610956
 cracker,rainbowcrack,1.6,"Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.","http://project-rainbowcrack.com/",1441611033
@@ -1384,7 +1384,7 @@ scanner,rtlsdr-scanner,1001.8621d8b,"A cross platform Python frequency scanning 
 voip,rtp-flood,1.0,"RTP flooder","http://www.hackingexposedvoip.com/",1441613744
 networking,rtpbreak,1.3a,"Detects, reconstructs and analyzes any RTP session","http://xenion.antifork.org/rtpbreak/",1484422602
 backdoor,rubilyn,0.0.1,"64bit Mac OS-X kernel rootkit that uses no hardcoded address to hook the BSD subsystem in all OS-X Lion & below. It uses a combination of syscall hooking and DKOM to hide activity on a host.","http://nullsecurity.net/tools/backdoor.html",1483211924
-webapp,ruler,257.a07f8f0,"A tool to abuse Exchange services.","https://github.com/sensepost/ruler",1509266802
+webapp,ruler,260.7f58e4c,"A tool to abuse Exchange services.","https://github.com/sensepost/ruler",1520519982
 webapp,rww-attack,0.9.2,"The Remote Web Workplace Attack tool will perform a dictionary attack against a live Microsoft Windows Small Business Server's 'Remote Web Workplace' portal. It currently supports both SBS 2003 and SBS 2008 and includes features to avoid account lock out.","http://packetstormsecurity.com/files/79021/Remote-Web-Workplace-Attack-Tool.html",1483212224
 fuzzer,s3-fuzzer,4.0a2a6f0,"A concurrent, command-line AWS S3 Fuzzer.","https://github.com/petermbenjamin/s3-fuzzer",1508070992
 forensic,safecopy,1.7,"A disk data recovery tool to extract data from damaged media.","http://safecopy.sourceforge.net/",1447171925
@@ -1440,7 +1440,7 @@ scanner,shareenum,46.3bfa81d,"Tool to enumerate shares from Windows hosts.","htt
 code-audit,shellcheck,0.4.7,"Shell script analysis tool","http://www.shellcheck.net",1519757196
 exploitation,shellcode-factory,93.b8fe778,"Tool to create and test shellcodes from custom assembly sources.","https://github.com/danielhenrymantilla/shellcode-factory",1519327776
 exploitation,shellcodecs,0.1,"A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.","http://www.blackhatlibrary.net/Shellcodecs",1393937755
-exploitation,shellen,48.2c8fe62,"Interactive shellcoding environment to easily craft shellcodes.","https://github.com/merrychap/shellen",1520154629
+exploitation,shellen,55.2bea7c5,"Interactive shellcoding environment to easily craft shellcodes.","https://github.com/merrychap/shellen",1520520037
 backdoor,shellinabox,428.98e6eeb,"Implements a web server that can export arbitrary command line tools to a web based terminal emulator.","https://github.com/shellinabox/shellinabox",1486596746
 misc,shelling,95.de16f5a,"An offensive approach to the anatomy of improperly written OS command injection sanitisers.","https://github.com/ewilded/shelling",1511180253
 exploitation,shellme,5.d5206f0,"Because sometimes you just need shellcode and opcodes quickly. This essentially just wraps some nasm/objdump calls into a neat script.","https://github.com/hatRiot/shellme",1489093010
@@ -1493,7 +1493,7 @@ mobile,smalisca,58.1aa7a16,"Static Code Analysis for Smali files.","https://gith
 exploitation,smap,24.3ed1ac7,"Shellcode mapper - Handy tool for shellcode analysis.","https://github.com/suraj-root/smap",1513521917
 mobile,smartphone-pentest-framework,104.fc45347,"Repository for the Smartphone Pentest Framework (SPF).","https://github.com/georgiaw/Smartphone-Pentest-Framework",1442149229
 cracker,smbbf,0.9.1,"SMB password bruteforcer.","http://packetstormsecurity.com/files/25381/smbbf.9.1.tar.gz.html",1441698967
-recon,smbcrunch,9.f1d7085,"3 tools that work together to simplify reconaissance of Windows File Shares.","https://github.com/Raikia/SMBCrunch",1520023740
+recon,smbcrunch,12.313400e,"3 tools that work together to simplify reconaissance of Windows File Shares.","https://github.com/Raikia/SMBCrunch",1520520045
 scanner,smbexec,148.7827616,"A rapid psexec style attack with samba tools.","https://github.com/pentestgeek/smbexec",1488229022
 scanner,smbmap,57.cdb4851,"A handy SMB enumeration tool.","https://github.com/ShawnDEvans/smbmap",1488296835
 windows,smbrelay,3,"SMB / HTTP to SMB replay attack toolkit.","http://www.tarasco.org/security/smbrelay/",1483212725
@@ -1509,7 +1509,7 @@ fingerprint,smtpmap,0.8.234_BETA,"Tool to identify the running smtp software on 
 fingerprint,smtpscan,0.5,"An SMTP scanner","http://packetstormsecurity.com/files/31102/smtpscan.5.tar.gz.html",1483227512
 scanner,smtptx,1.0,"A very simple tool used for sending simple email and do some basic email testing from a pentester perspective.","http://www.0x90.se/",1483385378
 automation,sn00p,0.8,"A modular tool written in bourne shell and designed to chain and automate security tools and tests.","http://www.nullsecurity.net/tools/automation.html",1483212811
-recon,sn1per,210.1ea0c2d,"Automated Pentest Recon Scanner.","https://github.com/1N3/Sn1per",1515242741
+recon,sn1per,221.b13866c,"Automated Pentest Recon Scanner.","https://github.com/1N3/Sn1per",1520520305
 sniffer,snapception,8.c156f9e,"Intercept and decrypt all snapchats received over your network.","https://github.com/thebradbain/snapception",1485475118
 exploitation,snarf-mitm,41.bada142,"SMB Man in the Middle Attack Engine / relay suite.","https://github.com/purpleteam/snarf",1483212834
 networking,sniffer,4.688854e,"Packet Trace Parser for TCP, SMTP Emails, and HTTP Cookies.","https://github.com/julioreynaga/sniffer",1503152472
@@ -1562,7 +1562,7 @@ webapp,sqid,0.3,"A SQL injection digger.","http://sqid.rubyforge.org/",144170009
 fuzzer,sqlbrute,1.0,"Brute forces data out of databases using blind SQL injection.","http://www.justinclarke.com/archives/2006/03/sqlbrute.html",1483213206
 windows,sqldict,2.1,"A dictionary attack tool for SQL Server.","http://ntsecurity.nu/toolbox/sqldict/",1483213211
 scanner,sqlivulscan,246.b1a2261,"This will give you the SQLi Vulnerable Website Just by Adding the Dork.","https://github.com/Hadesy2k/sqlivulscan",1514583643
-webapp,sqlmap,1.2.2,"Automatic SQL injection and database takeover tool","http://sqlmap.org",1518093137
+webapp,sqlmap,1.2.3,"Automatic SQL injection and database takeover tool","http://sqlmap.org",1520453076
 exploitation,sqlninja,0.2.999,"A tool targeted to exploit SQL Injection vulnerabilities on a web application that uses Microsoft SQL Server as its back-end.","http://sqlninja.sourceforge.net/",1483213227
 cracker,sqlpat,1.0.1,"This tool should be used to audit the strength of Microsoft SQL Server passwords offline.","http://www.cqure.net/wp/sqlpat/",1441547658
 windows,sqlping,4,"SQL Server scanning tool that also checks for weak passwords using wordlists.","http://www.sqlsecurity.com/downloads",1483213234
@@ -1636,12 +1636,12 @@ recon,sysdig,0.20.0,"Open source system-level exploration and troubleshooting to
 windows,sysinternals-suite,2.6,"Sysinternals tools suite.","http://sysinternals.com/",1506808377
 dos,t50,5.7.0,"Experimental Multi-protocol Packet Injector Tool.","http://t50.sourceforge.net/",1507814680
 defensive,tabi,13.068a406,"BGP Hijack Detection.","https://github.com/ANSSI-FR/tabi",1518979459
-scanner,tachyon-scanner,265.d8cf0a6,"Fast Multi-Threaded Web Discovery Tool.","https://github.com/delvelabs/tachyon",1520073191
+scanner,tachyon-scanner,267.784ba3f,"Fast Multi-Threaded Web Discovery Tool.","https://github.com/delvelabs/tachyon",1520520331
 fuzzer,taof,0.3.2,"Taof is a GUI cross-platform Python generic network protocol fuzzer.","http://taof.sf.net",1498113551
 bluetooth,tbear,1.5,"Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetooth DoS tool, and a Bluetooth hidden device locator.","http://freshmeat.net/projects/t-bear",1393937943
 dos,tcgetkey,0.1,"A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.","http://packetstormsecurity.com/files/119146/tcgetkey.1.html",1441551102
 forensic,tchunt-ng,208.b8cf7fc,"Reveal encrypted files stored on a filesystem.","https://github.com/antagon/TCHunt-ng",1490475753
-cracker,tckfc,21.a32167e,"TrueCrypt key file cracker.","https://github.com/Octosec/tckfc",1483213598
+cracker,tckfc,23.911e92e,"TrueCrypt key file cracker.","https://github.com/Octosec/tckfc",1520520353
 fuzzer,tcpcontrol-fuzzer,0.1,"2^6 TCP control bit fuzzer (no ECN or CWR).","https://www.ee.oulu.fi/research/ouspg/tcpcontrol-fuzzer",1483213604
 networking,tcpcopy,1229.c6e5c59,"A TCP stream replay tool to support real testing of Internet server applications.","https://github.com/session-replay-tools/tcpcopy",1518042983
 networking,tcpdump,4.9.2,"Powerful command-line packet analyzer","http://www.tcpdump.org/",1504721293
@@ -1670,7 +1670,7 @@ dos,thc-ssl-dos,1.4,"A tool to verify the performance of SSL. To be used in your
 fuzzer,thefuzz,160.b4c2c80,"CLI fuzzing tool.","https://github.com/droberson/thefuzz",1518979476
 recon,theharvester,59.2555376,"Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).","http://www.edge-security.com/theHarvester.php",1506250239
 webapp,themole,0.3,"Automatic SQL injection exploitation tool.","http://sourceforge.net/projects/themole/",1483213672
--malware,thezoo,159.5cd8529,"A project created to make the possibility of malware analysis open and available to the public.","https://github.com/ytisf/theZoo",1518563564
+-malware,thezoo,160.d863fbe,"A project created to make the possibility of malware analysis open and available to the public.","https://github.com/ytisf/theZoo",1520520444
 automation,tiger,3.2.3,"A security scanner, that checks computer for known problems. Can also use tripwire, aide and chkrootkit.","http://www.nongnu.org/tiger/",1441552232
 recon,tilt,90.2bc2ef2,"An easy and simple tool implemented in Python for ip reconnaissance, with reverse ip lookup.","https://github.com/AeonDave/tilt",1483213678
 wireless,timegen,0.4,"This program generates a *.wav file to 'send' an own time signal to DCF77 compatible devices.","http://bastianborn.de/radio-clock-hack/",1446653069
@@ -1700,7 +1700,7 @@ forensic,trid,2.24,"An utility designed to identify file types from their binary
 fuzzer,trinity,5104.c07cd60f,"A Linux System call fuzzer.","http://codemonkey.org.uk/projects/trinity/",1520158033
 binary,triton,1904.5d876f6f,"A Dynamic Binary Analysis (DBA) framework.","https://github.com/JonathanSalwan/Triton",1486370287
 backdoor,trixd00r,0.0.1,"An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.","http://nullsecurity.net/tools/backdoor.html",1441553312
-misc,trizen,1.39,"Trizen AUR Package Manager: A lightweight wrapper for AUR.","https://github.com/trizen/trizen",1515954743
+misc,trizen,1.43,"Trizen AUR Package Manager: A lightweight wrapper for AUR.","https://github.com/trizen/trizen",1520549292
 cracker,truecrack,35,"Password cracking for truecrypt(c) volumes.","http://code.google.com/p/truecrack/",1401363700
 blackarch,truecrypt,7.1a,"Free open-source cross-platform disk encryption software","http://www.truecrypt.org/",1484932120
 forensic,truehunter,11.c757b02,"Detect TrueCrypt containers using a fast and memory efficient approach.","https://github.com/adoreste/truehunter",1496081539
@@ -1712,7 +1712,7 @@ networking,tunna,34.7074493,"a set of tools which will wrap and tunnel any TCP c
 sniffer,tuxcut,41.341cc18,"Netcut-like program for Linux written in PyQt.","https://github.com/a-atalla/tuxcut.git",1506250355
 social,tweets-analyzer,38.09bfb84,"Tweets metadata scraper & activity analyzer.","https://github.com/x0rz/tweets_analyzer",1516024940
 recon,twofi,2.0,"Twitter Words of Interest.","http://www.digininja.org/projects/twofi.php",1483213830
-webapp,typo-enumerator,77.9565029,"Enumerate Typo3 version and extensions.","https://github.com/whoot/Typo-Enumerator",1495706780
+webapp,typo-enumerator,80.ab78376,"Enumerate Typo3 version and extensions.","https://github.com/whoot/Typo-Enumerator",1520520699
 backdoor,u3-pwn,2.0,"A tool designed to automate injecting executables to Sandisk smart usb devices with default U3 software install.","http://www.nullsecurity.net/tools/backdoor.html",1483213861
 misc,uatester,1.06,"User Agent String Tester","http://code.google.com/p/ua-tester/",1441555086
 bluetooth,ubertooth,2017.03.R2,"A 2.4 GHz wireless development board suitable for Bluetooth experimentation. Open source hardware and software. Tools only.","https://github.com/greatscottgadgets/ubertooth/releases",1496657164
@@ -1741,7 +1741,7 @@ windows,upnp-pentest-toolkit,1.1,"UPnP Pentest Toolkit for Windows.","https://gi
 scanner,upnpscan,0.4,"Scans the LAN or a given address range for UPnP capable devices.","http://www.cqure.net/wp/upnpscan/",1441556906
 webapp,uppwn,9.f69dec4,"A script that automates detection of security flaws on websites' file upload systems'.","https://github.com/ferrery1/UpPwn",1507708291
 binary,upx,3.94,"Ultimate executable compressor.","http://upx.sourceforge.net/",1494961031
-radio,urh,2390.eb61e71f,"Universal Radio Hacker: investigate wireless protocols like a boss.","https://github.com/jopohl/urh",1520023860
+radio,urh,2397.c281136c,"Universal Radio Hacker: investigate wireless protocols like a boss.","https://github.com/jopohl/urh",1520520805
 webapp,urlcrazy,0.5,"Generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage.","http://www.morningstarsecurity.com/research/urlcrazy",1483214010
 webapp,urldigger,02c,"A python tool to extract URL addresses from different HOT sources and/or detect SPAM and malicious code","https://code.google.com/p/urldigger/",1441556967
 misc,urlview,0.9,"A curses URL parser for text files.","http://packages.qa.debian.org/u/urlview.html",1458984025
@@ -1755,7 +1755,7 @@ scanner,v3n0m,295.8d7113f,"A tool to automate mass SQLi d0rk scans and Metasploi
 scanner,vais,15.f302a3a,"SWF Vulnerability & Information Scanner.","https://github.com/hahwul/vais",1518394471
 misc,valabind,1.4.0,"Tool to parse vala or vapi files to transform them into swig interface files, C++, NodeJS-ffi or GIR","http://radare.org",1503519027
 binary,valgrind,3.13.0,"Tool to help find memory-management problems in programs","http://valgrind.org/",1514977389
-scanner,vane,1894.a9269dc,"A vulnerability scanner which checks the security of WordPress installations using a black box approach.","https://github.com/delvelabs/vane",1519328002
+scanner,vane,1895.0542282,"A vulnerability scanner which checks the security of WordPress installations using a black box approach.","https://github.com/delvelabs/vane",1520520838
 webapp,vanguard,0.1,"A comprehensive web penetration testing tool written in Perl thatidentifies vulnerabilities in web applications.","http://packetstormsecurity.com/files/110603/Vanguard-Pentesting-Scanner.html",1515090833
 recon,vbrute,1.11dda8b,"Virtual hosts brute forcer.","https://github.com/nccgroup/vbrute",1441557867
 webapp,vbscan,25.27c77e9,"A black box vBulletin vulnerability scanner written in perl.","https://github.com/rezasp/vbscan",1487196183
@@ -1886,7 +1886,7 @@ webapp,wssip,65.90b1950,"Application for capturing, modifying and sending custom
 exploitation,wsuspect-proxy,24.89f9375,"A tool for MITM'ing insecure WSUS connections.","https://github.com/ctxis/wsuspect-proxy",1486594789
 windows,wups,1.4,"An UDP port scanner for Windows.","http://ntsecurity.nu/toolbox/wups/",1469745303
 webapp,wuzz,204.37fd354,"Interactive cli tool for HTTP inspection.","https://github.com/asciimoo/wuzz",1509007535
-binary,wxhexeditor,637.5103931,"A free hex editor / disk editor for Linux, Windows and MacOSX.","http://wxhexeditor.sourceforge.net/",1516096023
+binary,wxhexeditor,642.263e19b,"A free hex editor / disk editor for Linux, Windows and MacOSX.","http://wxhexeditor.sourceforge.net/",1520521250
 cracker,wyd,0.2,"Gets keywords from personal files. IT security/forensic tool.","http://www.remote-exploit.org/?page_id=418",1484422901
 windows,x-scan,3.3,"A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.","http://www.xfocus.org/",1483215390
 windows,x64dbg,2017.11.20,"An open-source x64/x32 debugger for windows.","http://www.sniperx.net/",1511193914
@@ -1930,7 +1930,7 @@ webapp,zaproxy,2.7.0,"Integrated penetration testing tool for finding vulnerabil
 exploitation,zarp,0.1.8,"A network attack tool centered around the exploitation of local networks.","https://defense.ballastsecurity.net/wiki/index.php/Zarp",1485540792
 malware,zerowine,0.0.2,"Malware Analysis Tool - research project to dynamically analyze the behavior of malware","http://zerowine.sf.net/",1483387974
 recon,zeus-scanner,407.55ba7ca,"Advanced dork searching utility.","https://github.com/Ekultek/Zeus-Scanner",1518394551
-recon,zgrab,789.4d61f56,"Grab banners (optionally over TLS).","https://github.com/zmap/zgrab",1519328389
+recon,zgrab,791.38e0458,"Grab banners (optionally over TLS).","https://github.com/zmap/zgrab",1520521306
 forensic,zipdump,0.0.1,"ZIP dump utility.","https://blog.didierstevens.com/my-software/#zipdump",1483387984
 exploitation,zirikatu,7.afe1d9c,"Fud Payload generator script.","https://github.com/pasahitz/zirikatu",1488233090
 wireless,zizzania,124.8f2062f,"Automated DeAuth attack.","https://github.com/cyrus-and/zizzania",1482920454
