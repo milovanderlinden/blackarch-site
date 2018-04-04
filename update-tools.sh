@@ -11,7 +11,7 @@ ARCH="x86_64"
 OUT="_data/tools.csv"
 
 # Remove previous file entry except the mirrors file
-find data ! -name 'mirrors' -type f -exec rm -f {} +
+find _data -name 'tools.csv' -type f -exec rm -f {} +
 
 make_tmp() {
     tmp=$(mktemp -d /tmp/blackarch.XXXXXXXXXXX)
