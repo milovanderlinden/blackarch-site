@@ -3,30 +3,48 @@
 {% include head.html %}
   <body>
   {% include header.html %}
-  <section class="section">
-    <div class="container">
-        {% if page.title != 'Home' %}
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-            <ul>
-                <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
-                <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
-            </ul>
-        </nav>
-        {% endif %}
-        <div class="columns underline">
-            <div class="column has-text-left">
-                <h1 class="title">{{ page.title }}</h1>
-            </div>
-            <div class="column has-text-right">
-                <h2 class="subtitle">{{ page.subtitle }}</h2>
+
+  <section class="hero is-dark">
+        <div class="hero-head">
+            <div class="container">
+                    {% if page.title != 'Home' %}
+                    <nav class="breadcrumb" aria-label="breadcrumbs">
+                        <ul>
+                            <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
+                            <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+                        </ul>
+                    </nav>
+                    {% endif %}
             </div>
         </div>
-        <div class="content">
-        {{ content }}
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                {{ page.title }}
+                </h1>
+                <h2 class="subtitle">
+                {{ page.subtitle }}
+                </h2>
+                <br>
+            </div>
+            <div class="hero-foot">
+                <div class="container">
+                <div class="content">
+                    {{ page.description }}
+                </div>
+            </div>
+            </div>
         </div>
-    </div>
-  </section>
-  
-  {% include footer.html %}
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="content">
+                {{ content }}
+            </div>
+            
+        </div>
+
+    </section>
+    {% include footer.html %}
   </body>
 </html>

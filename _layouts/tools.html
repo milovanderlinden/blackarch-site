@@ -3,37 +3,49 @@
 {% include head.html %}
   <body>
   {% include header.html %}
-  <!-- Page Content -->
-  <section class="section">
-        <div class="container">
-    <!-- Page Heading/Breadcrumbs -->
     {% assign groupname = page.group %}
     {% if page.id != 'tools' %}
     {% assign packages = site.data.tools | where:'group', groupname | sort: 'build' | reverse  %}
     {% else %}
     {% assign packages = site.data.tools | sort: 'build' | reverse %}
     {% endif %}
-    <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-            <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
-            {% if page.id != 'tools' %}
-            <li><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
-            <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
-            {% else%}
-            <li class="is-active"><a href="#">Tools</a></li>
-            {% endif %}
-        </ul>
-    </nav>
-    <div class="columns underline">
-        <div class="column has-text-left">
-            <h1 class="title">{{ page.title }}</h1>
+
+    <section class="hero is-dark">
+        <div class="hero-head">
+            <div class="container">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
+                    {% if page.id != 'tools' %}
+                    <li><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
+                    <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+                    {% else%}
+                    <li class="is-active"><a href="#">Tools</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+            </div>
         </div>
-        <div class="column has-text-right">
-            <h2 class="subtitle">{{ packages.size }} packages</h2>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                {{ page.title }}
+                </h1>
+                <h2 class="subtitle">
+                {{ packages.size }} packages
+                </h2>
+                <br>
+            </div>
+            <div class="hero-foot">
+                <div class="container">
+                <div class="content">
+                    {{ content }}
+                </div>
+            </div>
+            </div>
         </div>
-    </div>
-    <div class="content">
-        {{ content }}
+    </section>
+    <section class="section">
         <table id="tbl-minimalist" class="table is-full-width" itemscope itemtype="https://www.schema.org/CreativeWork">
             <thead>
                 <tr>
@@ -60,9 +72,6 @@
                 {% endfor %}
             </tbody>
         </table>
-    </div>
-    
-  </div>
   </section>
   <!-- /.row --> 
   {% include footer.html %}
