@@ -1,9 +1,9 @@
 //Slider
-$('.carousel').carousel({
+/*$('.carousel').carousel({
     interval: 5000 //changes the speed
-})
+})*/
 
-$(document).off('click', '.act-bitcoin');
+/*$(document).off('click', '.act-bitcoin');
 $(document).on('click', '.act-bitcoin', function() {
 	$('.act-display').hide().empty();
 	$('.act-display').html('151ZXUgyVRRtzBeUEEJuksMiw5BD585eQL').fadeIn();
@@ -19,4 +19,30 @@ $(document).off('click', '.act-cc');
 $(document).on('click', '.act-cc', function() {
 	$('.act-display').hide().empty();
 	$('.act-display').html('Available soon').fadeIn();
+});*/
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Get all "navbar-burger" elements
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+
+        // Get the target from the "data-target" attribute
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
 });

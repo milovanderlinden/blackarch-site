@@ -4,7 +4,8 @@
   <body>
   {% include header.html %}
   <!-- Page Content -->
-  <div class="container result">
+  <section class="section">
+        <div class="container">
     <!-- Page Heading/Breadcrumbs -->
     {% assign groupname = page.group %}
     {% if page.id != 'tools' %}
@@ -12,60 +13,56 @@
     {% else %}
     {% assign packages = site.data.tools | sort: 'build' | reverse %}
     {% endif %}
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="page-header page-header-title">
-                <h1>{{ page.title }}</h1> <h2>{{ packages.size }} packages</h2>
-            </div>
-            <ol class="breadcrumb">
-                <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
-                {% if page.id != 'tools' %}
-                <li><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
-                <li class="active">{{ page.title }}</li>
-                {% else%}
-                <li class="active">Tools</li>
-                {% endif %}
-            </ol>
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
+            <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
+            {% if page.id != 'tools' %}
+            <li><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
+            <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+            {% else%}
+            <li class="is-active"><a href="#">Tools</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    <div class="columns underline">
+        <div class="column has-text-left">
+            <h1 class="title">{{ page.title }}</h1>
+        </div>
+        <div class="column has-text-right">
+            <h2 class="subtitle">{{ packages.size }} packages</h2>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <article>
-                {{ content }}
-            </article>
-        </div>
+    <div class="content">
+        {{ content }}
     </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <table id="tbl-minimalist" class="table" itemscope itemtype="https://www.schema.org/CreativeWork">
-                <thead>
-                    <tr>
-                        <th class="tbl-name">Name</th>
-                        <th class="tbl-version">Version</th>
-                        <th class="tbl-version">Build</th>
-                        <th class="tbl-description">Description</th>
-                        <th class="tbl-categorie">Category</th>
-                        <th class="tbl-homepage">Website</th>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for member in packages %}
-                    <tr>
-                        <td class="tbl-name" itemprop="name">{{ member.name }}</td>
-                        <td class="tbl-version vcat" itemprop="version">{{ member.vers }}</td>
-                        <td class="tbl-version vcat" itemprop="version">{{ member.build | date: "%Y-%m-%d" }}</td>
-                        <td class="tbl-description dcat" itemprop="description">{{ member.desc}}</td>
-                        {% assign groupurl = '/tools/' | append: member.group | append: '.html' %}
-                        <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
-                        <td class="tbl-homepage" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-    </div>
+    <table id="tbl-minimalist" class="table is-full-width is-hoverable" itemscope itemtype="https://www.schema.org/CreativeWork">
+        <thead>
+            <tr>
+                <th class="tbl-name">Name</th>
+                <th class="tbl-version">Version</th>
+                <th class="tbl-version">Build</th>
+                <th class="tbl-description">Description</th>
+                <th class="tbl-categorie">Category</th>
+                <th class="tbl-homepage">Website</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            {% for member in packages %}
+            <tr>
+                <td class="tbl-name" itemprop="name">{{ member.name }}</td>
+                <td class="tbl-version vcat" itemprop="version">{{ member.vers }}</td>
+                <td class="tbl-version vcat" itemprop="version">{{ member.build | date: "%Y-%m-%d" }}</td>
+                <td class="tbl-description dcat" itemprop="description">{{ member.desc}}</td>
+                {% assign groupurl = '/tools/' | append: member.group | append: '.html' %}
+                <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
+                <td class="tbl-homepage" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
   </div>
+  </section>
   <!-- /.row --> 
   {% include footer.html %}
   </body>
