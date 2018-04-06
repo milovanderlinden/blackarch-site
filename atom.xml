@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 <title>Blackarch blog</title>
-<description>News and information for Blackarch Linux</description>
+<description>News and information for Blackarch</description>
 <link href="https://blackarch.org" />
 <link href="https://blackarch.org/atom.xml" rel="self"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>

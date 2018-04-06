@@ -5,7 +5,7 @@ category: iso
 icon: fa-file-archive
 ---
 
-Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
+Today we released new BlackArch ISOs. For details see the ChangeLog below.
 
 Here's the ChangeLog:
 

@@ -5,7 +5,7 @@ category: iso
 icon: fa-file-archive
 ---
 
-Today we released new BlackArch Linux ISOs. This is just a Bugfix release and shrinks the ISO size for DVD-R. For more details see the ChangeLog below.
+Today we released new BlackArch ISOs. This is just a Bugfix release and shrinks the ISO size for DVD-R. For more details see the ChangeLog below.
 
 Here's the ChangeLog :
 
@@ -14,4 +14,4 @@ Here's the ChangeLog :
 * updated all blackarch tools
 * updated all system packages
 
-We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+We wish to thank all of BlackArch users, mirrors, and supporters. Thanks for your help.

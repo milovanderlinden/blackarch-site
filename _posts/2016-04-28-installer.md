@@ -5,7 +5,7 @@ category: news
 icon: fa-newspaper
 ---
 
-We have released the new (improved) BlackArch Linux installer today. It is built and released in our
+We have released the new (improved) installer today. It is built and released in our
 [repository](https://www.blackarch.org/blackarch/blackarch/os/) and can be installed via pacman:<
 
 

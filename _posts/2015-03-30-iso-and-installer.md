@@ -1,9 +1,9 @@
 ---
 layout: post
-title: New ISOs and BlackArch Linux installer...
+title: New ISOs and installer
 ---
 
-Today we released new BlackArch Linux ISOs. The new ISOs include over 1200 tools for i686 and x86_64 and over 1000 tools for armv6h and armv7h.
+Today we released new BlackArch ISOs. The new ISOs include over 1200 tools for i686 and x86_64 and over 1000 tools for armv6h and armv7h.
 
 Here's a short ChangeLog:
 
@@ -18,4 +18,4 @@ Here's a short ChangeLog:
 * updated all tools
 * added more than 150 new tools
 
-We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+We wish to thank all of BlackArch users, mirrors, and supporters. Thanks for your help.

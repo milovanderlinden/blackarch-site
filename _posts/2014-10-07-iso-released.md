@@ -3,7 +3,7 @@ layout: post
 title: New ISOs!
 ---
 
-Today, we released new BlackArch Linux ISOs including more than 1000 tools and lot's of improvements. Also, armv6h and armv7h repositories are filled with more than 1050 tools.
+Today, we released new BlackArch ISOs including more than 1000 tools and lot's of improvements. Also, armv6h and armv7h repositories are filled with more than 1050 tools.
 
 
 
@@ -22,4 +22,4 @@ A short ChangeLog :
 * and more ...
 
 
-We wanted to say "thank you" to all users and supporters of BlackArch Linux who contributed, donated and motivated us for testings, fixes and improvements.
+We wanted to say "thank you" to all users and supporters of BlackArch who contributed, donated and motivated us for testings, fixes and improvements.

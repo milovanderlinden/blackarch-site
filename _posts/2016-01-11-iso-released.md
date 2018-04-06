@@ -5,7 +5,7 @@ category: iso
 icon: fa-file-archive
 ---
 
-Today we released new BlackArch Linux ISOs. The new ISOs include over 1330 tools. For more details see the ChangeLog below.
+Today we released new BlackArch ISOs. The new ISOs include over 1330 tools. For more details see the ChangeLog below.
 
 Here's the ChangeLog :
 
@@ -19,4 +19,4 @@ Here's the ChangeLog :
 * added few missing security tools from community
 * added package: htop
 
-We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+We wish to thank all BlackArch users, mirrors, and supporters. Thanks for your help.

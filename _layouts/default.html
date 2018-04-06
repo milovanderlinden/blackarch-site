@@ -7,11 +7,11 @@
   <section class="hero is-dark">
         <div class="hero-head">
             <div class="container">
-                    {% if page.title != 'Home' %}
+                    {% if page.id != 'home' %}
                     <nav class="breadcrumb" aria-label="breadcrumbs">
                         <ul>
                             <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
-                            <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+                            <li class="is-active"><a href="#" aria-current="page">{{ page.id | capitalize }}</a></li>
                         </ul>
                     </nav>
                     {% endif %}

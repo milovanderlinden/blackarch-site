@@ -5,7 +5,7 @@ category: iso
 icon: fa-file-archive
 ---
 
-Today, we released new BlackArch Linux ISOs including more than 750 tools and lot's of improvements. Also, armv6h and armv7h repositories are filled with about 650 tools.
+Today, we released new BlackArch ISOs including more than 750 tools and lot's of improvements. Also, armv6h and armv7h repositories are filled with about 650 tools.
 
 
 A short ChangeLog:
@@ -21,4 +21,4 @@ A short ChangeLog:
 
 
 
-We wanted to say "thank you" to all users and supporters of BlackArch Linux who contributed, donated and motivated us for testings, fixes and improvements.
+We wanted to say "thank you" to all users and supporters of BlackArch who contributed, donated and motivated us for testings, fixes and improvements.

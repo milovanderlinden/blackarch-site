@@ -1,8 +1,8 @@
-<nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
-                <img src="{{ 'images/logo/logo-38-49.png' | relative_url }}" alt="BlackArch Linux Logo" width="38" height="49">
+                <img src="{{ 'images/logo/logo-38-49.png' | relative_url }}" alt="BlackArch Logo">
             </a>
         
             <div class="navbar-burger" data-target="sitemenu">
@@ -18,9 +18,9 @@
                 {% for node in navigation_pages %}
                     {% if node.nav %}
                     {% if page.url == node.url %}
-                        <a class="navbar-item selected" itemprop="url"><i class="fas {{ node.icon }}"></i>&nbsp;{{node.title}}</a>
+                        <a class="navbar-item selected" itemprop="url">{{node.id | capitalize }}</a>
                     {% else %}
-                        <a class="navbar-item" itemprop="url" href="{{node.url | relative_url }}"><i class="fas {{ node.icon }}"></i>&nbsp;{{node.title}}</a>
+                        <a class="navbar-item" itemprop="url" href="{{node.url | relative_url }}">{{node.id | capitalize }}</a>
                     {% endif %}
                 {% endif %}
                 {% endfor %}

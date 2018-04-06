@@ -7,7 +7,7 @@ icon: fa-file-archive
 
 
 
-Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
+Today we released new BlackArch ISOs. For details see the ChangeLog below.
 
 Here's the ChangeLog:
 
@@ -22,4 +22,4 @@ Here's the ChangeLog:
 * updated all blackarch tools
 * updated menu entries for windows managers (awesome, fluxbox, openbox)
 
-We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+We wish to thank all of BlackArch users, mirrors, and supporters. Thanks for your help.

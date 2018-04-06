@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Major upgrade of BlackArch Linux repository!
+title: Major upgrade of BlackArch repository!
 ---
 
-We walked through the BlackArch Linux repository and upgraded almost every single package.
+We walked through the BlackArch repository and upgraded almost every single package.
 
 In order to get the updated packages, run:
 

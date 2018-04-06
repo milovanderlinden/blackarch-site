@@ -1,5 +1,5 @@
 #!/bin/sh
-# strap.sh - install and setup BlackArch Linux keyring
+# strap.sh - install and setup BlackArch keyring
 
 # default mirror url
 MIRROR='https://www.mirrorservice.org/sites/blackarch.org/blackarch/'
@@ -39,7 +39,7 @@ make_tmp_dir()
     cd "$tmp"
 }
 
-# retrieve the BlackArch Linux keyring
+# retrieve the BlackArch keyring
 fetch_keyring()
 {
     curl -s -O \
@@ -91,7 +91,7 @@ install_keyring()
 # ask user for mirror
 get_mirror()
 {
-    printf "    -> enter a BlackArch Linux mirror url (default: $MIRROR): "
+    printf "    -> enter a BlackArch mirror url (default: $MIRROR): "
     while read line ; do
         case "$line" in
             http://*|https://*|ftp://*)
@@ -145,7 +145,7 @@ pacman_upgrade()
     esac
 }
 
-# setup blackarch linux
+# setup blackarch
 blackarch_setup()
 {
     check_priv
@@ -167,7 +167,7 @@ blackarch_setup()
     fi
     msg 'updating package databases'
     pacman_update
-    msg 'BlackArch Linux is ready!'
+    msg 'BlackArch is ready!'
 }
 
 
