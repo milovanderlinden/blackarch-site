@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Website update
+category: news
+icon: fa-newspaper
 ---
 
 Following improvement and features have been added:

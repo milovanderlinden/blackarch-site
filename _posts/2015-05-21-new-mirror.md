@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Switzerland mirror added!
+title: Mirror in Switzerland
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [easyname.at](easyname.at) and [nessus.at](nessus.at) for becoming a mirror.

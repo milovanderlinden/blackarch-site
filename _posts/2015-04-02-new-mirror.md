@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New US mirror added!
+title: Mirror in the USA
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [TSpitz Consulting, Inc](https://tspitzconsulting.com/) for becoming a mirror.

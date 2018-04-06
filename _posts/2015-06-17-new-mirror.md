@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Vietnam mirror added!
+title: Mirror in Vietnam
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [archlinuxvn.org](archlinuxvn.org) for becoming a mirror.

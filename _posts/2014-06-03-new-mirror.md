@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Ecuador mirror added!
+title: Mirror in Ecuador
+category: mirror
+icon: fa-sitemap
 ---
 
 We would like to thank [cedia.org.ec](http://cedia.org.ec/) and [espoch.edu.ec](http://espoch.edu.ec/) for becoming a mirror.

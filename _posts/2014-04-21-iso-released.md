@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New ISOs!
+title: ISO release
+category: iso
+icon: fa-file-archive
 ---
 
 Today, we released new BlackArch Linux ISOs including more than 750 tools and lot's of improvements. Also, armv6h and armv7h repositories are filled with about 650 tools.

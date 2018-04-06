@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New mirror added in Singapore!
+title: Mirror in Singapore
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [National University of Singapore](http://nus.edu.sg//) for becoming a mirror.

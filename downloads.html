@@ -6,6 +6,7 @@ id: downloads
 icon: fa-download
 nav: true
 position: 1
+permalink: download.html
 ---
 <a href="#iso-download" class="button">Live ISOs</a>
 <a href="#ova-download" class="button">OVA Images</a>
@@ -28,14 +29,15 @@ position: 1
             The live ISO contains a complete, functional BlackArch Linux system. The netinstall ISO is a lightweight image for bootstrapping machines.
             If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#mirror-list">list of mirrors</a> below.
         </p>
-        <table class="table">
+        <table class="table is-full-width">
             <tr>
-                <td><b>Image</b></td>
-                <td><b>Version</b></td>
-                <td><b>Torrent</b></td>
-                <td><b>Size</b></td>
-                <td><b>SHA1sum</b></td>
+                <th>Image</th>
+                <th>Version</th>
+                <td>Torrent</th>
+                <td>Size</th>
+                <td>SHA1sum</th>
             </tr>
+            <tbody>
             <tr>
                 <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.12.11-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                 <td itemprop="datePublished">2017.12.11</td>
@@ -50,6 +52,7 @@ position: 1
                 <td>521 MB</td>
                 <td>e06bcad153b0edaa0212e912905263f500d861af</td>
             </tr>
+            </tbody>
         </table>
         <p>
             Do not use UNetBootIn to write ISO files to flashdrives. UNetBootIn modifies the bootloader configuration, which is bad.
@@ -73,7 +76,7 @@ position: 1
             If possible, please try to use a mirror near you to download the OVA images. You can find a <a href="#mirror-list">list of mirrors</a> below.
         </p>
 
-        <table class="table">
+        <table class="table is-full-width">
             <tr>
                 <td><b>Image</b></td>
                 <td><b>Version</b></td>

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New mirror added in the USA!
+title: Mirror in the USA
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [Ibiblio / University of North Carolina](http://distro.ibiblio.org) for becoming a BlackArch Linux mirror.

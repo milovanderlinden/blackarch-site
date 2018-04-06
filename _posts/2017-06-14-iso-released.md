@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New ISOs released!
+title: ISO release
+category: iso
+icon: fa-file-archive
 ---
 
 Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Germany mirror added!
+title: Mirror in Germany
+category: mirror
+icon: fa-sitemap
 ---
 
 We would like to thank [Curesec Team](http://www.curesec.com/) for becoming a mirror.

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: BlackArch Linux Installation "Quick How to" added
+title: How to added
+category: news
+icon: fa-newspaper
 ---
 
 We have released a simple BlackArch Linux Installation [tutorial](blackarch-install.html) for beginners.

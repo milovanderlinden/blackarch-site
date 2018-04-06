@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Brazilian Translation added!
+title: Brazilian Translation
+category: news
+icon: fa-language
 ---
 
 We have released the brazilian translation of the BlackArch Linux Guide.

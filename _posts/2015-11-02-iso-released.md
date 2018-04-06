@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New ISOs released!
+title: ISO release
+category: iso
+icon: fa-file-archive
 ---
 
 Today we released new BlackArch Linux ISOs. The new ISOs include over 1230 tools for i686 and x86_64 and over 1010 tools. For more details see the ChangeLog below.

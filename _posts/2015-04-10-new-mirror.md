@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Australia mirror added!
+title: Mirror in Australia
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [digitalpacific.com.au](digitalpacific.com.au) for becoming a mirror.

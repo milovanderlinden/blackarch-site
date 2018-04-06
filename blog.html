@@ -3,27 +3,38 @@ layout: default
 title: Blog
 subtitle: News of BlackArch
 id: blog
-icon: fa-home
+icon: fa-th
 nav: true
 position: 6
+permalink: blog.html
 ---
 
-<div class="container result">
-    <div class="row">
-        <div class="col-md-8">
-            {% for post in site.posts %}
-            <article itemscope itemtype="http://schema.org/NewsArticle">
-                <header>
-                    <h4 itemprop="name">{{ post.title }}</h4>
-                    <time class="datetime" itemprop="datePublished">{{ post.date | date: "%a, %b %d %Y %H:%M:%S GMT" }}</time>
-                </header>
-                <div itemprop="description">
-                    {{ post.content }}
-                </div>
-            </article>
-            {% endfor %}
-        </div>
-        <div class="col-md-4">
+<div class="columns is-multiline">
+    {% for post in site.posts %}
+    <article class="column is-3" style="padding:0.75rem;">
+        <a class="bd-article-image {{ post.category }}" href="{{ post.url }}">
+            <span class="bd-article-overlay"></span>
+            <span class="bd-article-icon">
+                <i class="fas {{ post.icon }}"></i>
+            </span>
+            <strong class="bd-article-info">
+                <span>
+                    <time class="datetime bd-article-date" itemprop="datePublished">
+                        {{ post.date | date: "%a, %b %d %Y" }}
+                    </time>
+                    <strong class="bd-article-title" itemprop="name">
+                        {{ post.title }}
+                    </strong>
+                </span>
+            </strong>
+        </a>
+        <!--<div itemprop="description">
+            {{ post.content }}
+        </div>-->
+    </article>
+    {% endfor %}
+</div>
+        <!--<div class="col-md-4">
                 <div style="border: 1px solid #aaa; border-radius:5px; height:420px;">
                     <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" data-widget-id="368746180060004352" data-theme="dark">Tweets by @blackarchlinux</a>
                     <script>
@@ -41,5 +52,5 @@ position: 6
                 </div>
             </div>
     </div>
-</div>
+</div>-->
         

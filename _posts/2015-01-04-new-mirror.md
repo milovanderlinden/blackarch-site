@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New US mirror added!
+title: Mirror in the USA
+category: mirror
+icon: fa-sitemap
 ---
 
 We would like to thank [CDN Depot](http://mirrors.cdndepo.com/) for becoming a mirror.

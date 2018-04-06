@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Austria mirrors added!
+title: Mirrors in Austria
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [easyname.at](easyname.at) and [nessus.at](nessus.at) for becoming a mirror.

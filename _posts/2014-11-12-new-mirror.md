@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Taiwan mirror added!
+title: Mirror in Taiwan
+category: mirror
+icon: fa-sitemap
 ---
 
 We would like to thank [Dept of CSE, Yuan Ze University](http://www.cse.yzu.edu.tw/) for becoming a mirror.

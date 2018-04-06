@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Canada mirror added!
+title: Mirror in Canada
+category: mirror
+icon: fa-sitemap
 ---
 
 We would like to thank [clibre.uqam.ca](http://clibre.uqam.ca/) for becoming a mirror.

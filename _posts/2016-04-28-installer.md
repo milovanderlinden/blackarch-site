@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New BlackArch Linux installer released!
+title: New installer
+category: news
+icon: fa-newspaper
 ---
 
 We have released the new (improved) BlackArch Linux installer today. It is built and released in our

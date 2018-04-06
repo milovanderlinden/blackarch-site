@@ -34,33 +34,34 @@
     </div>
     <div class="content">
         {{ content }}
+        <table id="tbl-minimalist" class="table is-full-width" itemscope itemtype="https://www.schema.org/CreativeWork">
+            <thead>
+                <tr>
+                    <th class="tbl-name">Name</th>
+                    <th class="tbl-version">Version</th>
+                    <th class="tbl-version">Build</th>
+                    <th class="tbl-description">Description</th>
+                    <th class="tbl-categorie">Category</th>
+                    <th class="tbl-homepage">Website</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                {% for member in packages %}
+                <tr>
+                    <td class="tbl-name" itemprop="name">{{ member.name }}</td>
+                    <td class="tbl-version vcat" itemprop="version">{{ member.vers }}</td>
+                    <td class="tbl-version vcat" itemprop="version">{{ member.build | date: "%Y-%m-%d" }}</td>
+                    <td class="tbl-description dcat" itemprop="description">{{ member.desc}}</td>
+                    {% assign groupurl = '/tools/' | append: member.group | append: '.html' %}
+                    <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
+                    <td class="tbl-homepage" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
-    <table id="tbl-minimalist" class="table is-full-width is-hoverable" itemscope itemtype="https://www.schema.org/CreativeWork">
-        <thead>
-            <tr>
-                <th class="tbl-name">Name</th>
-                <th class="tbl-version">Version</th>
-                <th class="tbl-version">Build</th>
-                <th class="tbl-description">Description</th>
-                <th class="tbl-categorie">Category</th>
-                <th class="tbl-homepage">Website</th>
-                
-            </tr>
-        </thead>
-        <tbody>
-            {% for member in packages %}
-            <tr>
-                <td class="tbl-name" itemprop="name">{{ member.name }}</td>
-                <td class="tbl-version vcat" itemprop="version">{{ member.vers }}</td>
-                <td class="tbl-version vcat" itemprop="version">{{ member.build | date: "%Y-%m-%d" }}</td>
-                <td class="tbl-description dcat" itemprop="description">{{ member.desc}}</td>
-                {% assign groupurl = '/tools/' | append: member.group | append: '.html' %}
-                <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
-                <td class="tbl-homepage" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    
   </div>
   </section>
   <!-- /.row --> 

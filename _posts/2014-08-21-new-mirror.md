@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Turkey mirror added!
+title: Mirror in Turkey
+category: mirror
+icon: fa-sitemap
 ---
 
 We would like to thank [knuth.mirrortr.com](http://knuth.mirrortr.com/blackarch) for becoming a mirror.

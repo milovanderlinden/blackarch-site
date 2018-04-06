@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Italy mirror added!
+title: Mirror in Italy
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [garr.it](https://mirror.garr.it) for becoming a mirror.

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New France mirror added!
+title: Mirror in France
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [tamcore.eu](http://tamcore.eu/) and [uteditor.de](http://uteditor.de/) for becoming a mirror.

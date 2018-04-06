@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New BlackArch Linux OVA Image released!
+title: OVA Image release
+category: ova
+icon: fa-file-archive
 ---
 
 Today we released the official BlackArch Linux OVA Image. Ready to use for VirtualBox/VMware!

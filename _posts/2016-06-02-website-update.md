@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Website update
+title: Tools section
+category: news
+icon: fa-newspaper
 ---
 
 Following improvement have been added:

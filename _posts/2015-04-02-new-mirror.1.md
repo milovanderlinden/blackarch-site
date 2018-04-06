@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Poland mirror added!
+title: Mirror in Poland
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [ICM Warsaw University](http://www.icm.edu.pl/) for becoming a mirror.

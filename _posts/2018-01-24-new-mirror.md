@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New mirror added in the Netherlands!
+title: Mirror in the Netherlands
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [neostrada.nl](http://mirror.neostrada.nl/blackarch/) for becoming a BlackArch Linux mirror.

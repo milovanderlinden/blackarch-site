@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Switzerland mirror added!
+title: Mirror in Switzerland
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [tillo.ch](https://mirror.tillo.ch) for becoming a mirror.

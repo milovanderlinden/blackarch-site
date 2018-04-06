@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New US mirror added!
+title: Mirror in the USA
+category: mirror
+icon: fa-sitemap
 ---
 
 We would like to thank [Team Cymru](http://www.team-cymru.org/) for becoming a mirror.

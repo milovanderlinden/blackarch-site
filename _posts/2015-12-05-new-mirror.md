@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New mirror added in Germany!
+title: Mirror in Germany
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [RWTH Aachen University](http://ftp.halifax.rwth-aachen.de/) for becoming a mirror.

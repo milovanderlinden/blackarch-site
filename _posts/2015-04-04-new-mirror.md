@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New Belgium mirror added!
+title: Mirror in Belgium
+category: mirror
+icon: fa-globe
 ---
 
 We would like to thank [alexiobash.com](http://alexiobash.com/) for becoming a mirror.

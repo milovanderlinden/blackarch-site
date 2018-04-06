@@ -1,6 +1,7 @@
 ---
 layout: post
-title: BlackArch aarch64 repository released!
+title: aarch64 repository
+icon: fa-exclamation-triangle
 ---
 
 We're happy to announce the release of aarch64 repository. All packages were build on a Raspberry Pi3 system.
