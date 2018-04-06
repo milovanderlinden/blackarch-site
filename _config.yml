@@ -1,4 +1,8 @@
 # Site settings
+sass:
+    sass_dir: _sass
+    style: compact
+
 collections:
   tools:
     output: true

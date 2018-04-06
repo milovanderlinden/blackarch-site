@@ -9,19 +9,40 @@ position: 0
 description: Powered by Arch Linux and our community.
 ---
 
-
-<article>
-    <p>
-        Do you feel that other Penetration Testing Distributions lack flexibility? Would you like to have tools that are selected by people from a large variety of backgrounds?
-        Based on <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>, BlackArch is an advanced penetration testing distribution. 
-        Our repository contains <a href="tools.html">{{ site.data.tools.size }}</a> tools selected by our community. Tools that can be install individually or in groups.
-        BlackArch is compatible with existing Arch Linux installations. For more information, see the <a href="downloads.html#install-repo">installation instructions</a>.
-        Please consult our <a href="blog.html">blog</a> for the most recent changes to BlackArch. BlackArch is a community effort, feel free to join! To report bugs and request new tools, please visit the
-        <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by <a href="community.html">IRC</a>, or
-        <a href="mailto:team@blackarch.org">email</a> us. The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.
-    </p>
-</article>
-
+<p>
+    Do you feel that other Penetration Testing Distributions lack flexibility? Would you like to have tools that are selected by people from a large variety of backgrounds?
+    Based on <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>, BlackArch is an advanced penetration testing distribution. 
+    Our repository contains <a href="tools.html">{{ site.data.tools.size }}</a> tools selected by our community. Tools that can be install individually or in groups.
+    BlackArch is compatible with existing Arch Linux installations. For more information, see the <a href="downloads.html#install-repo">installation instructions</a>.
+    Please consult our <a href="blog.html">blog</a> for the most recent changes to BlackArch. BlackArch is a community effort, feel free to join! To report bugs and request new tools, please visit the
+    <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by <a href="community.html">IRC</a>, or
+    <a href="mailto:team@blackarch.org">email</a> us. The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.
+</p>
+<div class="columns is-multiline">
+        {% for post in site.posts limit: 4 %}
+        <article class="column is-3" style="padding:0.75rem;">
+            <a class="bd-article-image {{ post.category }}" href="{{ post.url }}">
+                <span class="bd-article-overlay"></span>
+                <span class="bd-article-icon">
+                    <i class="fas {{ post.icon }} fa-7x"></i>
+                </span>
+                <strong class="bd-article-info">
+                    <span>
+                        <time class="datetime bd-article-date" itemprop="datePublished">
+                            {{ post.date | date: "%a, %b %d %Y" }}
+                        </time>
+                        <strong class="bd-article-title" itemprop="name">
+                            {{ post.title }}
+                        </strong>
+                    </span>
+                </strong>
+            </a>
+            <!--<div itemprop="description">
+                {{ post.content }}
+            </div>-->
+        </article>
+        {% endfor %}
+    </div>
 <figure class="image">
     <a href="images/screenshots/fluxbox.png"><img src="images/screenshots/fluxbox.png" alt="BlackArch with fluxbox"></a>
 </figure>
