@@ -5,7 +5,7 @@ category: iso
 icon: fa-file-archive
 ---
 
-Today we released new BlackArch ISOs along with the new installer. The new ISOs include over 1400 tools. For more details see the ChangeLog below.
+Today we released new BlackArch ISOs along with the new installer. The new ISOs include over 1400 packages. For more details see the ChangeLog below.
 
 Here's the ChangeLog:
 
@@ -13,8 +13,8 @@ Here's the ChangeLog:
 * include linux kernel 4.5.1
 * fixed an EFI boot issue
 * fixed the well-known i686 boot issue
-* added more than 80 new tools
-* updated all blackarch tools
+* added more than 80 new packages
+* updated all blackarch packages
 * updated all system packages
 * updated menu entries for window managers (awesome, fluxbox, openbox)
 

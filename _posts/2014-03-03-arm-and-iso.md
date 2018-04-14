@@ -3,7 +3,7 @@ layout: post
 title: ARM Support and New ISOs!
 ---
 
-BlackArch now has ARM support. Currently, there are 570 tools in the armv6h repo and 580 tools in the armv7h repo. We are working to close the gap between the ARM repos and the x86_64 and i686 repos. Expect to see over 600 tools in each ARM repo within a week or two.
+BlackArch now has ARM support. Currently, there are 570 packages in the armv6h repo and 580 packages in the armv7h repo. We are working to close the gap between the ARM repos and the x86_64 and i686 repos. Expect to see over 600 packages in each ARM repo within a week or two.
 
 
 

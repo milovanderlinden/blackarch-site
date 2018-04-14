@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Generate _data/tools.csv that is used by Jekyll to generate pages.
+# Generate _data/packages.csv that is used by Jekyll to generate pages.
 # Format: <name>\t<version>\t<url>\t<description>
 
 export LC_ALL=C
@@ -8,10 +8,10 @@ export LC_ALL=C
 SITE="blackarch.org"
 REPO="blackarch"
 ARCH="x86_64"
-OUT="_data/tools.csv"
+OUT="_data/packages.csv"
 
 # Remove previous file entry except the mirrors file
-find _data -name 'tools.csv' -type f -exec rm -f {} +
+find _data -name 'packages.csv' -type f -exec rm -f {} +
 
 make_tmp() {
     tmp=$(mktemp -d /tmp/blackarch.XXXXXXXXXXX)

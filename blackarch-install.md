@@ -157,7 +157,7 @@ The script will now ask you if you want a X display (graphical environment, a de
 
 <img src="images/bl-install/31.png" alt="31">
 
-You will have the choice to download the VirtualBox guest additions/tools, if you are not interested, press `n` and hit enter. If you want the Blackarch tools, saying `y` will download and install more than 1500 tools from the Blackarch repo, you can fetch those later if you want. This is an option that can be skipped.
+You will have the choice to download the VirtualBox guest additions/packages, if you are not interested, press `n` and hit enter. If you want the Blackarch packages, saying `y` will download and install more than 1500 packages from the Blackarch repo, you can fetch those later if you want. This is an option that can be skipped.
 
 <img src="images/bl-install/33.png" alt="33">
 

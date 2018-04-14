@@ -3,7 +3,7 @@ layout: post
 title: New ISOs!
 ---
 
-Today, we released new BlackArch ISOs including more than 1000 tools and lot's of improvements. Also, armv6h and armv7h repositories are filled with more than 1050 tools.
+Today, we released new BlackArch ISOs including more than 1000 packages and lot's of improvements. Also, armv6h and armv7h repositories are filled with more than 1050 packages.
 
 
 
@@ -16,8 +16,8 @@ A short ChangeLog :
 * fixed blackarch keyring issue
 * disabled dhcpcd service
 * upgraded menu entries for awesome, openbox and fluxbox
-* upgraded tools
-* added a bunch of new tools (contains now more than 1050 tools)
+* upgraded packages
+* added a bunch of new packages (contains now more than 1050 packages)
 * upgraded archiso profile
 * and more ...
 

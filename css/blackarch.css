@@ -2,11 +2,38 @@
 	z-index: 1;
 }
 
+td {
+	vertical-align: top !important; 
+}
 .highlight  { 
 	background: #f5f5f5;
 	margin: 0 0 !important;
 	padding: 0.25em;
 }
+
+.content li + li {
+  margin-top: 0.25em;
+}
+
+.content ul {
+  list-style: disc outside !important;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+.content ul > li{
+	list-style: circle;
+
+}
+.content ul ul {
+  list-style-type: circle;
+  margin-top: 0.5em;
+}
+
+.content ul ul ul {
+  list-style-type: square;
+}
+
+
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

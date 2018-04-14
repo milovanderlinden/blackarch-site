@@ -10,11 +10,11 @@ Today we released new BlackArch ISOs. For details see the ChangeLog below.
 Here's the ChangeLog:
 
 
-* add more than 100 new tools
+* add more than 100 new packages
 * update blackarch installer to version 0.5.1 (bugfixes + features)
-* fix several tools (dependencies, installs)
+* fix several packages (dependencies, installs)
 * include kernel 4.11.3
-* updated all blackarch tools
+* updated all blackarch packages
 * updated all system packages
 * update all window manager menus (awesome, fluxbox, openbox)
 

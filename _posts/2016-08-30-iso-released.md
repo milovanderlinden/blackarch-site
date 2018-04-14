@@ -12,7 +12,7 @@ Here's the ChangeLog :
 * Bugfix: strap.sh
 * include linux kernel 4.7.2
 * updated installer
-* updated all blackarch tools
+* updated all blackarch packages
 * updated all system packages
 
 We wish to thank all BlackArch users, mirrors, and supporters. Thanks for your help.

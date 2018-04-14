@@ -10,32 +10,22 @@ permalink: blog.html
 description: Our blog is used to inform you about updates, releases and general news.
 ---
 
-<div class="columns is-multiline">
     {% for post in site.posts %}
-    <article class="column is-3" style="padding:0.75rem;">
-        <a class="bd-article-image {{ post.category }}" href="{{ post.url }}">
-            <span class="bd-article-overlay"></span>
-            <span class="bd-article-icon">
-                <i class="fas {{ post.icon }} fa-7x"></i>
-            </span>
-            <strong class="bd-article-info">
-                <span>
-                    <time class="datetime bd-article-date" itemprop="datePublished">
-                        {{ post.date | date: "%a, %b %d %Y" }}
-                    </time>
-                    <strong class="bd-article-title" itemprop="name">
-                        {{ post.title }}
-                    </strong>
-                </span>
-            </strong>
-        </a>
-        <!--<div itemprop="description">
-            {{ post.content }}
-        </div>-->
-    </article>
+    <div class="section">
+        <div class="container">
+            <h5 class="red-text">
+                <!--<a href="{{ post.url }}">-->{{ post.title }}<!--</a>-->
+            </h5>
+            <p class="light">
+                {{ post.date | date: "%a, %b %d %Y" }}
+            </p>
+            <div class="content">
+                {{ post.content }}
+            </div>
+        </div>
+    </div>
     {% endfor %}
-</div>
-        <!--<div class="col-md-4">
+    <!--<div class="col-md-4">
                 <div style="border: 1px solid #aaa; border-radius:5px; height:420px;">
                     <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" data-widget-id="368746180060004352" data-theme="dark">Tweets by @blackarchlinux</a>
                     <script>
@@ -52,6 +42,5 @@ description: Our blog is used to inform you about updates, releases and general 
                     </script>
                 </div>
             </div>
-    </div>
-</div>-->
+    </div>-->
         

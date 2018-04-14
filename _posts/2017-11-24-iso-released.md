@@ -9,11 +9,11 @@ Today we released new BlackArch ISOs. For details see the ChangeLog below.
 
 Here's the ChangeLog:
 
-* added more than 50 new tools
+* added more than 50 new packages
 * various clean-ups and tweaks
 * updated blackarch installer to version 0.6
 * included kernel 4.13.12
-* updated all blackarch tools and packages
+* updated all blackarch packages and packages
 * updated all system packages
 * update all window manager menus (awesome, fluxbox, openbox)
 

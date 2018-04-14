@@ -11,6 +11,6 @@ Here's the ChangeLog:
 
 * include linux kernel 4.8.13
 * include new installer version 0.3.1
-* updated all blackarch tools
+* updated all blackarch packages
 
 We wish to thank all of BlackArch users, mirrors, and supporters. Thanks for your help.

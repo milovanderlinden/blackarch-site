@@ -5,14 +5,14 @@ category: iso
 icon: fa-file-archive
 ---
 
-Today we released new BlackArch ISOs. The new ISOs include over 1300 tools. For more details see the ChangeLog below.
+Today we released new BlackArch ISOs. The new ISOs include over 1300 packages. For more details see the ChangeLog below.
 
 Here's the ChangeLog :
 
-* added more than 100 new tools
+* added more than 100 new packages
 * updated system packages
 * include linux kernel 4.2.5
-* updated all tools
+* updated all packages
 * updated menu entries for window managers
 * added (correct) multilib support
 * added more fonts

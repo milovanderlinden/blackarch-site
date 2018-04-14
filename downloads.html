@@ -110,17 +110,17 @@ chmod +x strap.sh
 # Run strap.sh
 sudo ./strap.sh
 {% endhighlight %}  
-<p>You may now install tools from the blackarch repository.</p>           
+<p>You may now install packages from the blackarch repository.</p>           
 
-<p>To list all of the available tools, run:</p>
+<p>To list all of the available packages, run:</p>
 {% highlight bash %}
 sudo pacman -Sgg | grep \
 blackarch | cut -d' ' -f2 | sort -u
 {% endhighlight %}  
-<p>To install all of the tools, run</p>
+<p>To install all of the packages, run</p>
 {% highlight bash %}
 sudo pacman -S blackarch
-# To install a category of tools, run
+# To install a category of packages, run
 sudo pacman -S blackarch-<category>
 # To see the blackarch categories, run
 sudo pacman -Sg | grep blackarch
@@ -142,14 +142,14 @@ sudo blackman -i <package>
 # and install whole category
 sudo blackman -g <group>
 # Download, compile 
-# and install all BlackArch tools
+# and install all BlackArch packages
 sudo blackman -a
 # To list blackarch categories
 blackman -l
-# To list category tools
+# To list category packages
 blackman -p <package>
 {% endhighlight %}
-    <p>The complete tool list of the BlackArch repository can be found <a href="tools.html" target="_blank">here</a>.</p>
+    <p>The complete tool list of the BlackArch repository can be found <a href="packages.html" target="_blank">here</a>.</p>
 </div>
 </div>
 <div class="section">

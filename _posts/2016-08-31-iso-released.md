@@ -11,7 +11,7 @@ Here's the ChangeLog :
 
 * Bugfix: blackarch-installer
 * shrink ISO size (DVD-R support)
-* updated all blackarch tools
+* updated all blackarch packages
 * updated all system packages
 
 We wish to thank all of BlackArch users, mirrors, and supporters. Thanks for your help.
