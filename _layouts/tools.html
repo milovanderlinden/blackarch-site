@@ -10,50 +10,31 @@
     {% assign packages = site.data.tools | sort: 'build' | reverse %}
     {% endif %}
 
-    <section class="hero is-dark">
-        <div class="hero-head">
-            <div class="container">
-            <nav class="breadcrumb" aria-label="breadcrumbs">
-                <ul>
-                    <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
-                    {% if page.id != 'tools' %}
-                    <li><a class="tools" href="{{ 'tools.html' | relative_url }}">Tools</a></li>
-                    <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
-                    {% else%}
-                    <li class="is-active"><a href="#">Tools</a></li>
-                    {% endif %}
-                </ul>
-            </nav>
+    <div class="section grey lighten-4">
+        <div class="container">
+            <h1 class="header red-text">
+            {{ page.title }}
+            </h1>
+            <h5 class="header light">
+            {{ packages.size }} packages
+            </h5>
+            <div class="row">
+                {{ content }}
             </div>
         </div>
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                {{ page.title }}
-                </h1>
-                <h2 class="subtitle">
-                {{ packages.size }} packages
-                </h2>
-                <br>
-            </div>
-            <div class="hero-foot">
-                <div class="container">
-                <div class="content">
-                    {{ content }}
-                </div>
-            </div>
-            </div>
-        </div>
-    </section>
-    <section class="section">
-        <table id="tbl-minimalist" class="table is-full-width" itemscope itemtype="https://www.schema.org/CreativeWork">
+    </div>
+    <div class="section">
+        <div class="container">
+        <table class="table">
             <thead>
                 <tr>
                     <th class="tbl-name">Name</th>
-                    <th class="tbl-version">Version</th>
-                    <th class="tbl-version">Build</th>
-                    <th class="tbl-description">Description</th>
-                    <th class="tbl-categorie">Category</th>
+                    <th class="tbl-version hide-on-small-only">Version</th>
+                    <th class="tbl-build hide-on-med-and-down">Build</th>
+                    <th class="tbl-description hide-on-small-only">Description</th>
+                    {% if page.id == 'tools' %}
+                    <th class="tbl-categorie hide-on-med-and-down">Category</th>
+                    {% endif %}
                     <th class="tbl-homepage">Website</th>
                     
                 </tr>
@@ -62,17 +43,20 @@
                 {% for member in packages %}
                 <tr>
                     <td class="tbl-name" itemprop="name">{{ member.name }}</td>
-                    <td class="tbl-version vcat" itemprop="version">{{ member.vers }}</td>
-                    <td class="tbl-version vcat" itemprop="version">{{ member.build | date: "%Y-%m-%d" }}</td>
-                    <td class="tbl-description dcat" itemprop="description">{{ member.desc}}</td>
+                    <td class="tbl-version hide-on-small-only" itemprop="version">{{ member.vers }}</td>
+                    <td class="tbl-build hide-on-med-and-down" itemprop="build">{{ member.build | date: "%Y-%m-%d" }}</td>
+                    <td class="tbl-description hide-on-small-only" itemprop="description">{{ member.desc}}</td>
                     {% assign groupurl = '/tools/' | append: member.group | append: '.html' %}
-                    <td class="tbl-categorie" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
-                    <td class="tbl-homepage" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
+                    {% if page.id == 'tools' %}
+                    <td class="tbl-categorie hide-on-med-and-down" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
+                    {% endif %}
+                    <td class="tbl-homepage centered" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
-  </section>
+    </div>
+</div>
   <!-- /.row --> 
   {% include footer.html %}
   </body>

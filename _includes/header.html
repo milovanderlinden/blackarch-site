@@ -1,32 +1,34 @@
-<nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
+<div class="navbar-fixed">
+    <nav role="navigation" class="black">
+        <div class="nav-wrapper">
+            <a class="brand-logo" href="#!">
                 <img src="{{ 'images/logo/logo-38-49.png' | relative_url }}" alt="BlackArch Logo">
             </a>
-            <a class="navbar-item" href="/">
-                <img src="{{ 'images/logo/ba-font.png' | relative_url }}" alt="BlackArch Logo">
-            </a>
-            <div class="navbar-burger" data-target="sitemenu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        <div id="sitemenu" class="navbar-menu">
-            <div class="navbar-start"></div>
-            <div class="navbar-end">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav" class="right hide-on-med-and-down">
+            {% assign navigation_pages = site.pages | where: 'nav', "true" | sort: 'position' %}
+            {% for node in navigation_pages %}
+                {% if node.nav %}
+                {% if page.url == node.url %}
+                <li class="active"><a class="navbar-item selected" itemprop="url">{{node.id | capitalize }}</a></li>
+                {% else %}
+                <li><a class="navbar-item" itemprop="url" href="{{node.url | relative_url }}">{{node.id | capitalize }}</a></li>
+                {% endif %}
+                {% endif %}
+            {% endfor %}
+            </ul>
+            <ul id="mobile-demo" class="sidenav">
                 {% assign navigation_pages = site.pages | where: 'nav', "true" | sort: 'position' %}
                 {% for node in navigation_pages %}
                     {% if node.nav %}
                     {% if page.url == node.url %}
-                        <a class="navbar-item selected" itemprop="url">{{node.id | capitalize }}</a>
+                    <li class="active"><a class="red">{{node.id | capitalize }}</a></li>
                     {% else %}
-                        <a class="navbar-item" itemprop="url" href="{{node.url | relative_url }}">{{node.id | capitalize }}</a>
+                    <li><a href="{{node.url | relative_url }}">{{node.id | capitalize }}</a></li>
                     {% endif %}
-                {% endif %}
+                    {% endif %}
                 {% endfor %}
-            </div>
+            </ul>
         </div>
-    </div>
-  </nav>
+    </nav>
+</div>
