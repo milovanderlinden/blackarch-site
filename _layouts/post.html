@@ -1,54 +1,22 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html lang="en">
 {% include head.html %}
   <body>
   {% include header.html %}
-
-  <section class="hero is-dark">
-        <!--<div class="hero-head">
-            <div class="container">
-                    {% if page.id != 'home' %}
-                    <nav class="breadcrumb" aria-label="breadcrumbs">
-                        <ul>
-                            <li><a class="home" href="{{ 'index.html' | relative_url }}">Home</a></li>
-                            <li class="is-active"><a href="#" aria-current="page">{{ page.title | capitalize }}</a></li>
-                        </ul>
-                    </nav>
-                    {% endif %}
-            </div>
-        </div>-->
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                {{ page.title }}
-                </h1>
-                <h2 class="subtitle">
-                {{ page.subtitle }}
-                </h2>
-                <br>
-            </div>
-            <div class="hero-foot">
-                <div class="container">
+  <div class="section grey lighten-4">
+        <div class="container">
+            <h3 class="header red-text">
+                    {{ page.title }}
+            </h3>
+            <h5 class="header light">
+                    {{ page.date | date: "%a, %b %d %Y" }}
+            </h5>
+            <div class="row">
                 <div class="content">
-                    {{ page.description }}
+                    {{ content }}
                 </div>
             </div>
-            </div>
         </div>
-    </section>
-    <section class="section">
-        <div class="container">
-            <div class="content">
-                <article itemscope itemtype="http://schema.org/NewsArticle"><header>
-                    <time itemprop="datePublished">{{ page.date | date: "%a, %b %d %Y %H:%M:%S GMT" }}</time>
-                    <div itemprop="description">
-                        {{ content }}
-                    </div>
-                  </article>
-            </div>
-            
-        </div>
-    </section>
-    {% include footer.html %}
+    </div>
   </body>
 </html>

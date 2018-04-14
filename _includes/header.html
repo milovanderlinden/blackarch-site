@@ -18,6 +18,7 @@
             {% endfor %}
             </ul>
             <ul id="mobile-demo" class="sidenav">
+                    <li><div class="user-view black"></div></li>
                 {% assign navigation_pages = site.pages | where: 'nav', "true" | sort: 'position' %}
                 {% for node in navigation_pages %}
                     {% if node.nav %}
