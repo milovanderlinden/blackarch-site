@@ -61,7 +61,7 @@ parse_db() {
     url="$(grep --no-group-separator -A2 '^%URL%$' "${d}"/desc |
       sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%URL%$')"
 
-	egroup=$(echo "$group" | sed -e 's/blackarch-//g' -e 's/ //g' -e "s/'//g")
+	egroup=$(echo "$group" | sed -e 's/blackarch-//g' -e 's/^[ \t]*//g' -e 's/[ \t]*$//' -e 's/ /;/g' -e "s/'//g")
     fgroup=$(echo "$egroup" | sed -e 's/-malware/Malware/g')
 	noquotedesc=$(echo "$desc" | sed -e "s#\"#\'#g")
     dqt='"'

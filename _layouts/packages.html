@@ -46,9 +46,15 @@
                     <td class="tbl-version hide-on-small-only" itemprop="version">{{ member.vers }}</td>
                     <td class="tbl-build hide-on-med-and-down" itemprop="build">{{ member.build | date: "%Y-%m-%d" }}</td>
                     <td class="tbl-description hide-on-small-only" itemprop="description">{{ member.desc}}</td>
-                    {% assign groupurl = '/packages/' | append: member.group | append: '.html' %}
+                    
                     {% if page.id == 'packages' %}
-                    <td class="tbl-categorie hide-on-med-and-down" itemprop="genre"><a class=hcat href="{{ groupurl | relative_url }}" title="{{ member.group }}">{{ member.group | capitalize }}</a></td>
+                    <td class="tbl-categorie hide-on-med-and-down" itemprop="genre">
+                        {% assign cats = member.group | split: ';' %}
+                        {% for cat in cats %}
+                            {% assign groupurl = '/packages/' | append: cat | append: '.html' %}
+                            <span class="new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ groupurl | relative_url }}" title="{{ cat }}">{{ cat | capitalize }}</a></span>
+                        {% endfor %}
+                    </td>
                     {% endif %}
                     <td class="tbl-homepage centered" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
                 </tr>
