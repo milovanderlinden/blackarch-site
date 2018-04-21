@@ -20,6 +20,14 @@
             </h5>
             <div class="row">
                 {{ content }}
+                {% for package in site.packages %}
+                    {% assign caturl = '' | append: package.id | append: '.html' %}
+                    {% if page.id == package.id %}
+                        <span class="new badge red lighten-2" data-badge-caption=""><span class="white-text">{{ package.title | capitalize }}</span></span>
+                    {% else %}
+                        <span class="new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ caturl | relative_url }}" title="{{ package.title }}">{{ package.title | capitalize }}</a></span>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
@@ -51,8 +59,8 @@
                     <td class="tbl-categorie hide-on-med-and-down" itemprop="genre">
                         {% assign cats = member.group | split: ';' %}
                         {% for cat in cats %}
-                            {% assign groupurl = '/packages/' | append: cat | append: '.html' %}
-                            <span class="new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ groupurl | relative_url }}" title="{{ cat }}">{{ cat | capitalize }}</a></span>
+                            {% assign caturl = '/packages/' | append: cat | append: '.html' %}
+                            <span class="new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ caturl | relative_url }}" title="{{ cat }}">{{ cat | capitalize }}</a></span>
                         {% endfor %}
                     </td>
                     {% endif %}
