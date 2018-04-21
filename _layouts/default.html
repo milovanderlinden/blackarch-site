@@ -3,7 +3,7 @@
 {% include head.html %}
   <body>
   {% include header.html %}
-   <div class="section grey lighten-4">
+   <div class="section hero grey lighten-4">
         <div class="container">
             <h1 class="header red-text">
                 {{ page.title }}
@@ -14,6 +14,9 @@
             <div class="row">
                 {{ page.description }}
             </div>
+            {% if page.link %}
+            <a class="waves-effect waves-light btn black" href="{{'/' | append: page.link | downcase | relative_url }}" ><i class="fas fa-download"></i> {{ page.link }}</a>
+            {% endif %}
         </div>
     </div>
     {{ content }}

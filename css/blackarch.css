@@ -8,6 +8,13 @@ main {
 	flex: 1 0 auto;
 }
 
+.date {
+	font-size: smaller;
+	font-style: italic;
+}
+.hero {
+	padding-bottom: 2em;
+}
 .sidenav-overlay {
 	z-index: 1;
 }

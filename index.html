@@ -7,6 +7,7 @@ icon: fa-home
 nav: true
 position: 0
 description: Powered by Arch Linux and our community.
+link: Download
 ---
 <div class="section">
     <div class="container">
@@ -23,10 +24,11 @@ description: Powered by Arch Linux and our community.
 </div>
 <div class="section">
 <div class="container">
-  <h5 class="header red-text">Latest News</h3>
+  <h5 class="header red-text">Latest News</h5>
   <div class="row">
     {% for post in site.posts limit: 4 %}
     <div class="col s12 m6 l3">
+      <div class="card small" style="padding-top:5%;">
       <div class="icon-block {{ post.category }}" >
         <h2 class="center grey-text lighten-1">
           <i class="fas {{ post.icon }}"></i>
@@ -38,6 +40,7 @@ description: Powered by Arch Linux and our community.
           {{ post.date | date: "%a, %b %d %Y" }}
         </p>
       </div>
+    </div>
     </div>
     {% endfor %}
   </div>
