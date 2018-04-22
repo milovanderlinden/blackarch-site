@@ -39,7 +39,7 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th class="tbl-name">Name</th>
+                    <th class="tbl-name">Package</th>
                     <th class="tbl-version hide-on-small-only">Version</th>
                     <th class="tbl-build hide-on-med-and-down">Build</th>
                     <th class="tbl-description hide-on-small-only">Description</th>
@@ -53,7 +53,13 @@
             <tbody>
                 {% for member in packages %}
                 <tr>
-                    <td class="tbl-name" itemprop="name">{{ member.name }}</td>
+                    <td class="tbl-name" itemprop="name"><b>{{ member.name }}</b>
+                        <div class="show-on-small hide-on-med-and-up">
+                            <small>version: {{ member.vers }} ({{ member.build | date: "%Y-%m-%d" }})</small>
+                            <br/>
+                            {{ member.desc }}
+                        </p>
+                    </td>
                     <td class="tbl-version hide-on-small-only" itemprop="version">{{ member.vers }}</td>
                     <td class="tbl-build hide-on-med-and-down" itemprop="build">{{ member.build | date: "%Y-%m-%d" }}</td>
                     <td class="tbl-description hide-on-small-only" itemprop="description">{{ member.desc}}</td>
@@ -69,6 +75,8 @@
                     {% endif %}
                     <td class="tbl-homepage centered" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
                 </tr>
+                
+                
                 {% endfor %}
             </tbody>
         </table>
