@@ -20,12 +20,15 @@
             </h5>
             <div class="row">
                 {{ content }}
-                {% for package in site.packages %}
+                <span class="left new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ '/packages' | relative_url }}" title="All">All</a></span>
+                {% assign sorted_packages = site.packages | sort: 'title' %}
+                {% for package in sorted_packages %}
                     {% assign caturl = '' | append: package.id | append: '.html' %}
+
                     {% if page.id == package.id %}
-                        <span class="new badge red lighten-2" data-badge-caption=""><span class="white-text">{{ package.title | capitalize }}</span></span>
+                        <span class="left new badge red lighten-2" data-badge-caption=""><span class="white-text">{{ package.title | capitalize }}</span></span>
                     {% else %}
-                        <span class="new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ caturl | relative_url }}" title="{{ package.title }}">{{ package.title | capitalize }}</a></span>
+                        <span class="left new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ caturl | relative_url }}" title="{{ package.title }}">{{ package.title | capitalize }}</a></span>
                     {% endif %}
                 {% endfor %}
             </div>
