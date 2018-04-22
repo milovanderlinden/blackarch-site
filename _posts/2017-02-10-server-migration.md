@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Server changes
-icon: fa-exclamation-triangle
+icon: fas fa-exclamation-triangle
 ---
 
 Today we migrated BlackArch to a new server system, updated DNS changes and deactivated HTTP.

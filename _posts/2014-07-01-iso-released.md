@@ -2,7 +2,7 @@
 layout: post
 title: ISO release
 category: iso
-icon: fa-file-archive
+icon: fas fa-file-archive
 ---
 
 Today, we released new BlackArch ISOs including more than 1000 packages and lot's of improvements. Also, armv6h and armv7h repositories are filled with about 950 packages.

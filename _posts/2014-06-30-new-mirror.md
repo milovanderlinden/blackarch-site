@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Taiwan
 category: mirror
-icon: fa-sitemap
+icon: fas fa-sitemap
 ---
 
 We would like to thank [cs.nctu.edu.tw](http://cs.nctu.edu.tw/) for becoming a mirror.

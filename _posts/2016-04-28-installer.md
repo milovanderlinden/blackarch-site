@@ -2,7 +2,7 @@
 layout: post
 title: New installer
 category: news
-icon: fa-newspaper
+icon: fas fa-newspaper
 ---
 
 We have released the new (improved) installer today. It is built and released in our

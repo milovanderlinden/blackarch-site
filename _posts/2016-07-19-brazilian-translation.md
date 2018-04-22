@@ -2,7 +2,7 @@
 layout: post
 title: Brazilian Translation
 category: news
-icon: fa-language
+icon: fas fa-language
 ---
 
 We have released the brazilian translation of the BlackArch Guide.

@@ -2,7 +2,7 @@
 layout: post
 title: ISO release
 category: iso
-icon: fa-file-archive
+icon: fas fa-file-archive
 ---
 
 Today we released new BlackArch ISOs. For details see the ChangeLog below.

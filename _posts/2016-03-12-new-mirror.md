@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Singapore
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [National University of Singapore](http://nus.edu.sg//) for becoming a mirror.

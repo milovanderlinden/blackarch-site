@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in the Netherlands
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [Dimitri of Wawa-Mania (dimitri@linux.com)](https://forum.wawa-mania.ec/) for becoming a BlackArch mirror.

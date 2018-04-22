@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Turkey
 category: mirror
-icon: fa-sitemap
+icon: fas fa-sitemap
 ---
 
 We would like to thank [knuth.mirrortr.com](http://knuth.mirrortr.com/blackarch) for becoming a mirror.

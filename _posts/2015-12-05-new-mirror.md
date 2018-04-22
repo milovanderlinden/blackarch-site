@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Germany
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [RWTH Aachen University](http://ftp.halifax.rwth-aachen.de/) for becoming a mirror.

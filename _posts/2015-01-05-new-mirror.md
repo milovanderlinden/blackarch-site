@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Switzerland
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [tillo.ch](https://mirror.tillo.ch) for becoming a mirror.

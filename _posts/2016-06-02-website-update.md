@@ -2,7 +2,7 @@
 layout: post
 title: Packages section
 category: news
-icon: fa-newspaper
+icon: fas fa-newspaper
 ---
 
 Following improvement have been added:

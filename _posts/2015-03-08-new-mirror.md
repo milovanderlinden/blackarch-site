@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Turkey
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [linux.org.tr](http://linux.org.tr/) for becoming a mirror.

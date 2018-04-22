@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Poland
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [ICM Warsaw University](http://www.icm.edu.pl/) for becoming a mirror.

@@ -2,7 +2,7 @@
 layout: post
 title: How to added
 category: news
-icon: fa-newspaper
+icon: fas fa-newspaper
 ---
 
 We have released a simple installation [tutorial](blackarch-install.html) for beginners.

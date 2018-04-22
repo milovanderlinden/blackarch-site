@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Ecuador
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [mirror.uta.edu.ec](http://mirror.uta.edu.ec) for becoming a mirror.

@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Taiwan
 category: mirror
-icon: fa-sitemap
+icon: fas fa-sitemap
 ---
 
 We would like to thank [Dept of CSE, Yuan Ze University](http://www.cse.yzu.edu.tw/) for becoming a mirror.

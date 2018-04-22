@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Germany
 category: mirror
-icon: fa-sitemap
+icon: fas fa-sitemap
 ---
 
 We would like to thank [Curesec Team](http://www.curesec.com/) for becoming a mirror.

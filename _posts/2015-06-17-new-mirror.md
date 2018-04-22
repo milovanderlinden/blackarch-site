@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Vietnam
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [archlinuxvn.org](archlinuxvn.org) for becoming a mirror.

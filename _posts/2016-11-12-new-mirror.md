@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in the USA
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [tuxns.net](mirrors.tuxns.net) for becoming a BlackArch mirror.

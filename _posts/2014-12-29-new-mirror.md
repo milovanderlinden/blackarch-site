@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in the USA
 category: mirror
-icon: fa-sitemap
+icon: fas fa-sitemap
 ---
 
 We would like to thank [Packetfire](http://packetfire.org/) for becoming a mirror.

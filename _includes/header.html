@@ -1,3 +1,15 @@
+<ul id='dropdown1' class='dropdown-content'>
+        {% assign sorted_packages = site.packages | sort: 'title' %}
+        {% for package in sorted_packages %}
+            {% assign caturl = '' | append: package.id | append: '.html' %}
+
+            {% if page.id == package.id %}
+                <li>{{ package.title | capitalize }}</li>
+            {% else %}
+                <li><a href="{{ caturl | relative_url }}" title="{{ package.title }}">{{ package.title | capitalize }}</a></li>
+            {% endif %}
+        {% endfor %}
+  </ul>
 <div class="navbar">
     <nav role="navigation" class="black">
         <div class="nav-wrapper">
@@ -17,6 +29,7 @@
                 {% endif %}
                 {% endif %}
             {% endfor %}
+            <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Categories<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
             <ul id="mobile-demo" class="sidenav">
                     <li><div class="user-view black"></div></li>

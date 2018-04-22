@@ -2,7 +2,7 @@
 layout: post
 title: OVA Image release
 category: ova
-icon: fa-file-archive
+icon: fas fa-file-archive
 ---
 
 Today we released the official BlackArch OVA Image. Ready to use for VirtualBox/VMware!

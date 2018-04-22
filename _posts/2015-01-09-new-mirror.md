@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Italy
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [garr.it](https://mirror.garr.it) for becoming a mirror.

@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Australia
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [hexnoia.org](http://hexnoia.org/) for becoming a mirror.

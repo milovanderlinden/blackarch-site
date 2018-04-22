@@ -2,7 +2,7 @@
 layout: post
 title: Website update
 category: news
-icon: fa-newspaper
+icon: fas fa-newspaper
 ---
 
 Following improvement and features have been added:

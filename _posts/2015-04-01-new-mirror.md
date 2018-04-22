@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Greece
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [University of Crete / Computer Center](http://www.cc.uoc.gr/) for becoming a mirror.

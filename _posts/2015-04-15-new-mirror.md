@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in Denmark
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [dotsrc.org](http://dotsrc.org) for becoming a mirror.

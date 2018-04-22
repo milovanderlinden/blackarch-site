@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in the USA
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [Princeton University](http://www.princeton.edu/main/) for becoming a BlackArch mirror.

@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  var elem = document.querySelector('.dropdown-trigger');
+  var options = {};
+  var instance = M.Dropdown.init(elem, options);
 
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {

@@ -2,7 +2,7 @@
 layout: post
 title: ISO release
 category: iso
-icon: fa-file-archive
+icon: fas fa-file-archive
 ---
 
 Today we released new BlackArch ISOs along with the new installer. The new ISOs include over 1400 packages. For more details see the ChangeLog below.

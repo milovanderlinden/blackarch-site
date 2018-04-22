@@ -2,7 +2,7 @@
 layout: post
 title: Mirror in China
 category: mirror
-icon: fa-globe
+icon: fas fa-globe
 ---
 
 We would like to thank [ustc.edu.cn](ustc.edu.cn) for becoming a mirror.
