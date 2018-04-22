@@ -12,9 +12,12 @@
 
     <div class="section grey lighten-4">
         <div class="container">
-            <h1 class="header red-text">
-            {{ page.title }}
+            <h1 class="header red-text hide-on-small-only">
+                {{ page.title }}
             </h1>
+            <h3 class="header red-text show-on-small hide-on-med-and-up">
+                {{ page.title }}
+            </h3>
             <h5 class="header light">
             {{ packages.size }} packages
             </h5>
