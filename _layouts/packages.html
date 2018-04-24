@@ -49,18 +49,24 @@
                     {% if page.id == 'packages' %}
                     <th class="tbl-categorie hide-on-med-and-down">Category</th>
                     {% endif %}
-                    <th class="tbl-homepage">Website</th>
+                    <th class="tbl-homepage hide-on-small-only">Website</th>
                     
                 </tr>
             </thead>
             <tbody>
                 {% for member in packages %}
+                {% assign github = member.url | slice: 0,14 %}
+
                 <tr>
                     <td class="tbl-name" itemprop="name"><b>{{ member.name }}</b>
                         <div class="show-on-small hide-on-med-and-up">
                             <small>version: {{ member.vers }} ({{ member.build | date: "%Y-%m-%d" }})</small>
-                            <br/>
-                            {{ member.desc }}
+                            <p>{{ member.desc }}</p>
+                            {% if github == 'https://github' %}
+                            <a href="{{ member.url }}" target="_blank"><i class="fab fa-github" style="color:#4BA6E7"></i></a>
+                            {% else %}
+                            <a href="{{ member.url }}" target="_blank"><i class="fas fa-globe" style="color:#4BA6E7"></i></a>
+                            {% endif %}
                         </p>
                     </td>
                     <td class="tbl-version hide-on-small-only" itemprop="version">{{ member.vers }}</td>
@@ -76,7 +82,13 @@
                         {% endfor %}
                     </td>
                     {% endif %}
-                    <td class="tbl-homepage centered" itemprop="mainEntityOfPage"><a href="{{ member.url }}" target="_blank"><i class="fa fa-globe" style="color:#4BA6E7"></i></a></td>
+                    <td class="tbl-homepage centered hide-on-small-only" itemprop="mainEntityOfPage">
+                            {% if github == 'https://github' %}
+                            <a href="{{ member.url }}" target="_blank"><i class="fab fa-github" style="color:#4BA6E7"></i></a>
+                            {% else %}
+                            <a href="{{ member.url }}" target="_blank"><i class="fas fa-globe" style="color:#4BA6E7"></i></a>
+                            {% endif %}
+                    </td>
                 </tr>
                 
                 
