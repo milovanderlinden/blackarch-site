@@ -22,7 +22,9 @@ $(document).on('click', '.act-cc', function() {
 });*/
 
 document.addEventListener('DOMContentLoaded', function () {
-
+  var options;
+  var elem = document.querySelector('.sidenav');
+  var instance = M.Sidenav.init(elem, options);
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
   var elem = document.querySelector('.dropdown-trigger');

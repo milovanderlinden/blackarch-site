@@ -32,7 +32,7 @@
             <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Categories<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
             <ul id="mobile-demo" class="sidenav">
-                    <li><div class="user-view black"></div></li>
+                    <li><div class="user-view black" style="height:56px; z-index:1000;"></div></li>
                 {% assign navigation_pages = site.pages | where: 'nav', "true" | sort: 'position' %}
                 {% for node in navigation_pages %}
                     {% if node.nav %}
