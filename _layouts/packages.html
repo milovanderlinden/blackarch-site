@@ -61,7 +61,7 @@
                     <td class="tbl-name" itemprop="name"><b>{{ member.name }}</b>
                         <div class="show-on-small hide-on-med-and-up">
                             <small>version: {{ member.vers }} ({{ member.build | date: "%Y-%m-%d" }})</small>
-                            <p>{{ member.desc }}</p>
+                            <p class="flow-text">{{ member.desc }}</p>
                             {% if github == 'https://github' %}
                             <a href="{{ member.url }}" target="_blank"><i class="fab fa-github" style="color:#4BA6E7"></i></a>
                             {% else %}
