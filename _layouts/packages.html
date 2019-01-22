@@ -31,7 +31,7 @@
                     {% if page.id == package.id %}
                         <span class="left new badge red lighten-2" data-badge-caption=""><span class="white-text">{{ package.title | capitalize }}</span></span>
                     {% else %}
-                        <span class="left new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ caturl | relative_url }}" title="{{ package.title }}">{{ package.title | capitalize }}</a></span>
+                        <span class="left new badge grey lighten-4" data-badge-caption=""><a class="orange-text" href="{{ caturl | relative_url }}" title="{{ package.title }}">{{ package.title | capitalize }}</a></span>
                     {% endif %}
                 {% endfor %}
             </div>
@@ -69,11 +69,11 @@
                         </span>
                         <div class="show-on-small hide-on-med-and-up">
                             <p>{{ member.desc }}</p>
-                            <p><small>version: <i>{{ member.vers }}</i> date: <i>{{ member.build | date: "%Y-%m-%d" }}</i></small></p>
+                            <p><small>version: <i class="vcat">{{ member.vers }}</i> date: <i class="red-text">{{ member.build | date: "%Y-%m-%d" }}</i></small></p>
                         </div>
                     </td>
-                    <td class="tbl-version hide-on-small-only" itemprop="version">{{ member.vers }}</td>
-                    <td class="tbl-build hide-on-med-and-down" itemprop="build">{{ member.build | date: "%Y-%m-%d" }}</td>
+                    <td class="tbl-version hide-on-small-only vcat" itemprop="version">{{ member.vers }}</td>
+                    <td class="tbl-build hide-on-med-and-down red-text" itemprop="build">{{ member.build | date: "%Y-%m-%d" }}</td>
                     <td class="tbl-description hide-on-small-only" itemprop="description">{{ member.desc}}</td>
                     
                     {% if page.id == 'packages' %}
@@ -81,7 +81,7 @@
                         {% assign cats = member.group | split: ';' %}
                         {% for cat in cats %}
                             {% assign caturl = '/packages/' | append: cat | append: '.html' %}
-                            <span class="new badge grey lighten-4" data-badge-caption=""><a class="red-text" href="{{ caturl | relative_url }}" title="{{ cat }}">{{ cat | capitalize }}</a></span>
+                            <span class="new badge grey lighten-4" data-badge-caption=""><a class="orange-text" href="{{ caturl | relative_url }}" title="{{ cat }}">{{ cat | capitalize }}</a></span>
                         {% endfor %}
                     </td>
                     {% endif %}
