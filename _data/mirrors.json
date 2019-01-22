@@ -1,0 +1,512 @@
+﻿[
+  {
+    "abbr": "au",
+    "country": "Australia",
+    "url": "http://blackarch.mirror.digitalpacific.com.au/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "au",
+    "country": "Australia",
+    "url": "rsync://mirror.digitalpacific.com.au/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "at",
+    "country": "Austria",
+    "url": "http://mirror.easyname.at/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "at",
+    "country": "Austria",
+    "url": "ftp://mirror.easyname.at/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "at",
+    "country": "Austria",
+    "url": "rsync://mirror.easyname.at/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "be",
+    "country": "Belgium",
+    "url": "http://mirror.alexiobash.com/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "ca",
+    "country": "Canada",
+    "url": "http://mirror.clibre.uqam.ca/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "cn",
+    "country": "China",
+    "url": "https://mirrors.ustc.edu.cn/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "dk",
+    "country": "Denmark",
+    "url": "http://mirrors.dotsrc.org/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "dk",
+    "country": "Denmark",
+    "url": "ftp://mirrors.dotsrc.org/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "ec",
+    "country": "Ecuador",
+    "url": "http://mirror.uta.edu.ec/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "ec",
+    "country": "Ecuador",
+    "url": "ftp://mirror.uta.edu.ec/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "ec",
+    "country": "Ecuador",
+    "url": "rsync://mirror.uta.edu.ec/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "ec",
+    "country": "Ecuador",
+    "url": "http://mirror.espoch.edu.ec/blackarch",
+    "protocol": "http"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "https://www.blackarch.org/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "rsync://blackarch.org/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "http://blackarch.tamcore.eu/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "https://blackarch.tamcore.eu/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "rsync://blackarch.tamcore.eu/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "http://blackarch.leneveu.fr/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "http://blackarch.pi3rrot.net/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "https://mirror.adversec.com/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "http://mirror.cyberbits.eu/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "https://mirror.cyberbits.eu/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "fr",
+    "country": "France",
+    "url": "rsync://rsync.cyberbits.eu/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "de",
+    "country": "Germany",
+    "url": "http://ftp.halifax.rwth-aachen.de/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "de",
+    "country": "Germany",
+    "url": "ftp://ftp.halifax.rwth-aachen.de/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "de",
+    "country": "Germany",
+    "url": "rsync://ftp.halifax.rwth-aachen.de/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "gr",
+    "country": "Greece",
+    "url": "http://ftp.cc.uoc.gr/mirrors/linux/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "gr",
+    "country": "Greece",
+    "url": "ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "gr",
+    "country": "Greece",
+    "url": "rsync://blackarch@ftp.cc.uoc.gr/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "gb",
+    "country": "Great Britain",
+    "url": "http://www.mirrorservice.org/sites/blackarch.org/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "gb",
+    "country": "Great Britain",
+    "url": "rsync://rsync.mirrorservice.org/blackarch.org/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "hu",
+    "country": "Hungary",
+    "url": "http://quantum-mirror.hu/mirrors/pub/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "hu",
+    "country": "Hungary",
+    "url": "https://quantum-mirror.hu/mirrors/pub/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "hu",
+    "country": "Hungary",
+    "url": "rsync://quantum-mirror.hu/blackarch",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "it",
+    "country": "Italy",
+    "url": "http://blackarch.mirror.garr.it/mirrors/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "it",
+    "country": "Italy",
+    "url": "rsync://blackarch.mirror.garr.it/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "jp",
+    "country": "Japan",
+    "url": "http://www.ftp.ne.jp/Linux/packages/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "jp",
+    "country": "Japan",
+    "url": "ftp://ftp.kddilabs.jp/Linux/packages/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "nl",
+    "country": "Netherlands",
+    "url": "http://mirror.neostrada.nl/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "nl",
+    "country": "Netherlands",
+    "url": "https://mirror.neostrada.nl/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "nl",
+    "country": "Netherlands",
+    "url": "ftp://mirror.neostrada.nl/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "nl",
+    "country": "Netherlands",
+    "url": "rsync://mirror.neostrada.nl/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "pl",
+    "country": "Poland",
+    "url": "http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "pl",
+    "country": "Poland",
+    "url": "ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "pl",
+    "country": "Poland",
+    "url": "rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "pl",
+    "country": "Poland",
+    "url": "gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/",
+    "protocol": "gopher"
+  },
+  {
+    "abbr": "ru",
+    "country": "Russia",
+    "url": "http://mirror.truenetwork.ru/mirrors/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "ru",
+    "country": "Russia",
+    "url": "ftp://mirror.truenetwork.ru/mirrors/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "ru",
+    "country": "Russia",
+    "url": "rsync://mirror.truenetwork.ru/mirrors/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "ru",
+    "country": "Russia",
+    "url": "http://mirror.yandex.ru/mirrors/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "ru",
+    "country": "Russia",
+    "url": "ftp://mirror.yandex.ru/mirrors/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "ru",
+    "country": "Russia",
+    "url": "rsync://mirror.yandex.ru/mirrors/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "sg",
+    "country": "Singapore",
+    "url": "http://download.nus.edu.sg/mirror/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "sg",
+    "country": "Singapore",
+    "url": "https://download.nus.edu.sg/mirror/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "se",
+    "country": "Sweden",
+    "url": "http://mirror.zetup.net/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "http://mirror.easyname.ch/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "ftp://mirror.easyname.ch/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "rsync://mirror.easyname.ch/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "https://mirror.tillo.ch/ftp/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "http://mirror.tillo.ch/ftp/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "ftpes://mirror.tillo.ch/blackarch/",
+    "protocol": "ftpes"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "ftp://mirror.tillo.ch/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "ch",
+    "country": "Switzerland",
+    "url": "rsync://mirror.tillo.ch/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "tr",
+    "country": "Turkey",
+    "url": "http://ftp.linux.org.tr/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "tr",
+    "country": "Turkey",
+    "url": "ftp://ftp.linux.org.tr/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "tr",
+    "country": "Turkey",
+    "url": "rsync://rsync.linux.org.tr/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "tw",
+    "country": "Taiwan",
+    "url": "http://blackarch.cs.nctu.edu.tw/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "tw",
+    "country": "Taiwan",
+    "url": "rsync://blackarch.cs.nctu.edu.tw/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "tw",
+    "country": "Taiwan",
+    "url": "http://ftp.yzu.edu.tw/Linux/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "tw",
+    "country": "Taiwan",
+    "url": "ftp://ftp.yzu.edu.tw/Linux/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "tw",
+    "country": "Taiwan",
+    "url": "rsync://ftp.yzu.edu.tw/Linux/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "http://blackarch.pr0s3c.nl/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "https://blackarch.pr0s3c.nl/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "http://mirrors.math.princeton.edu/pub/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "rsync://mirrors.math.princeton.edu/pub/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "http://distro.ibiblio.org/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "ftp://distro.ibiblio.org/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "https://deadbeef.ninja/blackarch/",
+    "protocol": "https"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "http://mirror.team-cymru.org/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "ftp://mirror.team-cymru.org/blackarch/",
+    "protocol": "ftp"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "rsync://mirror.team-cymru.org/blackarch/",
+    "protocol": "rsync"
+  },
+  {
+    "abbr": "us",
+    "country": "USA",
+    "url": "http://arch.localmsp.org/blackarch/",
+    "protocol": "http"
+  },
+  {
+    "abbr": "vn",
+    "country": "Vietnam",
+    "url": "http://f.archlinuxvn.org/blackarch/",
+    "protocol": "http"
+  }
+]

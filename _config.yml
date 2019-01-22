@@ -5,6 +5,8 @@ sass:
 
 collections:
   packages:
-    output: true
+    output: false
+  mirrors:
+    output: false
 plugins:
   - jekyll-sitemap
