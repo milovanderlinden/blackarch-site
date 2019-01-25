@@ -8,6 +8,6 @@ collections:
     output: false
   mirrors:
     output: false
-
+include: [strap.sh]
 plugins:
   - jekyll-sitemap

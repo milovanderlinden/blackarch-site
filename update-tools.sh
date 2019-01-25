@@ -9,7 +9,7 @@ SITE="blackarch.org"
 REPO="blackarch"
 ARCH="x86_64"
 OUT="_data/packages.csv"
-
+OUT_TORRENTS="_data/torrents.csv"
 # Remove previous file entry except the mirrors file
 find _data -name 'packages.csv' -type f -exec rm -f {} +
 
@@ -79,6 +79,40 @@ split() {
     sed -i 's/\t/,/g' "$OUT"
 }
 
+parse_torrents() {
+    rm -f "$OUT_TORRENTS"
+    #wget -r -nH --cut-dirs=2 --no-parent --reject="robots.txt" --accept="*.torrent" http://blackarch.pi3rrot.net/torrent/ -P ./torrents
+    #rm ./torrents/*.tmp
+    echo "file,kind,date,type,architecture"  >> "$OUT_TORRENTS"
+    for d in "./torrents"/*
+    do
+        
+        TORRENT=$(basename $d)
+        echo $TORRENT | while IFS=. read PART1 PART2 PART3 PART4
+        do
+            if [[ $PART1 == *"live"* ]]
+            then
+                KIND="live"
+            elif [[ $PART1 == *"netinst"* ]]
+            then
+                KIND="netinst"
+            else
+                KIND=""
+            fi
+            if [[ $PART3 == *"x86_64"* ]]; then
+                ARCH=",amd64"
+            else
+                ARCH=""
+            fi
+            YEAR=${PART1: -4}
+            MONTH=${PART2}
+            DAY=${PART3:0:2}
+            TYPE=${PART4:0:3}
+            echo "$TORRENT,$KIND,$YEAR-$MONTH-$DAY,$TYPE$ARCH" >> "$OUT_TORRENTS"
+        done
+    done
+}
+
 main() {
 
     rm -f "$OUT"
@@ -86,6 +120,8 @@ main() {
     get_db
     parse_db
     split
+    parse_torrents
+
 }
 
 main "$@"

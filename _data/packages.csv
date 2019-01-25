@@ -41,7 +41,7 @@ binary,amber,245.c6cae74,"Reflective PE packer.","https://github.com/EgeBalci/Am
 binary,amoco,v2.4.1.r233.gbc19ec1,"Yet another tool for analysing binaries.","https://github.com/bdcht/amoco",1547935499
 windows,analyzepesig,0.0.0.5,"Analyze digital signature of PE file.","https://blog.didierstevens.com/my-software/#AnalyzePESig",1542066259
 mobile,androbugs,1.7fd3a2c,"An efficient Android vulnerability scanner that helps developers or hackers find potential security vulnerabilities in Android applications.","https://github.com/AndroBugs/AndroBugs_Framework",1491745695
-binary,androguard,3.2.1,"Reverse engineering, Malware and goodware analysis of Android applications and more.","https://github.com/androguard/androguard",1544376113
+binary,androguard,3.3.1,"Reverse engineering, Malware and goodware analysis of Android applications and more.","https://github.com/androguard/androguard",1548426292
 mobile,androick,8.522cfb4,"A python tool to help in forensics analysis on android.","https://github.com/Flo354/Androick",1531048390
 reversing,android-apktool,2.3.4,"A tool for reverse engineering Android apk files.","https://ibotpeaches.github.io/Apktool/",1542049485
 mobile,android-ndk,r17,"Android C/C++ developer kit.","http://developer.android.com/sdk/ndk/index.html",1526406226
@@ -1582,7 +1582,7 @@ crypto,sha1collisiondetection,99.232357e,"Library and command line tool to detec
 recon,shard,1.5,"A command line tool to detect shared passwords.","https://github.com/philwantsfish/shard",1483212436
 scanner,shareenum,46.3bfa81d,"Tool to enumerate shares from Windows hosts.","https://github.com/CroweCybersecurity/shareenum",1442481820
 scanner,sharesniffer,51.dbf05b5,"Network share sniffer and auto-mounter for crawling remote file systems.","https://github.com/shirosaidev/sharesniffer",1546094108
-code-audit,shellcheck,0.6.0,"Shell script analysis tool","http://www.shellcheck.net",1548278269
+code-audit,shellcheck,0.6.0,"Shell script analysis tool","http://www.shellcheck.net",1548371935
 exploitation,shellcode-factory,96.07ae857,"Tool to create and test shellcodes from custom assembly sources.","https://github.com/danielhenrymantilla/shellcode-factory",1542062405
 exploitation,shellcodecs,0.1,"A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.","http://www.blackhatlibrary.net/Shellcodecs",1393937755
 exploitation,shellen,60.349e2c8,"Interactive shellcoding environment to easily craft shellcodes.","https://github.com/merrychap/shellen",1537096539

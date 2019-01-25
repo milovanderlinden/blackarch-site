@@ -36,14 +36,14 @@ description: Here you will find official BlackArch downloads and installation in
         <tr>
             <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch 64 bit Live ISO</a></td>
             <td itemprop="datePublished" class="hide-on-med-down">2018.12.01</td>
-            <td><a href="https://blackarch.org/blackarch/torrent/blackarch-linux-live-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+            <td><a href="/torrents/blackarch-linux-live-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
             <td class="hide-on-med-down">11 GB</td>
             <td class="hide-on-small-only">425fea61ab1f0195edce3190e32a088f324571a4</td>
         </tr>
         <tr>
             <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch 64 bit Netinstall ISO</a></td>
             <td  class="hide-on-med-down" itemprop="datePublished">2018.12.01</td>
-            <td><a href="https://blackarch.org/blackarch/torrent/blackarch-linux-netinst-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+            <td><a href="/torrents/blackarch-linux-netinst-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
             <td class="hide-on-med-down">624 MB</td>
             <td class="hide-on-small-only">3ea740fcfeadafcd2e22493ff44bdc32c2e7630e</td>
         </tr>
@@ -80,7 +80,7 @@ sudo dd bs=512M if=file.iso of=/dev/sdX
         <tr>
             <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2018.12.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch 64 bit OVA Image</a></td>
             <td itemprop="datePublished">2018.12.01</td>
-            <td><a href="https://blackarch.org/blackarch/torrent/blackarch-linux-2018.12.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+            <td><a href="/torrents/blackarch-linux-2018.12.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
             <td class="hide-on-med-down">23 GB</td>
             <td class="hide-on-small-only">e16428f2791697344d590d4ffac07302b5580725</td>
         </tr>
@@ -95,7 +95,7 @@ sudo dd bs=512M if=file.iso of=/dev/sdX
     <h5 id="install-repo" class="header red-text">Install in Arch Linux</h5>
     <p>
         BlackArch is compatible with existing/normal Arch Linux installations. It acts as an unofficial user repository. Below you will find
-        instructions on how to install BlackArch in this manner.
+        instructions on how to install BlackArch in this manner. You can use our <a href="/strap.sh">bootstrap bash script</a>.
     </p>
 {% highlight bash %}
 # Run https://blackarch.org/strap.sh
@@ -103,7 +103,7 @@ sudo dd bs=512M if=file.iso of=/dev/sdX
 curl -O https://blackarch.org/strap.sh
 sha1sum strap.sh
 {% endhighlight %}
-<p>The SHA1 sum should match: <code>6f152b79419491db92c1fdde3fad2d445f09aae3</code></p>
+<p>The SHA1 sum should match: <code>1b2bd4d4c139553491a14189f662a7a580171a8a</code></p>
 {% highlight bash %}
 # Set execute bit
 chmod +x strap.sh
