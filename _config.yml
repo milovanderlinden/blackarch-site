@@ -5,7 +5,7 @@ sass:
 
 collections:
   packages:
-    output: false
+    output: true
   mirrors:
     output: false
 include: [strap.sh]
