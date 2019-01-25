@@ -8,5 +8,6 @@ collections:
     output: false
   mirrors:
     output: false
+
 plugins:
   - jekyll-sitemap

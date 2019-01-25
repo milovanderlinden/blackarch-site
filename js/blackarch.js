@@ -1,8 +1,3 @@
-//Slider
-/*$('.carousel').carousel({
-    interval: 5000 //changes the speed
-})*/
-
 /*$(document).off('click', '.act-bitcoin');
 $(document).on('click', '.act-bitcoin', function() {
 	$('.act-display').hide().empty();
@@ -27,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
   var instance = M.Sidenav.init(elem, options);
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-  var elem = document.querySelector('.dropdown-trigger');
-  var options = {};
-  var instance = M.Dropdown.init(elem, options);
+  //var elem = document.querySelector('.dropdown-trigger');
+  //var options = {};
+  //var instance = M.Dropdown.init(elem, options);
 
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
@@ -49,5 +44,15 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
+  // Carousel
+  var carousel = document.getElementById('header-carousel');
+  M.Carousel.init(carousel, {
+    fullWidth: true,
+    indicators: true
+  });
+  setInterval(function(){
+    var instance = M.Carousel.getInstance(carousel);
+    instance.next()
+  },5000);
 
 });

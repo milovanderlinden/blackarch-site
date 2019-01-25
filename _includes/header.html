@@ -1,21 +1,9 @@
-<ul id='dropdown1' class='dropdown-content'>
-        {% assign sorted_packages = site.packages | sort: 'title' %}
-        {% for package in sorted_packages %}
-            {% assign caturl = '' | append: package.id | append: '.html' %}
-
-            {% if page.id == package.id %}
-                <li>{{ package.title | capitalize }}</li>
-            {% else %}
-                <li><a href="{{ caturl | relative_url }}" title="{{ package.title }}">{{ package.title | capitalize }}</a></li>
-            {% endif %}
-        {% endfor %}
-  </ul>
 <div class="navbar">
     <nav role="navigation" class="black">
         <div class="nav-wrapper">
                 <div class="container">
             <a class="brand-logo" href="#!">
-                <img src="{{ 'images/logo/logo-38-49.png' | relative_url }}" alt="BlackArch Logo">
+                <div><img src="{{ 'images/logo/blackarch-logo-red-scalable.svg' | relative_url }}" alt="BlackArch Logo"> <span>BlackArch</span> <span class="red-text">Linux</span></div>
             </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav" class="right hide-on-med-and-down">
@@ -48,3 +36,4 @@
         </div>
     </nav>
 </div>
+{% include carousel.html %}

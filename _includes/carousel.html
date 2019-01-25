@@ -1,32 +1,15 @@
 <!-- Header Carousel -->
-<header id="myCarousel" class="carousel slide">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-  </ol>
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-      <div class="item active">
-            {% assign slide1 = 'images/slider/ba-slider.png' | relative_url %}
-          <div class="fill" style="background-image:url('{{ slide1 }}');"></div>
-          <div class="carousel-caption">
-              <h2>BlackArch <br />Penetration Testing Distribution</h2>
-          </div>
-      </div>
-      <div class="item">
-          {% assign slide2 = 'images/slider/ba-slider2.png' | relative_url %}
-          <div class="fill" style="background-image:url('{{ slide2 }}');"></div>
-          <div class="carousel-caption">
-              <h2>Over 1900 packages</h2>
-          </div>
-      </div>
-  </div>
-  <!-- Controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="icon-prev"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="icon-next"></span>
-  </a>
+<header id="header-carousel" class="carousel carousel-slider center" style="background-color:#000;">
+    {% assign slide1 = 'images/slider/ba-slider.png' | relative_url %}
+    <div class="carousel-item active" style="background-image:url('{{ slide1 }}');background-position:center;background-size:cover;background-color:#000;">
+        <div class="carousel-caption">
+            <h2>Penetration Testing Distribution</h2>
+        </div>
+    </div>
+    {% assign slide2 = 'images/slider/ba-slider2.png' | relative_url %}
+    <div class="carousel-item" style="background-image:url('{{ slide2 }}');background-position:center;background-size:cover;background-color:#000;">
+        <div class="carousel-caption">
+            <h2>{{ site.data.packages.size }} packages available</h2>
+        </div>
+    </div>
 </header>

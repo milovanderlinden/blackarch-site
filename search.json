@@ -19,7 +19,7 @@ layout: null
         ],
       "description": "{{ member.desc | escape }}",
       "url"      : "{{ member.url }}",
-      "date"     : "{{ member.build }}"
+      "date"     : "{{ member.build | date: "%Y-%m-%dT%H:%M:%S.000Z"}}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
