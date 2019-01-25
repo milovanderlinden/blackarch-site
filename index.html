@@ -54,7 +54,6 @@ link: Download
           <div class="card">
             <div class="card-image">
                 <a href="images/screenshots/openbox.png"><img src="images/screenshots/openbox.png" alt="BlackArch with openbox" /></a>
-                <span class="card-title">BlackArch with openbox</span>
               </div>
           </div>
         </div>
@@ -62,7 +61,6 @@ link: Download
           <div class="card">
             <div class="card-image">
               <a href="images/screenshots/fluxbox.png"><img src="images/screenshots/fluxbox.png" alt="BlackArch with fluxbox" /></a>
-              <span class="card-title">BlackArch with fluxbox</span>
             </div>
           </div>
         </div>
@@ -70,7 +68,6 @@ link: Download
           <div class="card">
             <div class="card-image">
               <a href="images/screenshots/awesome.png"><img src="images/screenshots/awesome.png" alt="BlackArch with awesome wm" /></a>
-              <span class="card-title">BlackArch with awesome wm</span>
             </div>
           </div>
         </div>
@@ -78,7 +75,6 @@ link: Download
           <div class="card">
             <div class="card-image">
               <a href="images/screenshots/spectrwm.png"><img src="images/screenshots/spectrwm.png" alt="BlackArch with spectrwm" /></a>
-              <span class="card-title">BlackArch with spectrwm</span>
             </div>
           </div>
         </div>
@@ -86,7 +82,6 @@ link: Download
           <div class="card">
             <div class="card-image">
                 <a href="images/screenshots/lxdm.png"><img src="images/screenshots/lxdm.png" alt="BlackArch with lxdm"></a>
-                <span class="card-title">BlackArch with lxdm</span>
             </div>
           </div>
         </div>
@@ -123,7 +118,7 @@ link: Download
               <td itemprop="givenName">{{ member.name }}</td>
               <td itemprop="additionalName">{{ member.nick }}</td>
               <td class="hide-on-med-and-down" itemprop="email"><a href="mailto://{{ member.email }}">{{ member.email }}</a></td>
-              <td class=" hide-on-small-only"><a href="{{ member.gpg }}" target="_blank">{{ member.hex }}</a></td>
+              <td class=" hide-on-small-only"><a href="{{ member.gpg }}" target="_blank" class="red-text">{{ member.hex }}</a></td>
               <td itemprop="jobTitle">{{ member.role }}</td>
           </tr>
       {% endfor %}
