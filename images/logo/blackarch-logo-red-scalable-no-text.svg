@@ -7,7 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.0"
-   width="380"
+   width="70"
    height="70"
    id="svg2424">
   <metadata
@@ -189,24 +189,4 @@
      d="m 35.224613,20.09403 c -2.036399,4.992709 -3.264656,8.258527 -5.531919,13.102821 1.390116,1.473523 3.096418,3.189515 5.867448,5.127566 -2.979128,-1.225893 -5.011258,-2.456661 -6.529903,-3.733832 -2.901664,6.05477 -7.447739,14.679523 -16.673189,31.255779 7.250893,-4.186067 12.871657,-6.766822 18.10994,-7.75157 -0.224934,-0.967437 -0.352818,-2.013909 -0.344132,-3.105791 l 0.0086,-0.232288 c 0.115055,-4.645456 2.531617,-8.217812 5.394267,-7.975256 2.862651,0.242555 5.087758,4.207333 4.972706,8.852791 -0.02164,0.874128 -0.120237,1.71503 -0.292512,2.494957 5.181408,1.013576 10.74207,3.587723 17.894859,7.717157 -1.410393,-2.596627 -2.669288,-4.937295 -3.871486,-7.166546 -1.893658,-1.467712 -3.868838,-3.377944 -7.897826,-5.445887 2.769295,0.719579 4.752076,1.549783 6.297613,2.477749 C 40.405992,32.95442 39.416184,29.930451 35.224613,20.09403 Z"
      id="path2518"
      style="fill:#f44336;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.27530551;stroke-opacity:1" />
-  <text
-     id="text857"
-     y="49.468224"
-     x="60.32888"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.33333206px;font-family:monospace;-inkscape-font-specification:monospace;fill:#ffffff;fill-opacity:1"
-       y="49.468224"
-       x="60.32888"
-       id="tspan855">BlackArch</tspan></text>
-  <text
-     id="text857-8"
-     y="49.367966"
-     x="267.16467"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';letter-spacing:0px;word-spacing:0px;fill:#f44336;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.33333206px;font-family:monospace;-inkscape-font-specification:monospace;fill:#f44336;fill-opacity:1"
-       y="49.367966"
-       x="267.16467"
-       id="tspan855-8">Linux</tspan></text>
 </svg>
