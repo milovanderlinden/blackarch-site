@@ -1,16 +1,25 @@
-name,nick,email,gpg,hex,role
-Levon Kayan,noptrix,noptrix@nullsecurity.net,"gpgkeys/noptrix.asc",0x7A747D10,"Leader, Backd00rer"
-Pedro Freitas,psf,pedrosffreitas@protonmail.com,"gpgkeys/psf.asc",0x6B644488,"Developer, Allrounder"
-Jeremy Marlow,i3_Arch,jamarlow410@gmail.com,"gpgkeys/i3_Arch.asc",0xC8173B68,"Developer, Allrounder"
-Pierre B.,Pi3rrot,pierre@pi3rrot.net,"gpgkeys/pi3rrot.asc",0x0B694394,"Developer, Torrent Master"
-Hannes Eichblatt,heichblatt,blackarch@hanneseichblatt.de,"gpgkeys/heichblatt.asc",0x31B0AF0E,"Developer, Allrounder"
-Stefan Venz,ikstream,stefan.venz@protonmail.com,"gpgkeys/ikstream.asc",0x8CAA1975,"Developer, Allrounder"
-Sepehrdad Sh,sepehrdad,sepehrdad.dev@gmail.com,"gpgkeys/sepehrdad.asc",0xDEADBEEF,"Developer, Allrounder"
-Eduard Toloza,Edu4rdSHL,tolosaeduard@gmail.com,"gpgkeys/Edu4rdSHL.asc",0x09F553E5,"Developer, Allrounder"
-Vechtomov German,mrsmith0x00,l0n3_s4rv1v0r@protonmail.com,"gpgkeys/mrsmith0x00.asc",0x43FB1128,"Developer, Allrounder"
-Richard Baumann,ohaz,ohaz@ohaz.engineer,"gpgkeys/ohaz.asc",0x9684D220,"Developer, Allrounder"
-Leon L.,Tazmain,ghost53947@gmail.com,"gpgkeys/tazmain.asc",0xBA75AF84,"Developer, Allrounder"
-Harry P.,luserx0,luserx0@gmail.com,"gpgkeys/luserx0.asc",0x90883003,"Developer, Allrounder"
-Filipe Lains,FFY00,lains@archlinux.org,"gpgkeys/FFY00.asc",0xB0EB4BF2,"Contributor"
-Dimitri Mader,anyon3,dimitri@linux.com,"gpgkeys/anyon3.asc",0x8B8E3622,"WebDeveloper"
-Alexander Rothenberg,EisWiesel,unreal436@gmail.com,"gpgkeys/eiswiesel.asc",0xBADC0DE,"WebDesigner"
+status,name,nick,email,gpg,hex,role
+A,Levon Kayan,noptrix,noptrix@nullsecurity.net,"gpgkeys/noptrix.asc",0x7A747D10,"Leader, Backd00rer"
+A,Pedro Freitas,psf,pedrosffreitas@protonmail.com,"gpgkeys/psf.asc",0x6B644488,"Developer, Allrounder"
+A,Jeremy Marlow,i3_Arch,jamarlow410@gmail.com,"gpgkeys/i3_Arch.asc",0xC8173B68,"Developer, Allrounder"
+A,Pierre B.,Pi3rrot,pierre@pi3rrot.net,"gpgkeys/pi3rrot.asc",0x0B694394,"Developer, Torrent Master"
+A,Hannes Eichblatt,heichblatt,blackarch@hanneseichblatt.de,"gpgkeys/heichblatt.asc",0x31B0AF0E,"Developer, Allrounder"
+A,Stefan Venz,ikstream,stefan.venz@protonmail.com,"gpgkeys/ikstream.asc",0x8CAA1975,"Developer, Allrounder"
+A,Sepehrdad Sh,sepehrdad,sepehrdad.dev@gmail.com,"gpgkeys/sepehrdad.asc",0xDEADBEEF,"Developer, Allrounder"
+A,Eduard Toloza,Edu4rdSHL,tolosaeduard@gmail.com,"gpgkeys/Edu4rdSHL.asc",0x09F553E5,"Developer, Allrounder"
+A,Vechtomov German,mrsmith0x00,l0n3_s4rv1v0r@protonmail.com,"gpgkeys/mrsmith0x00.asc",0x43FB1128,"Developer, Allrounder"
+A,Richard Baumann,ohaz,ohaz@ohaz.engineer,"gpgkeys/ohaz.asc",0x9684D220,"Developer, Allrounder"
+A,Leon L.,Tazmain,ghost53947@gmail.com,"gpgkeys/tazmain.asc",0xBA75AF84,"Developer, Allrounder"
+A,Harry P.,luserx0,luserx0@gmail.com,"gpgkeys/luserx0.asc",0x90883003,"Developer, Allrounder"
+A,Filipe Lains,FFY00,lains@archlinux.org,"gpgkeys/FFY00.asc",0xB0EB4BF2,"Contributor"
+A,Dimitri Mader,anyon3,dimitri@linux.com,"gpgkeys/anyon3.asc",0x8B8E3622,"WebDeveloper"
+A,Alexander Rothenberg,EisWiesel,unreal436@gmail.com,"gpgkeys/eiswiesel.asc",0xBADC0DE,"WebDesigner"
+F,Evan Teitelman,paraxor,teitelmanevan@gmail.com,"gpgkeys/paraxor.asc",0xEA87E4E3,"Founder, Developer"
+F,Javier,nrz,nrz@nullsecurity.net,"gpgkeys/nrz.asc",0x7C03DD86,Developer
+F,Ellis Kenyo,elken,elken.tdos@gmail.com,"gpgkeys/elken.asc",0x0F4093D1,Developer
+F,Louis Dion-Marcil,ldionmarcil,louis.dionmarcil@gmail.com,"gpgkeys/ldionmarcil.asc",0x0E61E739,Developer
+F,Halit Alptekin,rapt0r,me@halitalptekin.com,"gpgkeys/rapt0r.asc",0x17F838F9,Contributor
+F,Ano Nymous,sudokode,sudokode@gmail.com,"gpgkeys/sudokode.asc",0xBADC0DE,Contributor
+F,Guy Marquez,eserror,guy.marquez@yandex.com,"gpgkeys/eserror.asc",0x1DDA1182,Contributor
+F,Felipe Montes,GudwaL,felipe@smartdefence.cl,"gpgkeys/gudwal.asc",0x9548C879,Contributor
+F,Abelardo Ricart,abby,aricart@gmail.com,"gpgkeys/abby.asc",0xF126259B,Contributor

@@ -104,7 +104,7 @@ link: Download
 <div class="container">
   <h5 class="header red-text">Team</h5>
   <p>
-      BlackArch is backed by a team of volunteers.
+      BlackArch linux is backed by a team of volunteers. Some of them have chosen to appear in the following list.
   </p>
   <table class="table">
       <thead>
@@ -117,8 +117,8 @@ link: Download
           </tr>
       </thead>
       <tbody>
-      {% assign packages = site.data.developers %}
-      {% for member in packages %}
+      {% assign devs = site.data.developers | where:'status', 'A' %}
+      {% for member in devs %}
           <tr>
               <td itemprop="givenName">{{ member.name }}</td>
               <td itemprop="additionalName">{{ member.nick }}</td>
@@ -131,3 +131,36 @@ link: Download
   </table>
 </div>
 </div>
+<div class="section">
+    <div class="container">
+      <h5 class="header red-text">Hall of Fame</h5>
+      <p>
+          BlackArch linux stands on the shoulders of giants. This is a list of former Developers & Contributors without who BlackArch linux would not be what it is today.
+      </p>
+      <table class="table">
+          <thead>
+              <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Nickname</th>
+                  <!--<th class="hide-on-med-and-down">E-Mail</th>-->
+                  <!--<th class=" hide-on-small-only">GPG Key</th>-->
+                  <th>Former role</th>
+              </tr>
+          </thead>
+          <tbody>
+          {% assign devs = site.data.developers | where:'status', 'F' %}
+          {% for member in devs %}
+              <tr>
+                  <td class="orange-text"><i class="fas fa-star" aria-hidden="true"></i></td>
+                  <td itemprop="givenName">{{ member.name }}</td>
+                  <td itemprop="additionalName">{{ member.nick }}</td>
+                  <!--<td class="hide-on-med-and-down" itemprop="email"><a href="mailto://{{ member.email }}">{{ member.email }}</a></td>-->
+                  <!--<td class=" hide-on-small-only"><a href="{{ member.gpg }}" target="_blank">{{ member.hex }}</a></td>-->
+                  <td itemprop="jobTitle">{{ member.role }}</td>
+              </tr>
+          {% endfor %}
+          </tbody>
+      </table>
+    </div>
+    </div>
