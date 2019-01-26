@@ -98,14 +98,14 @@ td {
 .highlight .m { color: #009999 } /* Literal.Number */
 .highlight .s { color: #d14 } /* Literal.String */
 .highlight .na { color: #008080 } /* Name.Attribute */
-.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nb { color: rgb(140, 214, 79) } /* Name.Builtin */
 .highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
 .highlight .no { color: #008080 } /* Name.Constant */
 .highlight .ni { color: #800080 } /* Name.Entity */
 .highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
 .highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
 .highlight .nn { color: #555555 } /* Name.Namespace */
-.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nt { color: #478345 } /* Name.Tag */
 .highlight .nv { color: #008080 } /* Name.Variable */
 .highlight .ow { font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
@@ -134,3 +134,43 @@ td {
 .highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;} 
 .lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
 .lineno::selection {background-color: transparent;} /* Other major browsers */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -115px;
+    visibility: hidden;
+}
+ul.sidenav li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 136px;
+}
+#logo-container {
+    height: 57px;
+    margin-bottom: 32px;
+}
+ul.sidenav li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 160px;
+}
+.sidenav-title {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.sidenav .collapsible-header, .sidenav.fixed .collapsible-header {
+    padding: 0 32px !important;
+}
+.sidenav .collapsible-body {
+    padding: 0 16px !important;
+}
+.sidenav .collapsible-body, .sidenav.fixed .collapsible-body {
+    background-color: transparent !important;
+}
+.is-active {
+  border-bottom: 1px solid #F44336;
+}

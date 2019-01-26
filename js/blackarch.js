@@ -17,14 +17,37 @@ $(document).on('click', '.act-cc', function() {
 });*/
 
 document.addEventListener('DOMContentLoaded', function () {
-  var options;
   var elem = document.querySelector('.sidenav');
-  var instance = M.Sidenav.init(elem, options);
+  var sidenav = M.Sidenav.init(elem);
+  var $collapsibleElems = document.querySelector('.collapsible');
+  M.Collapsible.init($collapsibleElems);
+  var $subs = document.querySelectorAll('.sub');
+  var $tabs = document.querySelectorAll('.tab');
+  if ($tabs.length > 0) {
+    // Add a click event on each of them
+    $tabs.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        for (i = 0; i < $tabs.length; i++) {
+          $tabs[i].classList.remove('is-active');
+        }
+        $el.classList.toggle('is-active');
+      });
+    });
+  }
+  if ($subs.length > 0) {
+    // Add a click event on each of them
+    $subs.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        for (i = 0; i < $subs.length; i++) {
+          $subs[i].classList.remove('is-active');
+        }
+        $el.classList.toggle('is-active');
+        sidenav.close();
+      });
+    });
+  }
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-  //var elem = document.querySelector('.dropdown-trigger');
-  //var options = {};
-  //var instance = M.Dropdown.init(elem, options);
 
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
@@ -54,5 +77,4 @@ document.addEventListener('DOMContentLoaded', function () {
     var instance = M.Carousel.getInstance(carousel);
     instance.next()
   },5000);
-
 });
