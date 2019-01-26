@@ -102,7 +102,7 @@ parse_torrents() {
             if [[ $PART3 == *"x86_64"* ]]; then
                 ARCH=",amd64"
             else
-                ARCH=""
+                ARCH=","
             fi
             YEAR=${PART1: -4}
             MONTH=${PART2}
