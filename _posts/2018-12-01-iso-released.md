@@ -17,7 +17,7 @@ Here's the ChangeLog:
 * added bactl package (script to config and setup BlackArch environment)
 * included every tool of BlackArch except: cuda-/oclhashcat, vmcloak, theZoo
 * included linux kernel 4.19.4
-* included wordlistctl (https://github.com/BlackArch/wordlistctl))
+* included [wordlistctl](https://github.com/BlackArch/wordlistctl))
 * updated blackarch-installer to v1.0.3
 * updated default ISO files (synced with archiso's template)
 * package QAs (runtime checks) were performed prior the ISO build
