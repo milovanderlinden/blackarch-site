@@ -39,21 +39,21 @@ It could happen for a wide range of reasons. Below you will find a __few suggest
 * If you're connected through a VPN, try to temporarily disable it and run `strap.sh` again.
 * __pgp.mit.edu__ could be down for some reason (yes, that can happen). See options number 2 and 3 below for more information.
 
-After testing all the items described above if you still have problems using <`strap.sh`, try the options below:
-                            
+After testing all the items described above if you still have problems using `strap.sh`, try the options below:
+
 ###### 1<sup>st</sup> option
 
-```
+{% highlight bash %}
 rm -rf /etc/pacman.d/gnupg
 pacman-key --populate
 pacman-key --update
-```
+{% endhighlight %}
 
 ###### 2<sup>nd</sup> option
 
 You could try to change to pgp.mit.edu's IP address using the following command:
 
-```
+{% highlight bash %}
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 sha1sum strap.sh 
@@ -65,7 +65,7 @@ sha1sum strap.sh
 sed -i "s|pgp.mit.edu|18.9.60.141|g" \
 strap.sh
 sh strap.shfaq
-```
+{% endhighlight %}
 
 Just keep in mind that the IP address above is the current IP address of pgp.mit.edu but it can change at any time. Make sure to check before running the command.
 
@@ -74,7 +74,7 @@ Just keep in mind that the IP address above is the current IP address of pgp.mit
 
 If the option number 2 didn't solve your issue, try the following on a __new downloaded__ `strap.sh` file:
 
-```
+{% highlight bash %}
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh</span><br>
 sha1sum strap.sh
@@ -87,7 +87,7 @@ sed -i \
 "s|pgp.mit.edu|hkp://pool.sks-keyservers.net|g" \
 strap.sh
 sh strap.sh
-```
+{% endhighlight %}
 
 It's very important to follow the suggestions above as well as checking the Arch Linux Wiki pages to assist you as needed. If you still encounter any problems, pay us a visit at [#blackarch](irc://irc.freenode.net/blackarch) (freenode).
                             

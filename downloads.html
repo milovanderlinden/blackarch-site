@@ -68,9 +68,9 @@ description: Here you will find official BlackArch downloads and installation in
             which is bad.
             You can use this instead (where /dev/sdX is your flashdrive and file.iso is a BlackArch ISO):
         </p>
-        {% highlight bash %}
-        sudo dd bs=512M if=file.iso of=/dev/sdX
-        {% endhighlight %}
+{% highlight bash %}
+sudo dd bs=512M if=file.iso of=/dev/sdX
+{% endhighlight %}
         </code>
         <blockquote>
             The default login for all ISOs is: <strong>root:blackarch</strong>
@@ -117,58 +117,58 @@ description: Here you will find official BlackArch downloads and installation in
             repository. Below you will find instructions on how to install BlackArch in this manner. You can use 
             our <a href="/strap.sh">bootstrap bash script</a>.
         </p>
-        {% highlight bash %}
-        # Run https://blackarch.org/strap.sh
-        # as root and follow the instructions.
-        curl -O https://blackarch.org/strap.sh
-        sha1sum strap.sh
-        {% endhighlight %}
+{% highlight bash %}
+# Run https://blackarch.org/strap.sh
+# as root and follow the instructions.
+curl -O https://blackarch.org/strap.sh
+sha1sum strap.sh
+{% endhighlight %}
         <p>The SHA1 sum should match: <code>1b2bd4d4c139553491a14189f662a7a580171a8a</code></p>
-        {% highlight bash %}
-        # Set execute bit
-        chmod +x strap.sh
-        # Run strap.sh
-        sudo ./strap.sh
-        {% endhighlight %}
+{% highlight bash %}
+# Set execute bit
+chmod +x strap.sh
+# Run strap.sh
+sudo ./strap.sh
+{% endhighlight %}
         <p>You may now install packages from the blackarch repository.</p>
 
         <p>To list all of the available packages, run:</p>
-        {% highlight bash %}
-        sudo pacman -Sgg | grep \
-        blackarch | cut -d' ' -f2 | sort -u
-        {% endhighlight %}
-        <p>To install all of the packages, run</p>
-        {% highlight bash %}
-        sudo pacman -S blackarch
-        # To install a category of packages, run
-        sudo pacman -S blackarch-<category>
-        # To see the blackarch categories, run
-        sudo pacman -Sg | grep blackarch
-        {% endhighlight %}
+{% highlight bash %}
+sudo pacman -Sgg | grep \
+blackarch | cut -d' ' -f2 | sort -u
+{% endhighlight %}
+<p>To install all of the packages, run</p>
+{% highlight bash %}
+sudo pacman -S blackarch
+# To install a category of packages, run
+sudo pacman -S blackarch-<category>
+# To see the blackarch categories, run
+sudo pacman -Sg | grep blackarch
+{% endhighlight %}
         <p>
             As part of an alternative method of installation, you can build the blackarch packages from source.
             You can find the PKGBUILDs <a href="https://github.com/BlackArch/blackarch" target="_blank">on github</a>.
             To build the entire repo, you can use the blackman tool.
         </p>
-        {% highlight bash %}
-        # First, you must install blackman.
-        # If the BlackArch package repository is
-        # setup on your machine,
-        # you can install blackman like:
-        sudo pacman -S blackman
-        # Download, compile and install package:
-        sudo blackman -i <package>
-        # Download, compile
-        # and install whole category
-        sudo blackman -g <group>
-        # Download, compile
-        # and install all BlackArch packages
-        sudo blackman -a
-        # To list blackarch categories
-        blackman -l
-        # To list category packages
-        blackman -p <package>
-        {% endhighlight %}
+{% highlight bash %}
+# First, you must install blackman.
+# If the BlackArch package repository is
+# setup on your machine,
+# you can install blackman like:
+sudo pacman -S blackman
+# Download, compile and install package:
+sudo blackman -i <package>
+# Download, compile
+# and install whole category
+sudo blackman -g <group>
+# Download, compile
+# and install all BlackArch packages
+sudo blackman -a
+# To list blackarch categories
+blackman -l
+# To list category packages
+blackman -p <package>
+{% endhighlight %}
         <p>The complete tool list of the BlackArch repository can be found <a href="packages.html" target="_blank">here</a>.</p>
     </div>
 </div>
@@ -177,14 +177,14 @@ description: Here you will find official BlackArch downloads and installation in
         <a class="anchor" id="install-iso"></a>
         <h5 class="header red-text">Installing from ISO</h5>
         <p>You can install BlackArch (packages AND environment) using the Live or Netinstall medium.</p>
-        {% highlight bash %}
-        # Install blackarch-install-scripts
-        # package
-        sudo pacman -S blackarch-install-scripts
-        # Now, you can run and follow
-        # the instructions
-        sudo blackarch-install
-        {% endhighlight %}
+{% highlight bash %}
+# Install blackarch-install-scripts
+# package
+sudo pacman -S blackarch-install-scripts
+# Now, you can run and follow
+# the instructions
+sudo blackarch-install
+{% endhighlight %}
         <p>
             If you need to be guided step by step, please consult the <a href="blackarch-install.html" title="BlackArch install">blackarch
                 install</a> tutorial.
