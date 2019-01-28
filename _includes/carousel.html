@@ -3,13 +3,13 @@
 <header id="header-carousel" class="carousel carousel-slider center" style="background-color:#000;">
     {% assign slide1 = 'images/slider/ba-slider.png' | relative_url %}
     <div class="carousel-item active" style="background-image:url('{{ slide1 }}');background-position:center;background-size:cover;background-color:#000;">
-        <div class="carousel-caption">
-            <h2>Penetration Testing Distribution</h2>
+        <div class="carousel-caption carousel-fixed-item">
+            <h2>BlackArch Linux<br>Penetration Testing Distribution</h2>
         </div>
     </div>
     {% assign slide2 = 'images/slider/ba-slider2.png' | relative_url %}
     <div class="carousel-item" style="background-image:url('{{ slide2 }}');background-position:center;background-size:cover;background-color:#000;">
-        <div class="carousel-caption">
+        <div class="carousel-caption carousel-fixed-item">
             <h2>{{ site.data.packages.size }} packages available</h2>
         </div>
     </div>
