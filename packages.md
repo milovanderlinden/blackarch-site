@@ -1,7 +1,9 @@
 ---
 layout: packages
 title: Packages
+seo-title: Tools in BlackArch
 id: packages
+seo: List of all tools available on BlackArch, update in real time
 icon: fa-list-alt
 nav: true
 position: 4

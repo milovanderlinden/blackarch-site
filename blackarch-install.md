@@ -1,8 +1,10 @@
 ---
 layout: default
+seo-title: BlackArch Install
 title: Blackarch-install
 permalink: blackarch-install.html
 subtitle: Installation tutorial
+seo: How to install Blackarch on hard drive or virtualbox
 description: This tutorial will show you how to install Blackarch using the ISO and the blackarch-installer.
 ---
 

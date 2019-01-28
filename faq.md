@@ -1,8 +1,10 @@
 ---
 layout: contained
 title: Faq
+seo-title: FAQ - Frequently asked questions
 subtitle: Frequently Asked Questions
 id: faq
+seo: Questions / Answer for BlackArch
 icon: fa-question-circle
 nav: true
 position: 3
