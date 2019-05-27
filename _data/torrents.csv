@@ -1,7 +1,5 @@
-file,kind,date,type,architecture
-blackarch-linux-2018.08.01.ova.torrent,,2018-08-01,ova,
-blackarch-linux-2018.12.01.ova.torrent,,2018-12-01,ova,
-blackarch-linux-live-2018.06.01-x86_64.iso.torrent,live,2018-06-01,iso,amd64
-blackarch-linux-live-2018.12.01-x86_64.iso.torrent,live,2018-12-01,iso,amd64
-blackarch-linux-netinst-2018.06.01-x86_64.iso.torrent,netinst,2018-06-01,iso,amd64
-blackarch-linux-netinst-2018.12.01-x86_64.iso.torrent,netinst,2018-12-01,iso,amd64
+cat,name,kind,date,type,architecture,sha1sum,size,url.torrent
+O,BlackArch Linux 64 bit OVA Image,,2019.06.01,ova,,24e5020a729ff2175c0a3ce4af52af2a10a6164f,30GB,"https://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2019.06.01.ova","https://www.blackarch.org/blackarch/torrent/blackarch-linux-2019.06.01.ova.torrent"
+I,BlackArch Linux 64 bit Live ISO,live,2019.06.01,iso,amd64,def3e6b4ced81b18cca04c04ff7f0dc0e5bb4188,12GB,"https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2019.06.01-x86_64.iso","https://www.blackarch.org/blackarch/torrent/blackarch-linux-live-2019.06.01-x86_64.iso.torrent"
+I,BlackArch Linux 64 bit Netinstall ISO,netinst,2019.06.01,iso,amd64,754ad6aee002ea8a4d8aad78ba688e8e56be5405,651MB,"https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2019.06.01-x86_64.iso","https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2019.06.01-x86_64.iso"
+

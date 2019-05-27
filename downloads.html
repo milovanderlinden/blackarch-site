@@ -44,24 +44,18 @@ description: Here you will find official BlackArch downloads and installation in
                 <th class="hide-on-small-only">SHA1sum</th>
             </tr>
             <tbody>
+                {% assign isos = site.data.torrents | where:'cat', 'I' %}
+                {% for iso in isos %}
                 <tr>
-                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2018.12.01-x86_64.iso"
-                            itemprop="fileFormat" type="application/x-iso9660-image">BlackArch 64 bit Live ISO</a></td>
-                    <td itemprop="datePublished" class="hide-on-med-down">2018.12.01</td>
-                    <td><a href="/torrents/blackarch-linux-live-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat"
+                    <td><a href="{{ iso.url }}"
+                            itemprop="fileFormat" type="application/x-iso9660-image">{{ iso.name }}</a></td>
+                    <td itemprop="datePublished" class="hide-on-med-down">{{ iso.date }}</td>
+                    <td><a href="{{ iso.torrent }}" itemprop="fileFormat"
                             type="application/octet-stream">Torrent</a></td>
-                    <td class="hide-on-med-down">11 GB</td>
-                    <td class="hide-on-small-only">425fea61ab1f0195edce3190e32a088f324571a4</td>
+                    <td class="hide-on-med-down">{{ iso.size }}</td>
+                    <td class="hide-on-small-only">{{ iso.sha1sum }}</td>
                 </tr>
-                <tr>
-                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2018.12.01-x86_64.iso"
-                            itemprop="fileFormat" type="application/x-iso9660-image">BlackArch 64 bit Netinstall ISO</a></td>
-                    <td class="hide-on-med-down" itemprop="datePublished">2018.12.01</td>
-                    <td><a href="/torrents/blackarch-linux-netinst-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat"
-                            type="application/octet-stream">Torrent</a></td>
-                    <td class="hide-on-med-down">624 MB</td>
-                    <td class="hide-on-small-only">3ea740fcfeadafcd2e22493ff44bdc32c2e7630e</td>
-                </tr>
+                {% endfor %}
             </tbody>
         </table>
         <p>
@@ -95,14 +89,18 @@ sudo dd bs=512M if=file.iso of=/dev/sdX
                 <th class="hide-on-med-down">Size</th>
                 <th class="hide-on-small-only">SHA1sum</th>
             </tr>
-            <tr>
-                <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2018.12.01.ova" itemprop="fileFormat"
-                        type="application/x-iso9660-image">BlackArch 64 bit OVA Image</a></td>
-                <td itemprop="datePublished">2018.12.01</td>
-                <td><a href="/torrents/blackarch-linux-2018.12.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                <td class="hide-on-med-down">23 GB</td>
-                <td class="hide-on-small-only">e16428f2791697344d590d4ffac07302b5580725</td>
-            </tr>
+            {% assign ovas = site.data.torrents | where:'cat', 'O' %}
+                {% for ova in ovas %}
+                <tr>
+                    <td><a href="{{ ova.url }}"
+                            itemprop="fileFormat" type="application/x-iso9660-image">{{ ova.name }}</a></td>
+                    <td itemprop="datePublished" class="hide-on-med-down">{{ ova.date }}</td>
+                    <td><a href="{{ ova.torrent }}" itemprop="fileFormat"
+                            type="application/octet-stream">Torrent</a></td>
+                    <td class="hide-on-med-down">{{ ova.size }}</td>
+                    <td class="hide-on-small-only">{{ ova.sha1sum }}</td>
+                </tr>
+            {% endfor %}
         </table>
         <blockquote>
             The default login for all OVA images is: <strong>root:blackarch</strong>
