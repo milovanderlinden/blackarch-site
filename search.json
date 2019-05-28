@@ -14,7 +14,7 @@ layout: null
   },{% endfor %}{% for post in site.posts %}
   {
     "title": "{{ post.title | xml_escape }}","type": "post","categories": [{"name": "{{ post.category | xml_escape }}"}],
-    "description": {{ post.content | strip_html | strip_newlines | jsonify }},
+    "description": {{ post.content | strip_html | strip_newlines | remove: "  " | jsonify }},
     "url": "{{ post.url | xml_escape }}"
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
