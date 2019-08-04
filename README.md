@@ -1,6 +1,6 @@
 Quick start
 ===========
-1. Make changes. Please read the [github help pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/f for instructions.
+1. Make changes. Please read the [github help pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) for instructions.
 2. maybe ./update-packages.sh to update data/packages
 3. jekyll serve . to run development site at http://localhost:4000
 4. git add, commit and push.
